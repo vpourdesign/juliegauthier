@@ -25,23 +25,34 @@ const MAX_DAYS_BACK = 14;
 let fetched = false;
 const now = new Date();
 
+// host de l'URL (sans identifiants) pour diagnostic
+try { console.log(`WebDAV host: ${new URL(baseUrl).host}`); }
+catch { console.error(`⚠ DRIVEHQ_WEBDAV_URL invalide (pas une URL http(s)) : "${baseUrl.slice(0,12)}…"`); }
+
+const codes = new Set();
 for (let offset = 0; offset <= MAX_DAYS_BACK; offset++) {
   const d = new Date(now.getTime() - offset * 86400000);
   const fileName = `VPOURDESIGN${ymd(d)}.zip`;
   const url = `${baseUrl}/${fileName}`;
   process.stdout.write(`Trying ${fileName} … `);
+  let code = '000';
   try {
-    execSync(`curl -fsSL --user "${USER}:${PASS}" -o "${tmp}" "${url}"`, { stdio: 'pipe' });
-    console.log(`✓ téléchargé (J-${offset})`);
+    code = execSync(`curl -s -L -o "${tmp}" -w "%{http_code}" --user "${USER}:${PASS}" "${url}"`, { encoding: 'utf8' }).trim();
+  } catch { code = '000'; }
+  codes.add(code);
+  if (code === '200') {
+    console.log(`✓ HTTP 200 — téléchargé (J-${offset})`);
     fetched = true;
     break;
-  } catch {
-    console.log('× non disponible');
   }
+  console.log(`× HTTP ${code}`);
 }
 
 if (!fetched) {
-  console.error(`Aucun zip VPOURDESIGN*.zip trouvé dans les ${MAX_DAYS_BACK} derniers jours.`);
+  console.error(`Aucun zip récupéré. Codes vus : ${[...codes].join(', ')}`);
+  if (codes.has('401') || codes.has('403')) console.error('→ 401/403 : DRIVEHQ_USER ou DRIVEHQ_PASS incorrect.');
+  else if (codes.has('404')) console.error('→ 404 : mauvais DRIVEHQ_WEBDAV_URL (le fichier n\'est pas à ce chemin).');
+  else if (codes.has('000')) console.error('→ 000 : URL/host injoignable (DRIVEHQ_WEBDAV_URL malformé ou hôte erroné).');
   process.exit(1);
 }
 
