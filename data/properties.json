@@ -3897,6 +3897,347 @@
     "slug": "9628867-rue-du-chatelet-saint-colomban"
   },
   {
+    "mls": "21474402",
+    "price": 524900,
+    "civic": "2859",
+    "street": "Rue Landry",
+    "address": "2859, Rue Landry",
+    "city": "Sainte-Marthe-sur-le-Lac",
+    "postalCode": "J0N1P0",
+    "type": "maison",
+    "beds": 2,
+    "baths": 1,
+    "powder": 1,
+    "yearBuilt": "2009",
+    "areaTerrain": "487 MC",
+    "lat": 45.534386,
+    "lon": -73.920357,
+    "status": "new",
+    "listingDate": "2026-06-30",
+    "descFr": "Dès l'arrivée, son architecture soignée, sa façade en pierre et son terrain bordé de haies matures lui confèrent une présence invitante. Le rez-de-chaussée accueille des aires de vie ouvertes où la cuisine, dotée d'une abondante fenestration, communique naturellement avec la salle à manger donnant accès à la terrasse. Le sous-sol détient l'espace nécessaire pour une 3e chambre, une grande salle familiale, la salle de lavage intégré à la salle d'eau ainsi qu'un bel espace de rangement. À l'extérieur, la cour arrière bénéficie d'une belle intimité et d'un vaste espace permettant de profiter pleinement de la saison estivale. L'entrée est assez grande pour accueillir une remorque, ou VR ou encore 5 places pour voitures. Située dans un secteur recherché de Sainte-Marthe-sur-le-Lac. Le tout à proximité des écoles, parcs, commerces, services et des principaux axes routiers. * Construction récente (2009). * Toiture de tôle * Façade en pierre * Grande aire ouverte * Cuisine avec beaucoup d'armoires * Porte-patio donnant directement sur la terrasse * Deux grandes chambres à l'étage avec planchers de bois * Salle de bain avec bain podium et douche indépendante * Sous-sol offrant énormément de rangement et plusieurs possibilités d'aménagement * Thermopompe murale * Cour très intime grâce aux hautes haies de cèdres. Située à quelques minutes des autoroutes 640 et 13, ainsi que du train de banlieue de Deux-Montagnes, cette propriété permet des déplacements faciles vers Montréal et les municipalités environnantes. Un emplacement qui combine qualité de vie, tranquillité et accessibilité.",
+    "remFr": "Construite en 2009, cette propriété minutieusement entretenue propose un environnement de vie où la fonctionnalité rencontre le confort. Derrière sa façade accueillante se cache une résidence offrant des espaces généreux, une luminosité abondante et une disposition pensée pour répondre aux besoins d'une famille comme d'un couple en quête d'espace. 2chambres avec la possibilité d'une 3e, 1 salle de bains et rough en place pour terminer une douche la salle d'eau au sous-sol, terrain privé, grande entrée, bien située! Elle a tout pour plaire! Voir addenda.",
+    "features": [
+      {
+        "code": "ALLE",
+        "value": "NPAV"
+      },
+      {
+        "code": "CHAU",
+        "value": "PELC"
+      },
+      {
+        "code": "EAU",
+        "value": "AMU"
+      },
+      {
+        "code": "ENER",
+        "value": "ELEC"
+      },
+      {
+        "code": "FENE",
+        "value": "PVC"
+      },
+      {
+        "code": "FOND",
+        "value": "BETO"
+      },
+      {
+        "code": "PARE",
+        "value": "BRIQ"
+      },
+      {
+        "code": "PARE",
+        "value": "VINY"
+      },
+      {
+        "code": "SDB",
+        "value": "DIND"
+      },
+      {
+        "code": "SS",
+        "value": "6"
+      },
+      {
+        "code": "SS",
+        "value": "AMNP"
+      },
+      {
+        "code": "STAT",
+        "value": "EXT"
+      },
+      {
+        "code": "SYEG",
+        "value": "EGMU"
+      },
+      {
+        "code": "AMEN",
+        "value": "HAIE"
+      },
+      {
+        "code": "TFEN",
+        "value": "MAN"
+      },
+      {
+        "code": "TOIT",
+        "value": "BAA"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Hall d'entrée",
+        "level": "RJ",
+        "dim": "6'10\" × 4'5\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salon",
+        "level": "Rez-de-chaussée",
+        "dim": "17'5\" × 13'1\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "Rez-de-chaussée",
+        "dim": "10'2\" × 7'1\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Cuisine",
+        "level": "Rez-de-chaussée",
+        "dim": "10'5\" × 9'",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "Rez-de-chaussée",
+        "dim": "13'1\" × 10'10\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Chambre",
+        "level": "Rez-de-chaussée",
+        "dim": "10'1\" × 8'1\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Rez-de-chaussée",
+        "dim": "8'1\" × 5'6\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle familiale",
+        "level": "Sous-sol",
+        "dim": "27'1\" × 14'8\"",
+        "rev": "Béton"
+      },
+      {
+        "name": "Salle familiale",
+        "level": "Sous-sol",
+        "dim": "15'8\" × 10'5\"",
+        "rev": "Béton"
+      },
+      {
+        "name": "Salle d'eau",
+        "level": "Sous-sol",
+        "dim": "10'11\" × 8'11\"",
+        "rev": "Béton"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AA9D1C087A4D1F&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AA8D1C087A4D4F&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177ABED1C087A4D2D&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177ABAD1C087A4DC4&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A05D1C087A4DE0&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A03D1C087A4DA0&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AB0D1C087A4D0A&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177ABDD1C087A4DBD&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A06D1C087A4DF4&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AB4D1C087A4D81&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AB1D1C087A4D91&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A00D1C087A4D70&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A0ED1C087A4D3A&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AB2D1C087A4D5A&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A0AD1C087A4D6F&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A0BD1C087A41DD&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A0FD1C087A4114&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A08D1C087A4141&t=pi&f=I"
+      },
+      {
+        "seq": 19,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A09D1C087A4122&t=pi&f=I"
+      },
+      {
+        "seq": 20,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A07D1C087A41CE&t=pi&f=I"
+      },
+      {
+        "seq": 21,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AA3D1C087A41EA&t=pi&f=I"
+      },
+      {
+        "seq": 22,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AA7D1C087A41AA&t=pi&f=I"
+      },
+      {
+        "seq": 23,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AA5D1C087A410F&t=pi&f=I"
+      },
+      {
+        "seq": 24,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A0DD1C087A41BD&t=pi&f=I"
+      },
+      {
+        "seq": 25,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A01D1C087A41F4&t=pi&f=I"
+      },
+      {
+        "seq": 26,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A04D1C087A4181&t=pi&f=I"
+      },
+      {
+        "seq": 27,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A02D1C087A4192&t=pi&f=I"
+      },
+      {
+        "seq": 28,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AA6D1C087A4174&t=pi&f=I"
+      },
+      {
+        "seq": 29,
+        "type": "S-E",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177A0CD1C087A413A&t=pi&f=I"
+      },
+      {
+        "seq": 30,
+        "type": "S-E",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AE3D1C087A4151&t=pi&f=I"
+      },
+      {
+        "seq": 31,
+        "type": "S-E",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AA2D1C087A416A&t=pi&f=I"
+      },
+      {
+        "seq": 32,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AE0D1C087A44DB&t=pi&f=I"
+      },
+      {
+        "seq": 33,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AAAD1C087A441F&t=pi&f=I"
+      },
+      {
+        "seq": 34,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AA0D1C087A4441&t=pi&f=I"
+      },
+      {
+        "seq": 35,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AABD1C087A4422&t=pi&f=I"
+      },
+      {
+        "seq": 36,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177AAFD1C087A44CE&t=pi&f=I"
+      },
+      {
+        "seq": 37,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA177ABCD1C087A44E2&t=pi&f=I"
+      }
+    ],
+    "slug": "21474402-rue-landry-sainte-marthe-sur-le-lac"
+  },
+  {
     "mls": "10118107",
     "price": 474900,
     "civic": "920",
