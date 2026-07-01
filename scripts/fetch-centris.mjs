@@ -19,40 +19,59 @@ function ymd(d) {
   return `${t.getFullYear()}${String(t.getMonth()+1).padStart(2,'0')}${String(t.getDate()).padStart(2,'0')}`;
 }
 
-const baseUrl = BASE.replace(/\/$/, '');
+// Nettoie la valeur du secret : retire espaces / sauts de ligne / guillemets parasites, puis les / finaux
+const baseRaw = BASE.trim().replace(/^["']|["']$/g, '').replace(/[\s]+$/g, '');
+const baseUrl = baseRaw.replace(/\/+$/, '');
 const tmp = path.join(process.cwd(), '_tmp.zip');
 const MAX_DAYS_BACK = 14;
 let fetched = false;
 const now = new Date();
 
 // host de l'URL (sans identifiants) pour diagnostic
-try { console.log(`WebDAV host: ${new URL(baseUrl).host}`); }
-catch { console.error(`⚠ DRIVEHQ_WEBDAV_URL invalide (pas une URL http(s)) : "${baseUrl.slice(0,12)}…"`); }
+let scheme = 'https';
+try { const u = new URL(baseUrl); console.log(`WebDAV base: ${u.protocol}//${u.host}${u.pathname}`); scheme = u.protocol.replace(':',''); }
+catch { console.error(`⚠ DRIVEHQ_WEBDAV_URL invalide : "${JSON.stringify(baseUrl).slice(0,40)}…"`); }
+
+// candidats d'URL de base : la valeur donnée, + repli http↔https sur le même host/chemin
+const bases = [baseUrl];
+if (scheme === 'https') bases.push(baseUrl.replace(/^https:/, 'http:'));
+else if (scheme === 'http') bases.push(baseUrl.replace(/^http:/, 'https:'));
+
+function tryCurl(url) {
+  try {
+    const out = execSync(`curl -sS -L -o "${tmp}" -w "%{http_code}" --user "${USER}:${PASS}" "${url}" 2>/tmp/curlerr`, { encoding: 'utf8' }).trim();
+    return { code: out, err: '' };
+  } catch (e) {
+    let err = '';
+    try { err = fs.readFileSync('/tmp/curlerr', 'utf8').trim().split('\n')[0]; } catch {}
+    return { code: '000', err };
+  }
+}
 
 const codes = new Set();
-for (let offset = 0; offset <= MAX_DAYS_BACK; offset++) {
-  const d = new Date(now.getTime() - offset * 86400000);
-  const fileName = `VPOURDESIGN${ymd(d)}.zip`;
-  const url = `${baseUrl}/${fileName}`;
-  process.stdout.write(`Trying ${fileName} … `);
-  let code = '000';
-  try {
-    code = execSync(`curl -s -L -o "${tmp}" -w "%{http_code}" --user "${USER}:${PASS}" "${url}"`, { encoding: 'utf8' }).trim();
-  } catch { code = '000'; }
-  codes.add(code);
-  if (code === '200') {
-    console.log(`✓ HTTP 200 — téléchargé (J-${offset})`);
-    fetched = true;
-    break;
+let firstErr = '';
+outer:
+for (const base of bases) {
+  for (let offset = 0; offset <= MAX_DAYS_BACK; offset++) {
+    const d = new Date(now.getTime() - offset * 86400000);
+    const fileName = `VPOURDESIGN${ymd(d)}.zip`;
+    const url = `${base}/${fileName}`;
+    process.stdout.write(`Trying ${base.replace(/^https?:\/\//,'').split('/')[0]} · ${fileName} … `);
+    const { code, err } = tryCurl(url);
+    codes.add(code);
+    if (code === '200') { console.log(`✓ HTTP 200 (J-${offset})`); fetched = true; break outer; }
+    if (!firstErr && err) firstErr = err;
+    console.log(`× HTTP ${code}${err ? ' — ' + err : ''}`);
+    if (code === '000' && offset === 0) break; // host injoignable sur cette base → passe au repli
   }
-  console.log(`× HTTP ${code}`);
 }
 
 if (!fetched) {
-  console.error(`Aucun zip récupéré. Codes vus : ${[...codes].join(', ')}`);
-  if (codes.has('401') || codes.has('403')) console.error('→ 401/403 : DRIVEHQ_USER ou DRIVEHQ_PASS incorrect.');
-  else if (codes.has('404')) console.error('→ 404 : mauvais DRIVEHQ_WEBDAV_URL (le fichier n\'est pas à ce chemin).');
-  else if (codes.has('000')) console.error('→ 000 : URL/host injoignable (DRIVEHQ_WEBDAV_URL malformé ou hôte erroné).');
+  console.error(`Aucun zip récupéré. Codes : ${[...codes].join(', ')}`);
+  if (firstErr) console.error(`Erreur curl : ${firstErr}`);
+  if (codes.has('401') || codes.has('403')) console.error('→ 401/403 : DRIVEHQ_USER / DRIVEHQ_PASS incorrect.');
+  else if (codes.has('404')) console.error('→ 404 : mauvais DRIVEHQ_WEBDAV_URL (fichier absent à ce chemin).');
+  else if (codes.has('000')) console.error('→ 000 : host injoignable (SSL/connexion) — voir l\'erreur curl ci-dessus.');
   process.exit(1);
 }
 
