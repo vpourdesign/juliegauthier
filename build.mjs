@@ -10,11 +10,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { ficheHTML } from './lib/fiche.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CENTRIS = path.join(ROOT, '_centris');
 const FEED_DATE = new Date(); // date du build (pour le statut « Nouveau »)
-const FICHES_READY = false;   // passera à true quand les fiches nos-proprietes/{slug}/ existeront
+const FICHES_READY = true;    // fiches nos-proprietes/{slug}/ générées → cartes cliquables
 
 // Courtière ciblée (nom exact dans MEMBRES.TXT — colonnes 4=nom, 5=prénom)
 const TARGET = { firstName: 'Julie', lastName: 'Gauthier' };
@@ -64,6 +65,12 @@ function ingest() {
   const addenda = readCentris('ADDENDA.TXT');
   const remarques = readCentris('REMARQUES.TXT');
   const caracts = readCentris('CARACTERISTIQUES.TXT');
+  const depenses = readCentris('DEPENSES.TXT');
+  const liens = readCentris('LIENS_ADDITIONNELS.TXT');
+
+  const taxByMls={};
+  for(const d of depenses){const m=d[0];if(!m)continue;const code=d[1],amt=parseFloat(d[2])||0,yr=d[3];(taxByMls[m]??={});if(code==='TAXMUN'){taxByMls[m].mun=amt;taxByMls[m].year=yr;}else if(code==='TAXSCO'){taxByMls[m].sco=amt;taxByMls[m].year=taxByMls[m].year||yr;}}
+  const vidByMls={}; for(const l of liens){const m=l[0];if(!m)continue;if(/VID|VIR/.test(l[2]||'')&&!vidByMls[m])vidByMls[m]=l[3];}
 
   const photosByMls={}; for(const p of photos){const m=p[0];if(!m)continue;(photosByMls[m]??=[]).push({seq:+p[1],type:p[3],url:p[6]});}
   for(const k in photosByMls) photosByMls[k].sort((a,b)=>a.seq-b.seq);
@@ -99,6 +106,8 @@ function ingest() {
       yearBuilt:(r[59]&&/^\d{4}$/.test(r[59]))?r[59]:'',
       areaTerrain:r[75]?`${r[75]} ${r[76]||''}`.trim():'',
       lat:parseFloat(r[144])||null, lon:parseFloat(r[145])||null,
+      eval:{year:r[78]||'',terrain:parseFloat(r[79])||0,batiment:parseFloat(r[80])||0,total:(parseFloat(r[79])||0)+(parseFloat(r[80])||0)},
+      taxes:taxByMls[mls]||null, video:vidByMls[mls]||null,
       status, listingDate:(r[20]||'').replace(/\//g,'-'),
       descFr, remFr:remMap[mls+'|F']||'',
       features:caractsByMls[mls]||[], rooms, photos:ph,
@@ -168,6 +177,23 @@ function writeListing(props) {
   console.log(`proprietes.html régénéré (${n} cartes, ${cities.length} villes).`);
 }
 
+/* ---------- génération des fiches individuelles ---------- */
+function writeFiches(props) {
+  const dir = path.join(ROOT, 'nos-proprietes');
+  fs.rmSync(dir, { recursive: true, force: true });   // repart à neuf (retire les fiches délistées)
+  for (const p of props) {
+    let related = props.filter(x => x.mls !== p.mls && x.city === p.city).slice(0,3);
+    if (related.length < 3) related = related.concat(props.filter(x => x.mls !== p.mls && !related.includes(x)).slice(0, 3 - related.length));
+    let html = ficheHTML(p, related.slice(0,3));
+    // préfixe ../../ pour les chemins relatifs (fiche = 2 niveaux sous la racine)
+    html = html.replace(/(href|src)="(?!https?:|tel:|mailto:|#|\/|data:)/g, '$1="../../');
+    const out = path.join(dir, p.slug);
+    fs.mkdirSync(out, { recursive: true });
+    fs.writeFileSync(path.join(out, 'index.html'), html);
+  }
+  console.log(`${props.length} fiches générées dans nos-proprietes/.`);
+}
+
 /* ---------- main ---------- */
 if (!fs.existsSync(path.join(CENTRIS,'INSCRIPTIONS.TXT'))) {
   console.log('Mode B · pas de _centris/ — aucune régénération (HTML committé conservé).');
@@ -178,4 +204,5 @@ const props = ingest();
 fs.mkdirSync(path.join(ROOT,'data'), { recursive: true });
 fs.writeFileSync(path.join(ROOT,'data','properties.json'), JSON.stringify(props, null, 2));
 writeListing(props);
+writeFiches(props);
 console.log('✓ build terminé.');
