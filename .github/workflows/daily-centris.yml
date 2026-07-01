@@ -1,0 +1,45 @@
+name: Daily Centris ingest
+
+on:
+  schedule:
+    - cron: '0 11 * * *'   # 11 h UTC ≈ 6 h/7 h heure du Québec
+  workflow_dispatch:        # déclenchement manuel (onglet Actions)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: centris
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch Centris zip (DriveHQ)
+        env:
+          DRIVEHQ_USER: ${{ secrets.DRIVEHQ_USER }}
+          DRIVEHQ_PASS: ${{ secrets.DRIVEHQ_PASS }}
+          DRIVEHQ_WEBDAV_URL: ${{ secrets.DRIVEHQ_WEBDAV_URL }}
+        run: node scripts/fetch-centris.mjs
+
+      - name: Build (régénère les propriétés)
+        run: node build.mjs
+
+      - name: Commit si changements
+        run: |
+          git config user.name  "centris-bot"
+          git config user.email "centris-bot@vpourdesign.com"
+          git add -A ':!_centris' ':!*.zip'
+          if git diff --cached --quiet; then
+            echo "Aucun changement aujourd'hui."
+          else
+            git commit -m "data: rafraîchissement Centris $(date -u +%Y-%m-%d)"
+            git push
+          fi

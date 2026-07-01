@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Propriétés à vendre · Julie Gauthier · Courtière immobilière · RE/MAX Crystal</title>
+<meta name="description" content="Les inscriptions immobilières de Julie Gauthier, courtière immobilière agréée chez RE/MAX Crystal. Maisons, condos et plex à vendre. Filtrez par type, prix, ville et plus.">
+<meta name="theme-color" content="#000E35">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:title" content="Propriétés · Julie Gauthier · RE/MAX Crystal">
+<meta property="og:description" content="Les inscriptions de Julie Gauthier, courtière immobilière agréée. Filtrez par type, prix, ville, chambres et statut.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* --- COLOR --- */
+:root{
+  --bg:#F7F5EE; --paper:#FCFBF7; --white:#FFFFFF;
+  --ink:#1A1A1C; --ink-2:#474C57; --ink-3:#8B909B;
+  --line:color-mix(in oklch, var(--ink) 12%, transparent);
+  --line-2:color-mix(in oklch, var(--ink) 7%, transparent);
+  --blue:#0043FF; --blue-deep:#0C2749; --navy:#000E35;
+  --red:#FF1200; --red-deep:#AA1120; --red-dark:#660000;
+  --sky:#A3D4F2;
+  --focus-ring:var(--blue);
+  --glow-blue:radial-gradient(circle at 50% 0%, #0043FF 0%, #000E35 75%);
+  --glow-red:radial-gradient(circle at 50% 0%, #FF1200 0%, #660000 70%);
+}
+/* --- TYPOGRAPHY --- */
+:root{
+  --font-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --font-body:"Inter","Helvetica Neue",Arial,sans-serif;
+  --fw-regular:400; --fw-medium:500; --fw-semibold:600; --fw-bold:700; --fw-black:800;
+  --fs-display:clamp(2.75rem,6vw,5.5rem);
+  --fs-h2:clamp(2rem,4vw,3.25rem);
+  --fs-h3:clamp(1.25rem,2vw,1.6rem);
+  --fs-lead:clamp(1.125rem,1.6vw,1.375rem);
+  --fs-body:1.0625rem; --fs-small:0.9375rem; --fs-eyebrow:0.75rem; --fs-label:0.8125rem;
+  --lh-display:1.02; --lh-h2:1.06; --lh-h3:1.2; --lh-lead:1.6; --lh-body:1.7;
+  --ls-display:-0.03em; --ls-h2:-0.02em; --ls-tight:-0.01em; --ls-eyebrow:0.16em; --ls-label:0.04em;
+  --measure:66ch;
+}
+/* --- SPACING & LAYOUT --- */
+:root{
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px;
+  --space-6:32px; --space-7:48px; --space-8:64px; --space-9:96px; --space-10:128px;
+  --section-y:clamp(5rem,10vw,9rem);
+  --gutter:clamp(1.25rem,4vw,2.5rem);
+  --container:1240px; --container-wide:1400px; --container-text:720px;
+}
+/* --- SHAPE & ELEVATION --- */
+:root{
+  --r-xs:4px; --r-sm:8px; --r-md:14px; --r-pill:999px;
+  --shadow-sm:0 1px 2px rgba(12,39,73,0.06),0 2px 6px rgba(12,39,73,0.05);
+  --shadow-md:0 2px 6px rgba(12,39,73,0.06),0 10px 24px rgba(12,39,73,0.08),0 30px 60px rgba(12,39,73,0.06);
+  --shadow-lg:0 4px 12px rgba(12,39,73,0.08),0 18px 40px rgba(12,39,73,0.10),0 48px 90px rgba(12,39,73,0.08);
+  --shadow-hover:0 6px 16px rgba(12,39,73,0.10),0 22px 50px rgba(12,39,73,0.12);
+}
+/* --- MOTION --- */
+:root{
+  --ease-spring:cubic-bezier(0.16,1,0.3,1);
+  --ease-out:cubic-bezier(0.22,0.61,0.36,1);
+  --ease-in-out:cubic-bezier(0.65,0,0.35,1);
+  --dur-fast:140ms; --dur-base:240ms; --dur-slow:420ms; --dur-reveal:720ms;
+  --stagger:80ms; --reveal-y:24px;
+}
+@media (prefers-reduced-motion:reduce){ :root{ --reveal-y:0px; } }
+/* --- BASE --- */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:var(--fs-body);line-height:var(--lh-body);font-weight:var(--fw-regular);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4{font-family:var(--font-display);color:var(--ink);margin:0;font-weight:var(--fw-bold)}
+h1{font-size:var(--fs-display);font-weight:var(--fw-black);line-height:var(--lh-display);letter-spacing:var(--ls-display)}
+h2{font-size:var(--fs-h2);line-height:var(--lh-h2);letter-spacing:var(--ls-h2)}
+h3{font-size:var(--fs-h3);font-weight:var(--fw-semibold);line-height:var(--lh-h3);letter-spacing:var(--ls-tight)}
+p{margin:0;text-wrap:pretty}
+a{color:var(--blue);text-decoration:none}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+::selection{background:color-mix(in oklch,var(--blue) 22%,transparent);color:var(--ink)}
+/* --- BOUTONS (résolus du design system) --- */
+.jg-btn{font-family:var(--font-body);font-weight:600;letter-spacing:.01em;line-height:1;display:inline-flex;align-items:center;justify-content:center;border:1px solid transparent;cursor:pointer;text-decoration:none;white-space:nowrap;user-select:none;transition:transform var(--dur-fast) var(--ease-spring),background-color var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-btn--sm{padding:8px 16px;font-size:.8125rem;gap:6px}
+.jg-btn--md{padding:13px 24px;font-size:.9375rem;gap:8px}
+.jg-btn--lg{padding:17px 32px;font-size:1.0625rem;gap:10px}
+.jg-btn--primary{background:var(--red);color:var(--bg);border-radius:var(--r-sm);box-shadow:var(--shadow-sm)}
+.jg-btn--primary:hover{background:var(--red-deep);transform:translateY(-1px)}
+.jg-btn--primary:active{transform:translateY(0) scale(.985)}
+.jg-btn--secondary{background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:var(--r-sm)}
+.jg-btn--secondary:hover{background:var(--paper)}
+
+/* ===== Styles spécifiques à la page Propriétés (Claude Design) ===== */
+:root{ --font-accent:var(--font-display, var(--font-body)); --nav-h:76px; }
+html{ scroll-behavior:smooth; }
+body{ overflow-x:hidden; }
+
+/* ---- Skip link ---- */
+.jg-skip{position:fixed;top:-64px;left:16px;z-index:200;background:var(--navy);color:var(--bg);padding:11px 18px;border-radius:var(--r-sm);font:600 14px/1 var(--font-body);text-decoration:none;transition:top var(--dur-base) var(--ease-out)}
+.jg-skip:focus{top:16px}
+
+/* ---- Reveals ---- */
+[data-reveal]{opacity:0;transform:translateY(24px)}
+
+/* ---- Nav ---- */
+.jg-navlink{position:relative;white-space:nowrap;font:500 0.9375rem/1 var(--font-body);color:var(--nav-fg);text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:4px;transition:border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-navlink:hover{border-bottom-color:var(--red)}
+.jg-has-sub{position:relative;display:flex;align-items:center}
+.jg-subtoggle{display:inline-flex;align-items:center;gap:6px;background:none;border:0;cursor:pointer;font:500 0.9375rem/1 var(--font-body);color:var(--nav-fg);padding:0 0 4px;border-bottom:1.5px solid transparent;transition:border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-subtoggle:hover,.jg-has-sub:hover .jg-subtoggle,.jg-subtoggle[aria-expanded="true"]{border-bottom-color:var(--red)}
+.jg-subtoggle svg{transition:transform var(--dur-base) var(--ease-out)}
+.jg-has-sub:hover .jg-subtoggle svg,.jg-subtoggle[aria-expanded="true"] svg{transform:rotate(180deg)}
+.jg-submenu{position:absolute;top:calc(100% + 16px);left:50%;transform:translateX(-50%) translateY(6px);min-width:260px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-md);box-shadow:var(--shadow-md);padding:8px;list-style:none;margin:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity var(--dur-base) var(--ease-out),transform var(--dur-base) var(--ease-spring);z-index:60}
+.jg-submenu::before{content:"";position:absolute;top:-16px;left:0;right:0;height:16px}
+.jg-has-sub:hover .jg-submenu,.jg-submenu.is-open{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.jg-sublink{display:flex;align-items:center;gap:11px;padding:11px 13px;border-radius:var(--r-sm);font:500 0.9375rem/1.35 var(--font-body);color:var(--ink);text-decoration:none;transition:background var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-sublink:hover{background:color-mix(in oklch,var(--blue) 8%,var(--bg));color:var(--blue)}
+.jg-sublink svg{flex:none;color:var(--blue)}
+.jg-sublink:focus-visible{outline:2px solid var(--blue);outline-offset:-1px}
+.jg-nav-desktop>ul{line-height:1}
+.jg-nav-desktop>ul>li{display:flex;align-items:center}
+.jg-navlink[aria-current="page"]{border-bottom-color:var(--blue);color:var(--ink)}
+.jg-navlink:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
+.jg-burger{display:none}
+@media (max-width:1200px){.jg-nav-desktop{display:none!important}.jg-burger{display:inline-flex!important}}
+
+/* ---- Footer links ---- */
+.jg-foot-link{color:color-mix(in oklch,var(--bg) 82%,transparent);font:400 0.9375rem/1.4 var(--font-body);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;transition:color var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out)}
+.jg-foot-link:hover{color:var(--bg);border-bottom-color:color-mix(in oklch,var(--bg) 50%,transparent)}
+.jg-foot-link:focus-visible{outline:2px solid var(--sky);outline-offset:3px;border-radius:2px}
+.jg-soc{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:var(--r-pill);border:1px solid color-mix(in oklch,var(--bg) 22%,transparent);color:color-mix(in oklch,var(--bg) 80%,transparent);transition:color var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out),transform var(--dur-base) var(--ease-spring)}
+.jg-soc:hover{color:var(--sky);border-color:var(--sky);transform:translateY(-2px)}
+.jg-soc:focus-visible{outline:2px solid var(--sky);outline-offset:3px}
+.jg-mailto{color:var(--sky);text-decoration:none;border-bottom:1px solid color-mix(in oklch,var(--sky) 45%,transparent);padding-bottom:1px;transition:border-color var(--dur-base) var(--ease-out)}
+.jg-mailto:hover{border-bottom-color:var(--sky)}
+
+/* ---- Text link (blue, animated underline) ---- */
+.jg-link{display:inline-flex;align-items:center;gap:6px;color:var(--blue);font:600 0.9375rem/1 var(--font-body);text-decoration:none;border-bottom:1px solid color-mix(in oklch,var(--blue) 38%,transparent);padding-bottom:2px;transition:border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out),gap var(--dur-base) var(--ease-out)}
+.jg-link:hover{border-bottom-color:var(--red);color:var(--red);gap:10px}
+.jg-link:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
+
+/* ===== PAGE HEADER (named grid areas) ===== */
+.jg-pagehead{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);grid-template-areas:"eyebrow eyebrow" "title count" "lead count" "rule rule";column-gap:clamp(2rem,5vw,4rem);row-gap:var(--space-4);align-items:start}
+.jg-ph-eyebrow{grid-area:eyebrow}
+.jg-ph-title{grid-area:title;margin:0}
+.jg-ph-lead{grid-area:lead;max-width:62ch;color:var(--ink-2);font:400 var(--fs-lead)/1.6 var(--font-body);margin:0}
+.jg-ph-count{grid-area:count;justify-self:end;align-self:end;text-align:right;max-width:26ch}
+.jg-ph-rule{grid-area:rule;height:1px;background:var(--line);margin-top:var(--space-5)}
+@media (max-width:760px){
+  .jg-pagehead{grid-template-columns:1fr;grid-template-areas:"eyebrow" "title" "lead" "count" "rule"}
+  .jg-ph-count{justify-self:start;align-self:start;text-align:left;margin-top:var(--space-3)}
+}
+
+/* ===== FILTER BAR ===== */
+.jg-filterform{display:flex;flex-wrap:wrap;align-items:flex-end;gap:var(--space-5) var(--space-6)}
+.jg-filters-inline{display:flex;flex-wrap:wrap;align-items:flex-end;gap:var(--space-5) var(--space-6);flex:1 1 auto;min-width:0}
+.jg-filters-right{display:flex;align-items:flex-end;gap:var(--space-4);margin-left:auto}
+.jg-field{display:flex;flex-direction:column;gap:7px}
+.jg-flabel{font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.12em;color:var(--ink-3)}
+.jg-fgroup{border:0;margin:0;padding:0;min-width:0}
+.jg-fgroup>legend{font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.12em;color:var(--ink-3);padding:0;margin:0 0 7px}
+.jg-chips{display:flex;gap:8px;flex-wrap:wrap}
+.jg-chip{display:inline-flex;align-items:center;gap:6px;font:500 0.8125rem/1 var(--font-body);letter-spacing:0.01em;color:var(--ink-2);background:var(--paper);border:1px solid var(--line);border-radius:var(--r-pill);padding:9px 14px;cursor:pointer;transition:background var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-chip:hover{border-color:color-mix(in oklch,var(--ink) 24%,transparent);color:var(--ink)}
+.jg-chip[aria-pressed="true"]{background:color-mix(in oklch,var(--blue) 12%,var(--bg));border-color:color-mix(in oklch,var(--blue) 40%,transparent);color:var(--blue)}
+.jg-chip:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.jg-select{appearance:none;-webkit-appearance:none;font:500 0.875rem/1 var(--font-body);color:var(--ink);background-color:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);padding:11px 38px 11px 14px;cursor:pointer;background-repeat:no-repeat;background-position:right 13px center;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%230043FF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");transition:border-color var(--dur-base) var(--ease-out),background-color var(--dur-base) var(--ease-out)}
+.jg-select:hover{border-color:color-mix(in oklch,var(--ink) 24%,transparent);background-color:var(--white)}
+.jg-select:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-color:var(--blue)}
+.jg-active-filters{flex-basis:100%;display:none;flex-wrap:wrap;align-items:center;gap:10px;padding-top:var(--space-4);margin-top:var(--space-1);border-top:1px solid var(--line-2)}
+.jg-af-label{font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.12em;color:var(--ink-3);margin-right:2px}
+.jg-afchip{display:inline-flex;align-items:center;gap:6px;font:500 0.8125rem/1 var(--font-body);color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:var(--r-pill);padding:6px 6px 6px 13px}
+.jg-afx{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;border:0;background:transparent;color:var(--ink-3);cursor:pointer;transition:color var(--dur-base) var(--ease-out),background var(--dur-base) var(--ease-out)}
+.jg-afx:hover{color:var(--red);background:color-mix(in oklch,var(--red) 10%,transparent)}
+.jg-afx:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+.jg-reset{color:var(--blue);font:600 0.8125rem/1 var(--font-body);background:none;border:0;cursor:pointer;border-bottom:1px solid color-mix(in oklch,var(--blue) 38%,transparent);padding:0 0 2px;transition:color var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out)}
+.jg-reset:hover{color:var(--red);border-bottom-color:var(--red)}
+.jg-reset:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:2px}
+.jg-mobtoggle{display:none;align-items:center;gap:9px;font:600 0.875rem/1 var(--font-body);color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);padding:12px 16px;cursor:pointer;transition:border-color var(--dur-base) var(--ease-out)}
+.jg-mobtoggle:hover{border-color:color-mix(in oklch,var(--ink) 24%,transparent)}
+.jg-mobtoggle:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.jg-mobcount{display:none;align-items:center;justify-content:center;min-width:19px;height:19px;padding:0 5px;border-radius:999px;background:var(--blue);color:var(--bg);font:600 0.6875rem/1 var(--font-body)}
+
+/* ===== PROPERTY GRID + CARD (subgrid) ===== */
+.jg-grid-wrap{container-type:inline-size}
+.jg-prop-grid{display:grid;grid-template-columns:repeat(3,1fr);column-gap:clamp(1.25rem,4vw,2.5rem);row-gap:clamp(2rem,4vw,3.25rem)}
+@container (max-width:1040px){ .jg-prop-grid{grid-template-columns:repeat(2,1fr)} }
+@container (max-width:660px){ .jg-prop-grid{grid-template-columns:1fr} }
+.jg-card{grid-row:span 4;display:grid;grid-template-rows:subgrid;row-gap:0;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:var(--shadow-sm);overflow:hidden;text-decoration:none;color:var(--ink);transition:transform var(--dur-base) var(--ease-spring),box-shadow var(--dur-base) var(--ease-out)}
+.jg-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+.jg-card:active{transform:translateY(-2px)}
+.jg-card:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.jg-card-media{position:relative;aspect-ratio:4/3;overflow:hidden;background:linear-gradient(135deg,var(--blue-deep),var(--navy))}
+.jg-card-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.01);transition:transform var(--dur-reveal) var(--ease-spring);will-change:transform}
+.jg-card:hover .jg-card-img{transform:scale(1.04)}
+.jg-card-shade{position:absolute;inset:0;background:linear-gradient(to top,color-mix(in oklch,var(--navy) 58%,transparent) 0%,transparent 44%);pointer-events:none}
+.jg-card-tint{position:absolute;inset:0;background:color-mix(in oklch,var(--navy) 16%,transparent);mix-blend-mode:multiply;pointer-events:none}
+.jg-tag{position:absolute;top:12px;left:12px;display:inline-flex;align-items:center;font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.09em;padding:7px 12px;border-radius:var(--r-pill);box-shadow:var(--shadow-sm)}
+.jg-tag[data-status="forsale"]{background:var(--red);color:var(--bg)}
+.jg-tag[data-status="sold"]{background:var(--navy);color:var(--bg)}
+.jg-tag[data-status="new"]{background:var(--sky);color:var(--navy)}
+.jg-card-price{padding:var(--space-5) var(--space-5) 0;font-family:var(--font-display);font-weight:700;font-size:clamp(1.25rem,2vw,1.6rem);letter-spacing:-0.02em;color:var(--ink);line-height:1.1}
+.jg-card-addr{padding:6px var(--space-5) 0}
+.jg-card-address{font:600 0.9375rem/1.35 var(--font-body);color:var(--ink)}
+.jg-card-city{margin-top:3px;font:500 0.8125rem/1.3 var(--font-body);color:var(--ink-3)}
+.jg-card-foot{margin:var(--space-4) var(--space-5) var(--space-5);padding-top:var(--space-4);border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:var(--space-4)}
+.jg-card-meta{font:500 0.8125rem/1.3 var(--font-body);color:var(--ink-2)}
+.jg-card-cta{display:inline-flex;align-items:center;gap:6px;color:var(--blue);font:600 0.8125rem/1 var(--font-body);white-space:nowrap;transition:gap var(--dur-base) var(--ease-out)}
+.jg-card:hover .jg-card-cta{gap:9px}
+.jg-card-cta .txt{border-bottom:1px solid transparent;padding-bottom:2px;transition:border-color var(--dur-base) var(--ease-out)}
+.jg-card:hover .jg-card-cta .txt,.jg-card:focus-visible .jg-card-cta .txt{border-bottom-color:var(--blue)}
+
+/* ===== EMPTY STATE ===== */
+.jg-empty{display:none;text-align:center;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:var(--shadow-sm);padding:clamp(3rem,7vw,5.5rem) var(--gutter)}
+
+/* ===== LOAD MORE ===== */
+.jg-secondary-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;font:600 1rem/1 var(--font-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:var(--r-sm);padding:0 28px;cursor:pointer;transition:background var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out),transform var(--dur-base) var(--ease-spring),box-shadow var(--dur-base) var(--ease-out)}
+.jg-secondary-btn:hover{background:var(--paper);border-color:color-mix(in oklch,var(--ink) 24%,transparent);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.jg-secondary-btn:active{transform:translateY(0)}
+.jg-secondary-btn:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.jg-secondary-btn[disabled]{cursor:default;color:var(--ink-3);transform:none;box-shadow:none;background:var(--bg)}
+.jg-cream-link{color:var(--bg);text-decoration:none;border-bottom:1px solid color-mix(in oklch,var(--bg) 50%,transparent);padding-bottom:2px;transition:border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-cream-link:hover{border-bottom-color:var(--bg)}
+.jg-cream-link:focus-visible{outline:2px solid var(--sky);outline-offset:3px;border-radius:2px}
+
+/* ===== DRAWERS / MENU ===== */
+.jg-overlay{position:fixed;inset:0;z-index:120;background:var(--bg);display:flex;flex-direction:column;transform:translateX(100%);opacity:0;pointer-events:none;transition:transform var(--dur-slow) var(--ease-spring),opacity var(--dur-base) var(--ease-out)}
+.jg-overlay.is-open{transform:translateX(0);opacity:1;pointer-events:auto}
+.jg-drawer-head{display:flex;align-items:center;justify-content:space-between;padding:var(--gutter);border-bottom:1px solid var(--line)}
+.jg-iconbtn{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:transparent;border:none;cursor:pointer;color:var(--ink)}
+.jg-iconbtn:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:6px}
+
+@media (max-width:859px){
+  .jg-mobtoggle{display:inline-flex}
+}
+@media (max-width:980px){
+  .jg-nav-desktop{display:none!important}
+  .jg-burger{display:inline-flex!important}
+  .jg-foot-grid{grid-template-columns:1fr 1fr!important}
+  .jg-cta-grid{grid-template-columns:1fr!important}
+}
+@media (max-width:620px){
+  .jg-foot-grid{grid-template-columns:1fr!important}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  [data-reveal]{opacity:1!important;transform:none!important}
+  *{animation:none!important}
+  .jg-card-img{transition:none!important}
+  .jg-card:hover .jg-card-img{transform:scale(1.01)!important}
+  .jg-card:hover{transform:none!important}
+}
+</style>
+</head>
+<body>
+<div id="jg-props" style="background:var(--bg)">
+
+<a href="#contenu" class="jg-skip">Aller au contenu</a>
+
+<!-- ============ NAV (élevée / claire, identique à l'accueil) ============ -->
+<header id="jg-nav" style="position:sticky;top:0;z-index:50;--nav-fg:var(--ink);background:color-mix(in oklch,var(--bg) 85%,transparent);backdrop-filter:blur(12px) saturate(1.4);-webkit-backdrop-filter:blur(12px) saturate(1.4);border-bottom:1px solid var(--line);transition:box-shadow var(--dur-base) var(--ease-out)">
+  <nav style="max-width:var(--container-wide);margin:0 auto;padding:0 var(--gutter);height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;gap:var(--space-6)">
+    <a href="index.html" aria-label="Julie Gauthier, RE/MAX Crystal, accueil" style="display:block;flex:none">
+      <span style="display:inline-flex;align-items:center;gap:13px;line-height:1"><img src="brand_assets/ballon.png" alt="" aria-hidden="true" style="height:42px;width:auto;display:block;flex:none"><span style="font-family:var(--font-display);font-weight:700;font-size:22px;letter-spacing:-.01em;color:var(--ink);white-space:nowrap">Julie Gauthier</span></span>
+    </a>
+    <div class="jg-nav-desktop" style="display:flex;align-items:center;gap:var(--space-7)">
+      <ul style="display:flex;align-items:center;gap:var(--space-6);list-style:none;margin:0;padding:0">
+        <li><a class="jg-navlink" href="index.html">Accueil</a></li>
+        <li><a class="jg-navlink" href="apropos.html">À propos</a></li>
+        <li class="jg-has-sub">
+          <button class="jg-subtoggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="jg-sub-services">Services <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+          <ul class="jg-submenu" id="jg-sub-services" role="menu">
+            <li role="none"><a role="menuitem" class="jg-sublink" href="acheter.html">Acheter</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="vendre.html">Vendre</a></li>
+          </ul>
+        </li>
+        <li><a class="jg-navlink" href="#contenu" aria-current="page">Propriétés</a></li>
+        <li class="jg-has-sub">
+          <button class="jg-subtoggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="jg-sub-secteurs">Secteurs <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+          <ul class="jg-submenu" id="jg-sub-secteurs" role="menu">
+            <li role="none"><a role="menuitem" class="jg-sublink" href="secteurs.html">Tous les secteurs</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="mirabel.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Mirabel</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="saint-augustin.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Saint-Augustin</a></li>
+          </ul>
+        </li>
+        <li class="jg-has-sub">
+          <button class="jg-subtoggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="jg-sub-outils">Outils <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+          <ul class="jg-submenu" id="jg-sub-outils" role="menu">
+            <li role="none"><a role="menuitem" class="jg-sublink" href="calculatrice-hypothecaire.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line><line x1="8" y1="14" x2="8" y2="14"></line><line x1="12" y1="14" x2="12" y2="14"></line><line x1="16" y1="14" x2="16" y2="18"></line></svg>Calculatrice hypothécaire</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="taxe-de-bienvenue.html"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path><path d="M14 2v6h6"></path><path d="M9 13h6"></path><path d="M9 17h4"></path></svg>Taxe de bienvenue</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="capacite-emprunt.html"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"></path><path d="M16 12h2"></path><path d="M3 9h13a2 2 0 0 1 0 4H3"></path></svg>Capacité d'emprunt</a></li>
+          </ul>
+        </li>
+        <li><a class="jg-navlink" href="index.html#temoignages">Témoignages</a></li>
+        <li><a class="jg-navlink" href="index.html#contact">Contact</a></li>
+      </ul>
+      <a class="jg-btn jg-btn--primary jg-btn--sm" href="tel:+15148954921" aria-label="Appeler le 514 895 4921">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        514.895.4921
+      </a>
+    </div>
+    <button id="jg-burger" class="jg-burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="jg-menu" style="display:none;align-items:center;justify-content:center;width:44px;height:44px;background:transparent;border:none;cursor:pointer;padding:0;flex:none">
+      <span style="position:relative;display:block;width:24px;height:14px">
+        <span style="position:absolute;left:0;top:0;width:100%;height:2px;background:var(--ink);border-radius:2px"></span>
+        <span style="position:absolute;left:0;top:6px;width:100%;height:2px;background:var(--ink);border-radius:2px"></span>
+        <span style="position:absolute;left:0;top:12px;width:100%;height:2px;background:var(--ink);border-radius:2px"></span>
+      </span>
+    </button>
+  </nav>
+</header>
+
+<!-- ============ MENU MOBILE ============ -->
+<div id="jg-menu" class="jg-overlay" role="dialog" aria-modal="true" aria-label="Menu de navigation" aria-hidden="true" inert>
+  <div class="jg-drawer-head">
+    <img src="brand_assets/crystal-long-noir.png" alt="RE/MAX Crystal" style="height:26px;width:auto;display:block">
+    <button id="jg-menu-close" class="jg-iconbtn" type="button" aria-label="Fermer le menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+    </button>
+  </div>
+  <nav style="display:flex;flex-direction:column;gap:var(--space-2);padding:var(--space-8) var(--gutter) 0">
+    <a href="index.html" style="font:700 clamp(2rem,9vw,2.75rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">Accueil</a>
+    <a href="apropos.html" style="font:700 clamp(2rem,9vw,2.75rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">À propos</a>
+    <div style="font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:var(--ink-3);padding:var(--space-4) 0 var(--space-2)">Services</div>
+    <a href="acheter.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Acheter</a>
+    <a href="vendre.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Vendre</a>
+    <a href="#contenu" aria-current="page" style="font:700 clamp(2rem,9vw,2.75rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--blue);text-decoration:none;padding:var(--space-3) 0">Propriétés</a>
+    <div style="font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:var(--ink-3);padding:var(--space-4) 0 var(--space-2)">Secteurs</div>
+    <a href="secteurs.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Tous les secteurs</a>
+    <a href="mirabel.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Mirabel</a>
+    <a href="saint-augustin.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Saint-Augustin</a>
+    <a href="index.html#temoignages" style="font:700 clamp(2rem,9vw,2.75rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">Témoignages</a>
+    <div style="font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:var(--ink-3);padding:var(--space-4) 0 var(--space-2)">Outils</div>
+    <a href="calculatrice-hypothecaire.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Calculatrice hypothécaire</a>
+    <a href="taxe-de-bienvenue.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Taxe de bienvenue</a>
+    <a href="capacite-emprunt.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Capacité d'emprunt</a>
+    <a href="index.html#contact" style="font:700 clamp(2rem,9vw,2.75rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">Contact</a>
+  </nav>
+  <div style="margin-top:auto;padding:var(--space-6) var(--gutter)">
+    <a href="tel:+15148954921" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:var(--red);color:var(--bg);font:600 1.0625rem/1 var(--font-body);padding:18px 24px;border-radius:var(--r-sm);text-decoration:none;box-shadow:var(--shadow-sm)">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      514.895.4921
+    </a>
+  </div>
+</div>
+
+<main id="contenu">
+
+<!-- ============ EN-TÊTE DE PAGE ============ -->
+<section aria-labelledby="jg-ph-title" style="padding:calc(var(--section-y) - 1rem) 0 var(--space-7);background:var(--bg)">
+  <div style="max-width:var(--container);margin:0 auto;padding:0 var(--gutter)">
+    <div class="jg-pagehead">
+      <div class="jg-ph-eyebrow" data-reveal>
+        <span style="display:inline-flex;align-items:center;gap:12px;font:600 var(--fs-eyebrow)/1 var(--font-body);text-transform:uppercase;letter-spacing:var(--ls-eyebrow);color:var(--red)"><span aria-hidden="true" style="width:24px;height:1px;background:currentColor;opacity:0.7"></span>Inscriptions</span>
+      </div>
+      <h1 id="jg-ph-title" class="jg-ph-title" data-reveal style="font-size:clamp(2.75rem,6vw,5.5rem);line-height:1.02;letter-spacing:-0.03em;color:var(--ink)">Propriétés</h1>
+      <p class="jg-ph-lead" data-reveal>Les inscriptions de Julie Gauthier sur la Rive-Nord et les Laurentides. Chaque propriété, présentée avec le soin qu'elle mérite.</p>
+      <div class="jg-ph-count" data-reveal>
+        <!-- Compteur dynamique (placeholder Centris) · annoncé en aria-live au filtrage -->
+        <div id="jg-count" aria-live="polite" style="font:500 0.8125rem/1.3 var(--font-body);letter-spacing:0.02em;color:var(--ink)">15 propriétés disponibles</div>
+        <div style="margin-top:4px;font:400 0.75rem/1.4 var(--font-body);color:var(--ink-3)">Inscriptions Centris, mises à jour quotidiennement.</div>
+      </div>
+      <div class="jg-ph-rule" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BARRE DE FILTRES (collante sous la nav) ============ -->
+<section id="jg-filterbar" style="position:sticky;top:var(--nav-h);z-index:40;background:color-mix(in oklch,var(--bg) 90%,transparent);backdrop-filter:blur(12px) saturate(1.3);-webkit-backdrop-filter:blur(12px) saturate(1.3);border-bottom:1px solid var(--line);transition:box-shadow var(--dur-base) var(--ease-out)">
+  <div style="max-width:var(--container);margin:0 auto;padding:var(--space-5) var(--gutter)">
+    <form id="jg-filterform" class="jg-filterform" role="search" aria-label="Filtrer les propriétés">
+
+      <div id="jg-filters-inline" class="jg-filters-inline">
+        <fieldset class="jg-fgroup">
+          <legend>Type</legend>
+          <div class="jg-chips">
+            <button type="button" class="jg-chip" data-filter-group="type" data-value="tous" aria-pressed="true">Tous</button>
+            <button type="button" class="jg-chip" data-filter-group="type" data-value="maison" aria-pressed="false">Maison</button>
+            <button type="button" class="jg-chip" data-filter-group="type" data-value="condo" aria-pressed="false">Condo</button>
+            <button type="button" class="jg-chip" data-filter-group="type" data-value="plex" aria-pressed="false">Plex</button>
+            <button type="button" class="jg-chip" data-filter-group="type" data-value="terrain" aria-pressed="false">Terrain</button>
+          </div>
+        </fieldset>
+
+        <label class="jg-field" for="jg-f-price">
+          <span class="jg-flabel">Prix</span>
+          <select id="jg-f-price" class="jg-select" data-filter-group="price">
+            <option value="tous">Tous les prix</option>
+            <option value="0-500000">Moins de 500 k$</option>
+            <option value="500000-750000">500 k$ – 750 k$</option>
+            <option value="750000-1500000">750 k$ – 1,5 M$</option>
+            <option value="1500000-99999999">1,5 M$ et plus</option>
+          </select>
+        </label>
+
+        <label class="jg-field" for="jg-f-city">
+          <span class="jg-flabel">Ville / secteur</span>
+          <select id="jg-f-city" class="jg-select" data-filter-group="city">
+            <option value="tous">Toutes les villes</option>
+            <option value="lachute">Lachute</option>
+            <option value="laval-chomedey">Laval (Chomedey)</option>
+            <option value="mirabel">Mirabel</option>
+            <option value="notre-dame-de-lourdes">Notre-Dame-de-Lourdes</option>
+            <option value="saint-colomban">Saint-Colomban</option>
+            <option value="saint-eustache">Saint-Eustache</option>
+            <option value="saint-jerome">Saint-Jérôme</option>
+            <option value="sainte-therese">Sainte-Thérèse</option>
+          </select>
+        </label>
+
+        <fieldset class="jg-fgroup">
+          <legend>Chambres</legend>
+          <div class="jg-chips">
+            <button type="button" class="jg-chip" data-filter-group="beds" data-value="1" aria-pressed="false">1+</button>
+            <button type="button" class="jg-chip" data-filter-group="beds" data-value="2" aria-pressed="false">2+</button>
+            <button type="button" class="jg-chip" data-filter-group="beds" data-value="3" aria-pressed="false">3+</button>
+            <button type="button" class="jg-chip" data-filter-group="beds" data-value="4" aria-pressed="false">4+</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="jg-fgroup">
+          <legend>Salles de bain</legend>
+          <div class="jg-chips">
+            <button type="button" class="jg-chip" data-filter-group="baths" data-value="1" aria-pressed="false">1+</button>
+            <button type="button" class="jg-chip" data-filter-group="baths" data-value="2" aria-pressed="false">2+</button>
+            <button type="button" class="jg-chip" data-filter-group="baths" data-value="3" aria-pressed="false">3+</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="jg-fgroup">
+          <legend>Statut</legend>
+          <div class="jg-chips">
+            <button type="button" class="jg-chip" data-filter-group="status" data-value="tous" aria-pressed="true">Tous</button>
+            <button type="button" class="jg-chip" data-filter-group="status" data-value="forsale" aria-pressed="false">À vendre</button>
+            <button type="button" class="jg-chip" data-filter-group="status" data-value="sold" aria-pressed="false">Vendu</button>
+            <button type="button" class="jg-chip" data-filter-group="status" data-value="new" aria-pressed="false">Nouveau</button>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="jg-filters-right">
+        <label class="jg-field" for="jg-f-sort">
+          <span class="jg-flabel">Tri</span>
+          <select id="jg-f-sort" class="jg-select" data-filter-group="sort">
+            <option value="recent">Plus récent</option>
+            <option value="price-asc">Prix croissant</option>
+            <option value="price-desc">Prix décroissant</option>
+          </select>
+        </label>
+        <button id="jg-mobtoggle" class="jg-mobtoggle" type="button" aria-expanded="false" aria-controls="jg-filters-drawer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="7" y1="12" x2="17" y2="12"></line><line x1="10" y1="18" x2="14" y2="18"></line></svg>
+          Filtres
+          <span id="jg-mobcount" class="jg-mobcount" aria-hidden="true">0</span>
+        </button>
+      </div>
+
+      <!-- Chips de filtres actifs -->
+      <div id="jg-active-filters" class="jg-active-filters" aria-label="Filtres actifs">
+        <span class="jg-af-label">Filtres actifs</span>
+        <div id="jg-active-list" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center"></div>
+        <button id="jg-reset" class="jg-reset" type="button">Réinitialiser</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ GRILLE DE PROPRIÉTÉS ============ -->
+<section aria-label="Liste des propriétés" style="padding:var(--space-9) 0 var(--section-y);background:var(--bg)">
+  <div style="max-width:var(--container);margin:0 auto;padding:0 var(--gutter)">
+
+    <div class="jg-grid-wrap">
+      <div id="jg-prop-grid" class="jg-prop-grid">
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/11398356-rg-ste-rose-notre-dame-de-lourdes/" aria-label="Voir la propriété, 4480, Rg Ste-Rose, Notre-Dame-de-Lourdes" data-status="forsale" data-type="maison" data-beds="2" data-baths="1" data-price="2000000" data-city="notre-dame-de-lourdes" data-index="0" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDE61D5E4DD83573CD1E&t=pi&f=I" alt="Photo de la propriété, 4480, Rg Ste-Rose, Notre-Dame-de-Lourdes" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">2 000 000 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">4480, Rg Ste-Rose</div>
+            <div class="jg-card-city">Notre-Dame-de-Lourdes</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">2 ch · 1 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/21165592-route-arthur-sauve-mirabel/" aria-label="Voir la propriété, 7825, Route Arthur-Sauvé, Mirabel" data-status="forsale" data-type="maison" data-beds="3" data-baths="1" data-price="1599900" data-city="mirabel" data-index="1" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDE993247D1C46A1BD10&t=pi&f=I" alt="Photo de la propriété, 7825, Route Arthur-Sauvé, Mirabel" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">1 599 900 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">7825, Route Arthur-Sauvé</div>
+            <div class="jg-card-city">Mirabel</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">3 ch · 1 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/24686429-rue-bran-saint-jerome/" aria-label="Voir la propriété, 395, Rue Bran, Saint-Jérôme" data-status="new" data-type="maison" data-beds="3" data-baths="0" data-price="1195000" data-city="saint-jerome" data-index="2" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA110DB2D10B86E3D1C&t=pi&f=I" alt="Photo de la propriété, 395, Rue Bran, Saint-Jérôme" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="new">Nouveau</span>
+          </div>
+          <div class="jg-card-price">1 195 000 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">395, Rue Bran</div>
+            <div class="jg-card-city">Saint-Jérôme</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">3 ch</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/27276924-rue-brunet-saint-eustache/" aria-label="Voir la propriété, 845, Rue Brunet, Saint-Eustache" data-status="forsale" data-type="maison" data-beds="6" data-baths="2" data-price="949900" data-city="saint-eustache" data-index="3" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDADAE980D18D2A07D1D&t=pi&f=I" alt="Photo de la propriété, 845, Rue Brunet, Saint-Eustache" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">949 900 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">845, Rue Brunet</div>
+            <div class="jg-card-city">Saint-Eustache</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">6 ch · 2 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/13604161-ch-de-dunany-lachute/" aria-label="Voir la propriété, 295, Ch. de Dunany, Lachute" data-status="forsale" data-type="maison" data-beds="3" data-baths="2" data-price="725000" data-city="lachute" data-index="4" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAD2736DDD76FEC1D1B&t=pi&f=I" alt="Photo de la propriété, 295, Ch. de Dunany, Lachute" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">725 000 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">295, Ch. de Dunany</div>
+            <div class="jg-card-city">Lachute</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">3 ch · 2 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/18626089-mtee-du-domaine-saint-eustache/" aria-label="Voir la propriété, 203Z, Mtée du Domaine, Saint-Eustache" data-status="forsale" data-type="maison" data-beds="4" data-baths="2" data-price="664500" data-city="saint-eustache" data-index="5" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAD2375CD1172A4FD14&t=pi&f=I" alt="Photo de la propriété, 203Z, Mtée du Domaine, Saint-Eustache" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">664 500 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">203Z, Mtée du Domaine</div>
+            <div class="jg-card-city">Saint-Eustache</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">4 ch · 2 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/24564929-mtee-du-domaine-saint-eustache/" aria-label="Voir la propriété, 203, Mtée du Domaine, Saint-Eustache" data-status="forsale" data-type="maison" data-beds="4" data-baths="2" data-price="664500" data-city="saint-eustache" data-index="6" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAD28EF0D10A3C71D12&t=pi&f=I" alt="Photo de la propriété, 203, Mtée du Domaine, Saint-Eustache" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">664 500 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">203, Mtée du Domaine</div>
+            <div class="jg-card-city">Saint-Eustache</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">4 ch · 2 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/23795956-rue-au-bois-dormant-saint-colomban/" aria-label="Voir la propriété, 109, Rue au Bois-Dormant, Saint-Colomban" data-status="forsale" data-type="maison" data-beds="2" data-baths="2" data-price="649900" data-city="saint-colomban" data-index="7" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAD2779AD1A91B6CD1F&t=pi&f=I" alt="Photo de la propriété, 109, Rue au Bois-Dormant, Saint-Colomban" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">649 900 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">109, Rue au Bois-Dormant</div>
+            <div class="jg-card-city">Saint-Colomban</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">2 ch · 2 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/9628867-rue-du-chatelet-saint-colomban/" aria-label="Voir la propriété, 131, Rue du Châtelet, Saint-Colomban" data-status="new" data-type="maison" data-beds="3" data-baths="2" data-price="629000" data-city="saint-colomban" data-index="8" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E272DDF45772D11&t=pi&f=I" alt="Photo de la propriété, 131, Rue du Châtelet, Saint-Colomban" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="new">Nouveau</span>
+          </div>
+          <div class="jg-card-price">629 000 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">131, Rue du Châtelet</div>
+            <div class="jg-card-city">Saint-Colomban</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">3 ch · 2 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/10118107-rue-des-lacs-saint-jerome/" aria-label="Voir la propriété, 920, Rue des Lacs, Saint-Jérôme" data-status="forsale" data-type="maison" data-beds="2" data-baths="1" data-price="474900" data-city="saint-jerome" data-index="9" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDADBFE56DDF8A239D14&t=pi&f=I" alt="Photo de la propriété, 920, Rue des Lacs, Saint-Jérôme" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">474 900 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">920, Rue des Lacs</div>
+            <div class="jg-card-city">Saint-Jérôme</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">2 ch · 1 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/11424414-place-harel-sainte-therese/" aria-label="Voir la propriété, 261, Place Harel, Sainte-Thérèse" data-status="forsale" data-type="maison" data-beds="2" data-baths="1" data-price="449900" data-city="sainte-therese" data-index="10" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAD8D056DD85E4F5D1A&t=pi&f=I" alt="Photo de la propriété, 261, Place Harel, Sainte-Thérèse" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">449 900 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">261, Place Harel</div>
+            <div class="jg-card-city">Sainte-Thérèse</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">2 ch · 1 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/11835307-boul-st-elzear-o-laval-chomedey/" aria-label="Voir la propriété, 3500, Boul. St-Elzear O., Laval (Chomedey)" data-status="new" data-type="maison" data-beds="1" data-baths="1" data-price="449900" data-city="laval-chomedey" data-index="11" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C40DD9CF089D1D&t=pi&f=I" alt="Photo de la propriété, 3500, Boul. St-Elzear O., Laval (Chomedey)" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="new">Nouveau</span>
+          </div>
+          <div class="jg-card-price">449 900 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">3500, Boul. St-Elzear O.</div>
+            <div class="jg-card-city">Laval (Chomedey)</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">1 ch · 1 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/12692177-rue-principale-lachute/" aria-label="Voir la propriété, 90, Rue Principale, Lachute" data-status="forsale" data-type="maison" data-beds="3" data-baths="1" data-price="425000" data-city="lachute" data-index="12" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAD27D60DD718831D1D&t=pi&f=I" alt="Photo de la propriété, 90, Rue Principale, Lachute" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">425 000 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">90, Rue Principale</div>
+            <div class="jg-card-city">Lachute</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">3 ch · 1 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/27171026-rue-principale-lachute/" aria-label="Voir la propriété, 90Z, Rue Principale, Lachute" data-status="forsale" data-type="maison" data-beds="3" data-baths="1" data-price="425000" data-city="lachute" data-index="13" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAD27004D1F5FB34D14&t=pi&f=I" alt="Photo de la propriété, 90Z, Rue Principale, Lachute" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">425 000 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">90Z, Rue Principale</div>
+            <div class="jg-card-city">Lachute</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">3 ch · 1 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+        <a class="jg-card" href="fiche.html" data-fiche="nos-proprietes/15898236-rue-de-l-epervier-mirabel/" aria-label="Voir la propriété, 10060, Rue de l'Épervier, Mirabel" data-status="forsale" data-type="maison" data-beds="2" data-baths="1" data-price="344900" data-city="mirabel" data-index="14" data-reveal>
+          <div class="jg-card-media">
+            <img class="jg-card-img" src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAD23500DD64FA07D10&t=pi&f=I" alt="Photo de la propriété, 10060, Rue de l'Épervier, Mirabel" loading="lazy">
+            <span class="jg-card-shade" aria-hidden="true"></span>
+            <span class="jg-card-tint" aria-hidden="true"></span>
+            <span class="jg-tag" data-status="forsale">À vendre</span>
+          </div>
+          <div class="jg-card-price">344 900 $</div>
+          <div class="jg-card-addr">
+            <div class="jg-card-address">10060, Rue de l'Épervier</div>
+            <div class="jg-card-city">Mirabel</div>
+          </div>
+          <div class="jg-card-foot">
+            <div class="jg-card-meta">2 ch · 1 sdb</div>
+            <span class="jg-card-cta"><span class="txt">Voir la propriété</span><span class="arw" aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- ÉTAT : aucun résultat (masqué par défaut) -->
+    <div id="jg-empty" class="jg-empty">
+      <img src="brand_assets/ballon.png" alt="" aria-hidden="true" style="height:40px;width:auto;display:block;margin:0 auto">
+      <h2 style="margin-top:var(--space-5);font-size:clamp(1.6rem,3vw,2.25rem);line-height:1.06;letter-spacing:-0.02em;color:var(--ink)">Aucune propriété ne correspond.</h2>
+      <p style="margin:var(--space-4) auto 0;max-width:48ch;color:var(--ink-2);font:400 1.0625rem/1.6 var(--font-body)">Élargissez votre recherche, ou écrivez à Julie : elle déniche aussi des propriétés hors marché.</p>
+      <div style="display:flex;gap:var(--space-5);justify-content:center;align-items:center;flex-wrap:wrap;margin-top:var(--space-7)">
+        <button id="jg-empty-reset" class="jg-secondary-btn" type="button">Réinitialiser les filtres</button>
+        <a class="jg-link" href="tel:+15148954921" style="font-size:1.0625rem">514.895.4921 <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+
+    <!-- PAGINATION / CHARGER PLUS -->
+    <div id="jg-loadwrap" style="display:flex;flex-direction:column;align-items:center;gap:var(--space-4);margin-top:var(--space-9)">
+      <button id="jg-loadmore" class="jg-secondary-btn" type="button" style="display:none">Charger plus de propriétés</button>
+      <div id="jg-shown" style="font:500 0.8125rem/1.3 var(--font-body);letter-spacing:0.02em;color:var(--ink-3)">15 sur 15 affichées</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ BANDE CTA (navy) ============ -->
+<section aria-labelledby="jg-cta-title" style="position:relative;padding:var(--section-y) 0;background:var(--navy);overflow:hidden">
+  <div aria-hidden="true" style="position:absolute;top:-30%;left:8%;width:60%;height:90%;background:var(--glow-blue);opacity:0.26;filter:blur(60px);border-radius:50%"></div>
+  <div aria-hidden="true" style="position:absolute;bottom:-40%;right:-5%;width:46%;height:90%;background:var(--glow-red);opacity:0.12;filter:blur(70px);border-radius:50%"></div>
+  <div aria-hidden="true" style="position:absolute;inset:0;opacity:0.05;mix-blend-mode:overlay;background-image:url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22160%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%222%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/%3E%3C/svg%3E')"></div>
+  <div class="jg-cta-grid" data-reveal style="position:relative;max-width:var(--container);margin:0 auto;padding:0 var(--gutter);display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center">
+    <div>
+      <span style="display:inline-flex;align-items:center;gap:12px;font:600 var(--fs-eyebrow)/1 var(--font-body);text-transform:uppercase;letter-spacing:var(--ls-eyebrow);color:var(--red)"><span aria-hidden="true" style="width:24px;height:1px;background:currentColor;opacity:0.7"></span>Recherche sur mesure</span>
+      <h2 id="jg-cta-title" style="margin-top:var(--space-4);color:var(--bg);font-size:clamp(2rem,4vw,3.25rem);line-height:1.04;letter-spacing:-0.03em;max-width:18ch">Vous cherchez quelque chose de précis ?</h2>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:var(--space-6);padding-left:clamp(0rem,3vw,2.5rem);border-left:1px solid color-mix(in oklch,var(--bg) 16%,transparent)">
+      <p style="margin:0;color:var(--sky);font:400 var(--fs-lead)/1.6 var(--font-body);max-width:44ch">Dites-moi votre secteur, votre budget et vos incontournables. Je trouve l'adresse qui vous ressemble, souvent avant tout le monde.</p>
+      <div style="display:flex;gap:var(--space-6);align-items:center;flex-wrap:wrap">
+        <a class="jg-btn jg-btn--primary jg-btn--lg" href="index.html#contact">Parler à Julie</a>
+        <a class="jg-cream-link" href="tel:+15148954921" style="font:600 1.0625rem/1 var(--font-body)">514.895.4921</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PIED DE PAGE (identique à l'accueil) ============ -->
+<footer style="background:var(--navy);border-top:1px solid color-mix(in oklch,var(--bg) 12%,transparent);padding:var(--space-9) 0 var(--space-6)">
+  <div class="jg-foot-grid" style="max-width:var(--container);margin:0 auto;padding:0 var(--gutter);display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:var(--space-7)">
+    <div style="max-width:340px">
+      <img src="brand_assets/crystal-long-blanc.png" alt="RE/MAX Crystal" style="height:30px;width:auto;display:block">
+      <p style="margin-top:var(--space-5);color:color-mix(in oklch,var(--bg) 64%,transparent);font:400 0.9375rem/1.6 var(--font-body)">Julie Gauthier, courtière immobilière agréée. Au service des acheteurs et vendeurs du Grand Montréal.</p>
+      <div style="display:flex;gap:12px;margin-top:var(--space-6)">
+        <a class="jg-soc" href="index.html#contact" aria-label="Facebook de Julie Gauthier"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H8v3h2v6h3v-6h2.5l.5-3H13v-2a1 1 0 0 1 1-1Z"></path></svg></a>
+        <a class="jg-soc" href="index.html#contact" aria-label="Instagram de Julie Gauthier"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"></circle></svg></a>
+        <a class="jg-soc" href="index.html#contact" aria-label="LinkedIn de Julie Gauthier"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.5 8A1.5 1.5 0 1 0 6.5 5a1.5 1.5 0 0 0 0 3ZM5 10h3v9H5v-9Zm5 0h2.9v1.2h.04c.4-.75 1.4-1.55 2.9-1.55 3.1 0 3.66 2 3.66 4.7V19h-3v-4.1c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2V19h-3v-9Z"></path></svg></a>
+      </div>
+    </div>
+    <div>
+      <div style="font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:color-mix(in oklch,var(--bg) 50%,transparent)">Navigation</div>
+      <ul style="list-style:none;margin:var(--space-5) 0 0;padding:0;display:flex;flex-direction:column;gap:var(--space-3)">
+        <li><a class="jg-foot-link" href="index.html">Accueil</a></li>
+        <li><a class="jg-foot-link" href="apropos.html">À propos</a></li>
+        <li><a class="jg-foot-link" href="index.html#services">Services</a></li>
+        <li><a class="jg-foot-link" href="#contenu">Propriétés</a></li>
+        <li><a class="jg-foot-link" href="index.html#temoignages">Témoignages</a></li>
+        <li><a class="jg-foot-link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:color-mix(in oklch,var(--bg) 50%,transparent)">Contact</div>
+      <ul style="list-style:none;margin:var(--space-5) 0 0;padding:0;display:flex;flex-direction:column;gap:var(--space-3)">
+        <li><a class="jg-foot-link" href="tel:+15148954921">514.895.4921</a></li>
+        <li><a class="jg-foot-link" href="mailto:bonjour@juliegauthier.ca">bonjour@juliegauthier.ca</a></li>
+        <li><span style="color:color-mix(in oklch,var(--bg) 64%,transparent);font:400 0.9375rem/1.4 var(--font-body)">Courtière immobilière agréée</span></li>
+      </ul>
+    </div>
+  </div>
+  <div style="max-width:var(--container);margin:var(--space-8) auto 0;padding:var(--space-5) var(--gutter) 0;border-top:1px solid color-mix(in oklch,var(--bg) 12%,transparent);display:flex;justify-content:space-between;gap:var(--space-4) var(--space-6);flex-wrap:wrap;color:color-mix(in oklch,var(--bg) 58%,transparent);font:400 0.8125rem/1.5 var(--font-body)">
+    <span>© 2026 Julie Gauthier. Tous droits réservés.</span>
+    <span>Chaque bureau est indépendant et autonome.</span>
+  </div>
+</footer>
+
+</main>
+</div>
+
+<!-- ============ DRAWER FILTRES (mobile) ============ -->
+<div id="jg-filters-drawer" class="jg-overlay" role="dialog" aria-modal="true" aria-label="Filtrer les propriétés" aria-hidden="true" inert>
+  <div class="jg-drawer-head">
+    <span style="font:700 1.25rem/1 var(--font-display);letter-spacing:-0.02em;color:var(--ink)">Filtres</span>
+    <button id="jg-filters-close" class="jg-iconbtn" type="button" aria-label="Fermer les filtres">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+    </button>
+  </div>
+  <div id="jg-filters-drawer-body" style="flex:1;overflow-y:auto;padding:var(--space-6) var(--gutter);display:flex;flex-direction:column;gap:var(--space-6)"></div>
+  <div style="padding:var(--space-5) var(--gutter);border-top:1px solid var(--line)">
+    <button id="jg-filters-apply" type="button" style="display:flex;align-items:center;justify-content:center;width:100%;min-height:54px;background:var(--red);color:var(--bg);font:600 1.0625rem/1 var(--font-body);border:none;border-radius:var(--r-sm);cursor:pointer;box-shadow:var(--shadow-sm);transition:background var(--dur-base) var(--ease-out)">Appliquer</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  class App {
+  componentDidMount() {
+    const root = document.getElementById('jg-props');
+    if (!root) return;
+    this._root = root;
+    this._reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    this.initMotion();
+    this.initNav();
+    this.initFilters();
+    this.initFiltersDrawer();
+    this.initMobileMenu();
+    this.initLoadMore();
+  }
+
+  /* ---------- Motion : GSAP + ScrollTrigger + Lenis (fallback IO) ---------- */
+  initMotion() {
+    const root = this._root;
+    const reveals = Array.from(root.querySelectorAll('[data-reveal]'));
+    if (this._reduce) {
+      reveals.forEach(el => { el.style.opacity = '1'; el.style.transform = 'none'; });
+      return;
+    }
+    const G = window.gsap, ST = window.ScrollTrigger;
+    if (G && ST) {
+      G.registerPlugin(ST);
+      this._batch = ST.batch('[data-reveal]', {
+        start: 'top 88%',
+        onEnter: (b) => G.to(b, { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out', stagger: 0.08, overwrite: true })
+      });
+      // Révèle tout de suite ce qui est déjà visible au chargement (le batch ne déclenche qu'au scroll)
+      requestAnimationFrame(() => {
+        const vh = window.innerHeight;
+        reveals.forEach(el => {
+          const r = el.getBoundingClientRect();
+          if (r.top < vh * 0.94) G.to(el, { opacity: 1, y: 0, duration: 0.7, ease: 'power3.out', overwrite: true });
+        });
+        try { ST.refresh(); } catch (e) {}
+      });
+      // Scroll natif conservé (pas de smooth-scroll JS : évite tout blocage de la molette)
+      this._safety = setTimeout(() => { try { G.to('[data-reveal]', { opacity: 1, y: 0, duration: 0.3 }); } catch (e) {} }, 4000);
+    } else {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (!e.isIntersecting) return;
+          const el = e.target;
+          const sibs = Array.from(el.parentElement.querySelectorAll(':scope > [data-reveal]'));
+          const i = Math.max(0, sibs.indexOf(el));
+          el.style.transition = 'opacity .8s var(--ease-spring), transform .8s var(--ease-spring)';
+          el.style.transitionDelay = (i * 80) + 'ms';
+          el.style.opacity = '1';
+          el.style.transform = 'none';
+          io.unobserve(el);
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -7% 0px' });
+      reveals.forEach(el => io.observe(el));
+      this._safety = setTimeout(() => reveals.forEach(el => { el.style.opacity = '1'; el.style.transform = 'none'; }), 4000);
+    }
+  }
+
+  /* ---------- Nav + barre de filtres : élévation au scroll ---------- */
+  initNav() {
+    const nav = document.getElementById('jg-nav');
+    const bar = document.getElementById('jg-filterbar');
+    const onScroll = () => {
+      const s = window.scrollY > 16;
+      if (nav) nav.style.boxShadow = s ? 'var(--shadow-sm)' : 'none';
+      if (bar) bar.style.boxShadow = s ? 'var(--shadow-sm)' : 'none';
+    };
+    this._onScroll = onScroll;
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  /* ---------- Filtres + tri ---------- */
+  initFilters() {
+    const root = this._root;
+    this._cards = Array.from(root.querySelectorAll('.jg-card'));
+    this._chips = Array.from(root.querySelectorAll('.jg-chip[data-filter-group]'));
+    this._selPrice = root.querySelector('#jg-f-price');
+    this._selCity = root.querySelector('#jg-f-city');
+    this._selSort = root.querySelector('#jg-f-sort');
+    this._countEl = root.querySelector('#jg-count');
+    this._shownEl = root.querySelector('#jg-shown');
+    this._empty = root.querySelector('#jg-empty');
+    this._grid = root.querySelector('#jg-prop-grid');
+    this._loadwrap = root.querySelector('#jg-loadwrap');
+    this._activeWrap = root.querySelector('#jg-active-filters');
+    this._activeList = root.querySelector('#jg-active-list');
+
+    this.PRICE_TXT = {
+      'tous': null, '0-500000': 'Moins de 500 k$', '500000-750000': '500 k$ – 750 k$',
+      '750000-1500000': '750 k$ – 1,5 M$', '1500000-99999999': '1,5 M$ et plus'
+    };
+    this.CITY_TXT = {
+      'tous': null, 'montreal': 'Montréal', 'laval': 'Laval', 'longueuil': 'Longueuil',
+      'brossard': 'Brossard', 'westmount': 'Westmount', 'autre': 'Autre secteur'
+    };
+    this.TYPE_TXT = { 'maison': 'Maison', 'condo': 'Condo', 'plex': 'Plex', 'terrain': 'Terrain' };
+    this.STATUS_TXT = { 'forsale': 'À vendre', 'sold': 'Vendu', 'new': 'Nouveau' };
+
+    this._chips.forEach(chip => chip.addEventListener('click', () => this.onChip(chip)));
+    if (this._selPrice) this._selPrice.addEventListener('change', () => this.applyFilters());
+    if (this._selCity) this._selCity.addEventListener('change', () => this.applyFilters());
+    if (this._selSort) this._selSort.addEventListener('change', () => this.applyFilters());
+    const reset = root.querySelector('#jg-reset');
+    if (reset) reset.addEventListener('click', () => this.resetFilters());
+    const emptyReset = root.querySelector('#jg-empty-reset');
+    if (emptyReset) emptyReset.addEventListener('click', () => this.resetFilters());
+
+    this.applyFilters();
+  }
+
+  pressed(group) {
+    const el = this._chips.find(c => c.dataset.filterGroup === group && c.getAttribute('aria-pressed') === 'true');
+    return el ? el.dataset.value : null;
+  }
+
+  onChip(chip) {
+    const grp = chip.dataset.filterGroup;
+    const sibs = this._chips.filter(c => c.dataset.filterGroup === grp);
+    if (grp === 'type' || grp === 'status') {
+      sibs.forEach(c => c.setAttribute('aria-pressed', c === chip ? 'true' : 'false'));
+    } else { // beds / baths : bascule
+      const was = chip.getAttribute('aria-pressed') === 'true';
+      sibs.forEach(c => c.setAttribute('aria-pressed', 'false'));
+      if (!was) chip.setAttribute('aria-pressed', 'true');
+    }
+    this.applyFilters();
+  }
+
+  clearGroup(group) {
+    if (group === 'price') { if (this._selPrice) this._selPrice.value = 'tous'; }
+    else if (group === 'city') { if (this._selCity) this._selCity.value = 'tous'; }
+    else {
+      const sibs = this._chips.filter(c => c.dataset.filterGroup === group);
+      sibs.forEach(c => {
+        const def = (group === 'type' || group === 'status') && c.dataset.value === 'tous';
+        c.setAttribute('aria-pressed', def ? 'true' : 'false');
+      });
+    }
+    this.applyFilters();
+  }
+
+  resetFilters() {
+    this._chips.forEach(c => {
+      const def = (c.dataset.filterGroup === 'type' || c.dataset.filterGroup === 'status') && c.dataset.value === 'tous';
+      c.setAttribute('aria-pressed', def ? 'true' : 'false');
+    });
+    if (this._selPrice) this._selPrice.value = 'tous';
+    if (this._selCity) this._selCity.value = 'tous';
+    this.applyFilters();
+  }
+
+  applyFilters() {
+    const type = this.pressed('type') || 'tous';
+    const status = this.pressed('status') || 'tous';
+    const beds = parseInt(this.pressed('beds') || '0', 10);
+    const baths = parseInt(this.pressed('baths') || '0', 10);
+    const price = this._selPrice ? this._selPrice.value : 'tous';
+    const city = this._selCity ? this._selCity.value : 'tous';
+    const sort = this._selSort ? this._selSort.value : 'recent';
+
+    let pr = [0, Infinity];
+    if (price !== 'tous') { const p = price.split('-'); pr = [parseInt(p[0], 10), parseInt(p[1], 10)]; }
+
+    let visible = 0;
+    this._cards.forEach(card => {
+      const d = card.dataset;
+      let ok = true;
+      if (type !== 'tous' && d.type !== type) ok = false;
+      if (status !== 'tous' && d.status !== status) ok = false;
+      if (beds && parseInt(d.beds, 10) < beds) ok = false;
+      if (baths && parseInt(d.baths, 10) < baths) ok = false;
+      if (price !== 'tous') { const p = parseInt(d.price, 10); if (p < pr[0] || p > pr[1]) ok = false; }
+      if (city !== 'tous' && d.city !== city) ok = false;
+      card.style.display = ok ? '' : 'none';
+      if (ok) visible++;
+    });
+
+    // tri (ordre visuel via grid order)
+    const vis = this._cards.filter(c => c.style.display !== 'none');
+    vis.sort((a, b) => {
+      if (sort === 'price-asc') return parseInt(a.dataset.price, 10) - parseInt(b.dataset.price, 10);
+      if (sort === 'price-desc') return parseInt(b.dataset.price, 10) - parseInt(a.dataset.price, 10);
+      return parseInt(a.dataset.index, 10) - parseInt(b.dataset.index, 10);
+    });
+    vis.forEach((c, i) => { c.style.order = String(i); });
+
+    // compteurs (aria-live)
+    if (this._countEl) this._countEl.textContent = visible + (visible === 1 ? ' propriété disponible' : ' propriétés disponibles');
+    if (this._shownEl) this._shownEl.textContent = visible + ' sur ' + this._cards.length + ' affichées';
+
+    // état vide
+    const none = visible === 0;
+    if (this._empty) this._empty.style.display = none ? 'block' : 'none';
+    if (this._grid) this._grid.style.display = none ? 'none' : '';
+    if (this._loadwrap) this._loadwrap.style.display = none ? 'none' : 'flex';
+
+    this.rebuildActive(type, status, beds, baths, price, city);
+  }
+
+  rebuildActive(type, status, beds, baths, price, city) {
+    const items = [];
+    if (type !== 'tous') items.push(['type', 'Type : ' + (this.TYPE_TXT[type] || type)]);
+    if (status !== 'tous') items.push(['status', 'Statut : ' + (this.STATUS_TXT[status] || status)]);
+    if (beds) items.push(['beds', 'Chambres : ' + beds + '+']);
+    if (baths) items.push(['baths', 'Salles de bain : ' + baths + '+']);
+    if (price !== 'tous') items.push(['price', 'Prix : ' + (this.PRICE_TXT[price] || price)]);
+    if (city !== 'tous') items.push(['city', 'Ville : ' + (this.CITY_TXT[city] || city)]);
+
+    if (this._activeList) {
+      this._activeList.innerHTML = '';
+      items.forEach(([grp, label]) => {
+        const chip = document.createElement('span');
+        chip.className = 'jg-afchip';
+        const txt = document.createElement('span');
+        txt.textContent = label;
+        const x = document.createElement('button');
+        x.type = 'button';
+        x.className = 'jg-afx';
+        x.setAttribute('aria-label', 'Retirer le filtre ' + label);
+        x.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+        x.addEventListener('click', () => this.clearGroup(grp));
+        chip.appendChild(txt);
+        chip.appendChild(x);
+        this._activeList.appendChild(chip);
+      });
+    }
+    if (this._activeWrap) this._activeWrap.style.display = items.length ? 'flex' : 'none';
+
+    // pastille compteur mobile
+    const badge = this._root.querySelector('#jg-mobcount');
+    const toggle = this._root.querySelector('#jg-mobtoggle');
+    if (badge) {
+      badge.textContent = String(items.length);
+      badge.style.display = items.length ? 'inline-flex' : 'none';
+    }
+    if (toggle) toggle.setAttribute('aria-expanded', toggle.getAttribute('aria-expanded') === 'true' ? 'true' : 'false');
+  }
+
+  /* ---------- Drawer filtres (mobile) ---------- */
+  initFiltersDrawer() {
+    const root = this._root;
+    const drawer = document.getElementById('jg-filters-drawer');
+    const body = document.getElementById('jg-filters-drawer-body');
+    const inline = root.querySelector('#jg-filters-inline');
+    const toggle = root.querySelector('#jg-mobtoggle');
+    const closeBtn = document.getElementById('jg-filters-close');
+    const applyBtn = document.getElementById('jg-filters-apply');
+    if (!drawer || !body || !inline) return;
+    this._inlineHome = inline.parentElement;
+    this._inlineAnchor = inline.nextElementSibling; // .jg-filters-right
+    this._drawer = drawer;
+
+    const open = () => {
+      drawer.classList.add('is-open'); drawer.removeAttribute('inert');
+      drawer.setAttribute('aria-hidden', 'false');
+      if (toggle) toggle.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      const f = drawer.querySelectorAll('button, select, a[href]');
+      if (f[0]) f[0].focus();
+    };
+    const close = () => {
+      drawer.classList.remove('is-open'); drawer.setAttribute('inert','');
+      drawer.setAttribute('aria-hidden', 'true');
+      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      if (toggle && toggle.offsetParent !== null) toggle.focus();
+    };
+    this._closeFiltersDrawer = close;
+    if (toggle) toggle.addEventListener('click', open);
+    if (closeBtn) closeBtn.addEventListener('click', close);
+    if (applyBtn) applyBtn.addEventListener('click', close);
+
+    drawer.addEventListener('keydown', (e) => {
+      if (!drawer.classList.contains('is-open')) return;
+      if (e.key === 'Escape') { close(); return; }
+      if (e.key === 'Tab') {
+        const f = Array.from(drawer.querySelectorAll('button, select, a[href]')).filter(el => el.offsetParent !== null);
+        if (!f.length) return;
+        const first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    });
+
+    const mq = window.matchMedia('(max-width: 859px)');
+    const place = () => {
+      if (mq.matches) {
+        if (inline.parentElement !== body) body.insertBefore(inline, body.firstChild);
+      } else {
+        if (inline.parentElement !== this._inlineHome) {
+          if (this._inlineAnchor && this._inlineAnchor.parentElement === this._inlineHome) this._inlineHome.insertBefore(inline, this._inlineAnchor);
+          else this._inlineHome.appendChild(inline);
+        }
+        if (drawer.classList.contains('is-open')) close();
+      }
+    };
+    this._placeFilters = place;
+    if (mq.addEventListener) mq.addEventListener('change', place);
+    else if (mq.addListener) mq.addListener(place);
+    place();
+  }
+
+  /* ---------- Menu mobile ---------- */
+  initMobileMenu() {
+    const root = this._root;
+    const burger = root.querySelector('#jg-burger');
+    const menu = root.querySelector('#jg-menu');
+    const closeBtn = root.querySelector('#jg-menu-close');
+    if (!burger || !menu) return;
+    const focusables = () => Array.from(menu.querySelectorAll('a[href], button')).filter(el => el.offsetParent !== null);
+    const open = () => {
+      menu.classList.add('is-open'); menu.removeAttribute('inert');
+      menu.setAttribute('aria-hidden', 'false');
+      burger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      const f = focusables(); if (f[0]) f[0].focus();
+    };
+    const close = () => {
+      menu.classList.remove('is-open'); menu.setAttribute('inert','');
+      menu.setAttribute('aria-hidden', 'true');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      burger.focus();
+    };
+    burger.addEventListener('click', open);
+    if (closeBtn) closeBtn.addEventListener('click', close);
+    menu.querySelectorAll('a[href]').forEach(a => a.addEventListener('click', close));
+    const onKey = (e) => {
+      if (menu.getAttribute('aria-hidden') !== 'false') return;
+      if (e.key === 'Escape') { close(); return; }
+      if (e.key === 'Tab') {
+        const f = focusables(); if (!f.length) return;
+        const first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    };
+    this._onMenuKey = onKey;
+    document.addEventListener('keydown', onKey);
+  }
+
+  /* ---------- Charger plus (état de chargement, sans saut) ---------- */
+  initLoadMore() {
+    const btn = this._root.querySelector('#jg-loadmore');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      if (btn.disabled) return;
+      btn.setAttribute('aria-busy', 'true');
+      btn.disabled = true;
+      btn.textContent = 'Chargement…';
+      setTimeout(() => {
+        btn.setAttribute('aria-busy', 'false');
+        btn.textContent = 'Toutes les propriétés sont affichées';
+      }, 900);
+    });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._onScroll);
+    document.removeEventListener('keydown', this._onMenuKey);
+    clearTimeout(this._safety);
+    if (this._rafId) cancelAnimationFrame(this._rafId);
+    if (this._lenis && this._lenis.destroy) { try { this._lenis.destroy(); } catch (e) {} }
+    if (window.ScrollTrigger) { try { window.ScrollTrigger.getAll().forEach(t => t.kill()); } catch (e) {} }
+    document.body.style.overflow = '';
+  }
+
+  renderVals() {
+    return {
+      navLogoH: 30,
+      onSearchSubmit: (e) => { e.preventDefault(); }
+    };
+  }
+}
+  function ready(fn){ if(document.readyState!=='loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
+  ready(function(){
+    var app = new App();
+    app.componentDidMount();
+    document.querySelectorAll('.jg-has-sub').forEach(function(wrap){
+      var btn=wrap.querySelector('.jg-subtoggle'),menu=wrap.querySelector('.jg-submenu');
+      if(!btn||!menu) return;
+      var openSub=function(){menu.classList.add('is-open');btn.setAttribute('aria-expanded','true');};
+      var closeSub=function(){menu.classList.remove('is-open');btn.setAttribute('aria-expanded','false');};
+      btn.addEventListener('click',function(e){e.stopPropagation();menu.classList.contains('is-open')?closeSub():openSub();});
+      wrap.addEventListener('keydown',function(e){if(e.key==='Escape'){closeSub();btn.focus();}});
+      document.addEventListener('click',function(e){if(!wrap.contains(e.target))closeSub();});
+    });
+    var form = document.getElementById('jg-filterform');
+    if(form) form.addEventListener('submit', function(e){ e.preventDefault(); });
+  });
+})();
+</script>
+</body>
+</html>

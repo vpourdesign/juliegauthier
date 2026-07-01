@@ -1,0 +1,15 @@
+# Données Centris (régénérées par le workflow — jamais committées à la main)
+_centris/
+_tmp.zip
+*.zip
+
+# Sources lourdes non déployées sur le site
+photos/
+brand_assets/remax-brandbook.pdf
+
+# Système / éditeur
+.DS_Store
+**/.DS_Store
+node_modules/
+temporary screenshots/
+*.log

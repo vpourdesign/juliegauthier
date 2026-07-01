@@ -1,0 +1,142 @@
+{
+  "source": "https://www.remax-quebec.com/fr/blogue",
+  "fetchedFrom": "RE/MAX Québec — Mon coin de vie",
+  "count": 15,
+  "articles": [
+    {
+      "title": "11 erreurs fréquentes lors d’un déménagement (et comment les éviter)",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/11-erreurs-frequentes-lors-dun-demenagement-et-comment-les-eviter-1216",
+      "category": "Immobilier",
+      "excerpt": "Découvrez 11 erreurs fréquentes lors d’un déménagement et des conseils simples pour éviter le stress et les imprévus.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/4CpYmijKGdePoJFX6nRmW5cncAETy5RfFGPFNoqA_medium.jpeg",
+      "date": "5 juin 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "10 choses que les propriétaires découvrent après l’achat… et qu’ils apprécient souvent",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/10-choses-que-les-proprietaires-decouvrent-apres-lachat-et-quils-apprecient-souvent-1230",
+      "category": "Immobilier",
+      "excerpt": "",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/aa8ZMeN7uDfdtg3L4LW5RXo7YJtEFN8DsBlyh5Sw_small.jpeg",
+      "date": "28 juin 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Comment prolonger la durée de vie de votre toiture",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/comment-prolonger-la-duree-de-vie-de-votre-toiture-1229",
+      "category": "Conseils",
+      "excerpt": "",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/0lFVaIPEHQJM4lTa9gx1r4OaeS1z64gcb490w7Ns_small.jpeg",
+      "date": "26 juin 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Le voisin parfait existe-t-il vraiment?",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/le-voisin-parfait-existe-t-il-vraiment-1222",
+      "category": "Immobilier",
+      "excerpt": "Découvrez si le voisin parfait existe vraiment et comment le voisinage influence la qualité de vie et la valeur d’une propriété.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/Snha1MHNRs2mITXrlV21uadFLOHymC5m1V7eaKvt_small.jpeg",
+      "date": "21 juin 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Les pires conseils immobiliers vus sur Internet",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/les-pires-conseils-immobiliers-vus-sur-internet-1221",
+      "category": "Conseils",
+      "excerpt": "Découvrez les pires conseils immobiliers vus sur Internet et pourquoi ils peuvent coûter cher aux acheteurs et vendeurs.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/YSQBW7PHNJKh6LpPI9wdGE6o4KujHzzMkSrOjMml_small.jpeg",
+      "date": "19 juin 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Les petites habitudes qui rendent une maison vraiment agréable à vivre",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/les-petites-habitudes-qui-rendent-une-maison-vraiment-agreable-a-vivre-1219",
+      "category": "Style de vie",
+      "excerpt": "Les petites habitudes du quotidien qui rendent une maison plus agréable à vivre, sans rénovations ni gros changements.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/04LrKbBuNhhVnDwVNHlQ4oxZRlMmP8utojH7cNZo_small.jpeg",
+      "date": "",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Comment préparer sa maison pour les grosses chaleurs estivales",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/comment-preparer-sa-maison-pour-les-grosses-chaleurs-estivales-1218",
+      "category": "Style de vie",
+      "excerpt": "Préparez votre maison aux grosses chaleurs estivales grâce à des conseils simples.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/KZqSSQYTP4sXFM2Lg8Pb1J7xnwKWJkcgTsYvOpX2_small.jpeg",
+      "date": "12 juin 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Le vrai coût d’une piscine résidentielle",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/le-vrai-cout-dune-piscine-residentielle-1217",
+      "category": "Finances",
+      "excerpt": "Découvrez le vrai coût d’une piscine résidentielle au Québec, incluant achat, entretien, énergie et frais cachés.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/TWxFBQ58ZtuWoD9XB6EwM2cv1vAvTzgpbGjmj2ph_small.jpeg",
+      "date": "7 juin 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Comment transformer une propriété ordinaire en espace plus luxueux sans gros budget",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/comment-transformer-une-propriete-ordinaire-en-espace-plus-luxueux-sans-gros-budget-1214",
+      "category": "Design",
+      "excerpt": "Astuces simples pour rendre une maison ou un condo plus luxueux sans grosses rénovations ni gros budget.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/2D7agf6TzBKoSNkF8MZezpHaTJkThxqBDxJ9rgJ8_small.jpeg",
+      "date": "",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Ce que les jeunes acheteurs recherchent vraiment dans une première propriété",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/ce-que-les-jeunes-acheteurs-recherchent-vraiment-dans-une-premiere-propriete-1213",
+      "category": "Immobilier",
+      "excerpt": "Ce que les jeunes acheteurs recherchent vraiment dans une première maison ou condo en 2026.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/2TLSVkTBez814BZD8rFvPrwuwgCrraKtBXr9GaAb_small.jpeg",
+      "date": "29 mai 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Prix affiché vs prix vendu : comprendre l’écart (parfois impressionnant)",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/prix-affiche-vs-prix-vendu-comprendre-lecart-parfois-impressionnant-1212",
+      "category": "Immobilier",
+      "excerpt": "Pourquoi y a-t-il un écart parfois grand entre le prix affiché et le prix vendu d’une maison ou d’un condo?",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/aREHXyM72w1eag31tPInphdgXzC6zbSQSn80ieu6_small.jpeg",
+      "date": "24 mai 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Acheter une propriété en zone à risque : ce qu’il faut savoir",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/acheter-une-propriete-en-zone-a-risque-ce-quil-faut-savoir-1211",
+      "category": "Immobilier",
+      "excerpt": "Acheter une maison ou un condo en zone à risque : conseils essentiels pour tout propriétaire afin de faire un achat éclairé.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/ExYajQaVdKIitQoKZEZ7q46gTBozEvEPlcvaQo3T_small.jpeg",
+      "date": "22 mai 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "La crise du logement : quels impacts pour les propriétaires?",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/la-crise-du-logement-quels-impacts-pour-les-proprietaires-1210",
+      "category": "Actualités",
+      "excerpt": "Crise du logement: quels impacts pour le propriétaire occupant ou le propriétaire investisseur, et comment s’adapter au marché actuel.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/zzrIYmq1z0voy5u5roDgbQYNNlRAiKL6hUyx3R8c_small.jpeg",
+      "date": "17 mai 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "Les tendances déco qui vont durer au fil du temps",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/les-tendances-deco-qui-vont-durer-au-fil-du-temps-1209",
+      "category": "Design",
+      "excerpt": "Tendances maison: celles qui vont durer et celles à éviter pour un intérieur plus intemporel.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/eZe1VvJQrlaHmuX5BLTU0ervSjCIGAOnCcFjgNqX_small.jpeg",
+      "date": "15 mai 2026",
+      "author": "RE/MAX Québec"
+    },
+    {
+      "title": "10 petits irritants dans une maison… et comment les régler pour vrai",
+      "url": "https://www.remax-quebec.com/fr/blogue/article/10-petits-irritants-dans-une-maison-et-comment-les-regler-pour-vrai-1207",
+      "category": "Style de vie",
+      "excerpt": "10 irritants courants dans une maison et leurs solutions simples pour améliorer le confort, la fonctionnalité et la valeur de votre propriété.",
+      "image": "https://prod-centiva-blogue-api-uploads.s3.ca-central-1.amazonaws.com/medias/1/1/FuXNYbaA8YNQkXgoXTSZKE5kFIydKOxxYyXXlcwH_small.jpeg",
+      "date": "",
+      "author": "RE/MAX Québec"
+    }
+  ]
+}
