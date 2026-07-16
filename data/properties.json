@@ -7154,5 +7154,251 @@
       }
     ],
     "slug": "21564190-rue-campeau-mirabel"
+  },
+  {
+    "mls": "26774146",
+    "price": 284900,
+    "civic": "3510",
+    "street": "Route 344",
+    "address": "3510, Route 344",
+    "city": "Saint-Placide",
+    "postalCode": "J0V2B0",
+    "type": "maison",
+    "beds": 2,
+    "baths": 1,
+    "powder": 0,
+    "yearBuilt": "1956",
+    "areaTerrain": "2435.70 MC",
+    "lat": 45.529147,
+    "lon": -74.226944,
+    "eval": {
+      "year": "2026",
+      "terrain": 108700,
+      "batiment": 200900,
+      "total": 309600
+    },
+    "taxes": {
+      "mun": 1769,
+      "year": "2025",
+      "sco": 198
+    },
+    "video": null,
+    "status": "new",
+    "listingDate": "2026-07-15",
+    "descFr": "",
+    "remFr": "Bienvenue au 3510-3530 route 344, une propriété offrant un potentiel intéressant, implantée sur un vaste terrain de 26 217 pi². 3530: RDC disponible pour propriétaire occupant, il offre un spacieux 4 ½. La cuisine accueille de nombreuses armoires ainsi qu'un espace suffisamment généreux pour accueillir un îlot central ou une grande salle à manger. 3520: À l'étage, vous trouverez un logement 3 ½ indépendant. Le 3510 aurait autrefois été habité, mais a été transformé en garage/remise offrant amplement d'espace pour entreposer vos outils et équipements.",
+    "features": [
+      {
+        "code": "ABRI",
+        "value": "ATTA"
+      },
+      {
+        "code": "ALLE",
+        "value": "NPAV"
+      },
+      {
+        "code": "CHAU",
+        "value": "PELC"
+      },
+      {
+        "code": "EAU",
+        "value": "INCO"
+      },
+      {
+        "code": "ENER",
+        "value": "ELEC"
+      },
+      {
+        "code": "FENE",
+        "value": "PVC"
+      },
+      {
+        "code": "FOND",
+        "value": "AU"
+      },
+      {
+        "code": "PARE",
+        "value": "BOIS"
+      },
+      {
+        "code": "PARE",
+        "value": "VINY"
+      },
+      {
+        "code": "SS",
+        "value": "VSAN"
+      },
+      {
+        "code": "STAT",
+        "value": "ABRI"
+      },
+      {
+        "code": "STAT",
+        "value": "EXT"
+      },
+      {
+        "code": "SYEG",
+        "value": "INCO"
+      },
+      {
+        "code": "TFEN",
+        "value": "COUL"
+      },
+      {
+        "code": "TOIT",
+        "value": "BAA"
+      },
+      {
+        "code": "VUE",
+        "value": "EAU"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Hall d'entrée",
+        "level": "Rez-de-chaussée",
+        "dim": "5'5\" × 4'2\"",
+        "rev": "AU"
+      },
+      {
+        "name": "Salon",
+        "level": "Rez-de-chaussée",
+        "dim": "13'1\" × 12'4\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Walk-in",
+        "level": "Rez-de-chaussée",
+        "dim": "5'11\" × 5'",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Cuisine",
+        "level": "Rez-de-chaussée",
+        "dim": "20'1\" × 17'8\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "Rez-de-chaussée",
+        "dim": "12'8\" × 12'7\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre",
+        "level": "Rez-de-chaussée",
+        "dim": "13' × 10'11\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Walk-in",
+        "level": "Rez-de-chaussée",
+        "dim": "5'1\" × 3'7\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Rez-de-chaussée",
+        "dim": "9'6\" × 6'1\"",
+        "rev": "Céramique"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F14CD1FBB8B4D10&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F14FD1FBB8B4D42&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F1DFD1FBB8B4D24&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "REMI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F12AD1FBB8B4DC2&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "EXTE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F112D1FBB8B4DEF&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "EXTE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F119D1FBB8B4DAE&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "ENTREE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F14DD1FBB8B4D0F&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "EXTE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F146D1FBB8B4DB4&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "EXTE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F122D1FBB8B4DFE&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F12CD1FBB8B4D8C&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "REMI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F12BD1FBB8B4D9F&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "REMI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F12FD1FBB8B4D71&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F123D1FBB8B4D32&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "EXTE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F1C1D1FBB8B4D5A&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "REMI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F1C2D1FBB8B4D6F&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "REMI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F1CCD1FBB8B41DF&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "EXTE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F1FDD1FBB8B4111&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "EXTE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA44F1F4D1FBB8B414C&t=pi&f=I"
+      }
+    ],
+    "slug": "26774146-route-344-saint-placide"
   }
 ]
