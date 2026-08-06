@@ -4212,6 +4212,282 @@
     "slug": "21474402-rue-landry-sainte-marthe-sur-le-lac"
   },
   {
+    "mls": "27742275",
+    "price": 459900,
+    "civic": "672",
+    "street": "Rue des Sureaux",
+    "address": "672, Rue des Sureaux",
+    "city": "Boucherville",
+    "postalCode": "J4B0J4",
+    "type": "condo",
+    "beds": 2,
+    "baths": 1,
+    "powder": 0,
+    "yearBuilt": "2010",
+    "areaTerrain": "",
+    "lat": 45.579343,
+    "lon": -73.403472,
+    "eval": {
+      "year": "2026",
+      "terrain": 81700,
+      "batiment": 288500,
+      "total": 370200
+    },
+    "taxes": {
+      "mun": 1837,
+      "year": "2026",
+      "sco": 253
+    },
+    "video": null,
+    "status": "new",
+    "listingDate": "2026-08-05",
+    "descFr": "À l'extérieur, profitez d'une terrasse couverte, un véritable prolongement de l'espace de vie. Qu'il pleuve ou qu'il fasse beau, vous pourrez vous y installer en tout confort, avec en prime les installations pour un BBQ relié au gaz naturel, éliminant les contraintes des bonbonnes. La copropriété offre une piscine creusée chauffée, de nombreux espaces de stationnements visiteurs ainsi que des frais de copropriété incluant, entre autres, l'eau chaude. Son emplacement est tout aussi remarquable : à quelques minutes de marche du Carrefour de la Rive-Sud (Costco, IKEA, RONA, épiceries, pharmacies et restaurants), près des autoroutes 20 et 30, du transport en commun, des pistes cyclables, des parcs et des terrains de golf. LE CONDO *Situé à l'étage supérieur, sans voisin au-dessus; *Grande aire de vie ouverte et lumineuse; *Cuisine rénovée offrant de généreuses surfaces de travail; *Deux Porte-patio laissant entrer une abondante lumière naturelle; *Impressionnante terrasse couverte *Installation pour BBQ raccordé directement au gaz naturel; *Chambre principale avec walk-in aménagé; *Salle de bain attenante à la CCP *Thermopompe murale; *Espace de rangement à l'intérieur de l'unité; *Un espace de stationnement (B18) situé directement devant l'entrée. LA COPROPRIÉTÉ *Projet intégré très bien entretenu; *Piscine creusée chauffée réservée aux copropriétaires; *Eau chaude incluse dans les frais de copropriété; *Nombreux espaces de stationnement pour les visiteurs. LE SECTEUR *À quelques minutes de marche du Carrefour de la Rive-Sud; Costco, IKEA, RONA, épiceries, pharmacies, restaurants et nombreux commerces; *Accès rapide aux autoroutes 20 et 30; *Transport en commun facilement accessible; *Pistes cyclables, parcs et terrains de golf à proximité. Une propriété clé en main où confort, tranquillité et emplacement se rencontrent.",
+    "remFr": "Les Cours Georgiennes -- Une occasion d'acquérir une unité au dernier étage offrant une tranquillité recherchée. Dès l'entrée, vous serez charmé par la vaste aire ouverte où la lumière naturelle est omniprésente grâce à une généreuse fenestration. La cuisine rénovée une vaste surface de travail ainsi qu'un aménagement fonctionnel. La chambre principale bénéficie d'un walk-in aménagé et d'un accès direct à la salle de bain. Une seconde chambre de bonnes dimensions en plus d'un espace de rangement pratique situé à même le condo complètent l'unité. La thermopompe murale assure un confort optimal.",
+    "features": [
+      {
+        "code": "ALLE",
+        "value": "ASPH"
+      },
+      {
+        "code": "REPE",
+        "value": "COND"
+      },
+      {
+        "code": "CHAU",
+        "value": "PELC"
+      },
+      {
+        "code": "EAU",
+        "value": "AMU"
+      },
+      {
+        "code": "ENER",
+        "value": "ELEC"
+      },
+      {
+        "code": "EQUI",
+        "value": "INTP"
+      },
+      {
+        "code": "EQUI",
+        "value": "THEM"
+      },
+      {
+        "code": "PROX",
+        "value": "AUTO"
+      },
+      {
+        "code": "SDB",
+        "value": "DIND"
+      },
+      {
+        "code": "STAT",
+        "value": "EXT"
+      },
+      {
+        "code": "SYEG",
+        "value": "EGMU"
+      },
+      {
+        "code": "TOIT",
+        "value": "BAA"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Hall d'entrée",
+        "level": "2e niveau",
+        "dim": "3'1\" × 7'",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salon",
+        "level": "2e niveau",
+        "dim": "12'1\" × 13'2\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "2e niveau",
+        "dim": "10'1\" × 12'5\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Cuisine",
+        "level": "2e niveau",
+        "dim": "8'8\" × 15'1\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "2e niveau",
+        "dim": "12'1\" × 15'5\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Chambre",
+        "level": "2e niveau",
+        "dim": "12'6\" × 10'6\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "2e niveau",
+        "dim": "15'2\" × 8'4\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle de lavage",
+        "level": "2e niveau",
+        "dim": "2'1\" × 5'4\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Rangement",
+        "level": "2e niveau",
+        "dim": "4'5\" × 7'4\"",
+        "rev": "Céramique"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D0D180EDC2D1D&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76DAD180EDC2D4D&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7613D180EDC2D2A&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7616D180EDC2DCF&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7615D180EDC2DEF&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F764DD180EDC2DAD&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761BD180EDC2D0B&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7619D180EDC2DBF&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7618D180EDC2DFF&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761FD180EDC2D8F&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761CD180EDC2D9E&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7612D180EDC2D7E&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761ED180EDC2D3B&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761AD180EDC2D5D&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7610D180EDC2D64&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D3D180EDC21D2&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7611D180EDC211A&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7614D180EDC214B&t=pi&f=I"
+      },
+      {
+        "seq": 19,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D5D180EDC2120&t=pi&f=I"
+      },
+      {
+        "seq": 20,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D6D180EDC21CF&t=pi&f=I"
+      },
+      {
+        "seq": 21,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761DD180EDC21EF&t=pi&f=I"
+      },
+      {
+        "seq": 22,
+        "type": "BALCON",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76DBD180EDC21A0&t=pi&f=I"
+      },
+      {
+        "seq": 23,
+        "type": "BALCON",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76DFD180EDC210F&t=pi&f=I"
+      },
+      {
+        "seq": 24,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D9D180EDC21BF&t=pi&f=I"
+      },
+      {
+        "seq": 25,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D7D180EDC21F1&t=pi&f=I"
+      },
+      {
+        "seq": 26,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7617D180EDC218D&t=pi&f=I"
+      }
+    ],
+    "slug": "27742275-rue-des-sureaux-boucherville"
+  },
+  {
     "mls": "11835307",
     "price": 449900,
     "civic": "3500",
