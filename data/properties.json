@@ -419,7 +419,7 @@
       "sco": 320
     },
     "video": null,
-    "status": "new",
+    "status": "forsale",
     "listingDate": "2026-08-06",
     "descFr": "FERMETTE DE 46,5 ARPENTS À MIRABEL - DEUX PROPRIÉTÉS sur un même lot. Offerte pour la première fois, cette magnifique fermette représente une occasion exceptionnelle d'acquérir un domaine où nature, agriculture et qualité de vie se rencontrent. Située sur une rue paisible en cul-de-sac, la propriété offre un environnement intime, entouré d'arbres matures et de terres cultivées ainsi que plusieurs bâtiments agricoles. Elle comprend deux résidences indépendantes sur le même lot : une chaleureuse maison ancestrale familiale ainsi qu'une maison mobile sur fondation. 13414: Maison à étage avec vide sanitaire. 13400; Maison mobile sur fondation. Les terres sont actuellement exploitées avec une culture de blé d'automne, des plantations de fraises et de framboises, ainsi qu'une érablière d'environ 650 entailles. Plusieurs bâtiments agricoles complètent l'ensemble et offrent une multitude de possibilités. L'immense terrain boisé procure une intimité remarquable tout en demeurant à proximité des services de Mirabel. Une propriété offrant autant d'espace, deux habitations et autant de potentiel est devenue rare.",
     "remFr": "Depuis des générations, cette terre a été entretenue avec soin par la même famille. Aujourd'hui, c'est à votre tour d'écrire la suite de son histoire. Avec ses 46,5 arpents, ses deux résidences, son érablière, ses cultures et ses nombreux bâtiments, cette fermette est une occasion aussi rare que précieuse à Mirabel.",
@@ -2955,8 +2955,8 @@
     "video": null,
     "status": "forsale",
     "listingDate": "2026-06-11",
-    "descFr": "Propriété située dans un beau quartier! REZ-DE-CHAUSSÉE -Cuisine avec îlot central et comptoirs de céramique blanche; -Salon de bonnes dimensions profitant d'une belle luminosité naturelle grâce à sa grande fenêtre en baie; -Accès direct à la terrasse depuis la cuisine par une grande porte-patio; -2 chambres à coucher de bonnes dimensions; -Salle de bain complète avec bain et douche séparés. SOUS-SOL -Spacieuse salle familiale offrant plusieurs possibilités d'aménagement; -3e chambre à coucher; -Deuxième salle de bain complète; -Salle de lavage; -Espace de rangement EXTÉRIEUR: -Vaste terrain de plus de 16 000 pi², entièrement aménagé; -Garage détaché et chauffé, ajouté depuis l'acquisition; -Grande allée permettant de stationner jusqu'à 6 véhicules. COURS - Piscine hors terre chauffée; -Terrasse sur deux niveaux, offrant beaucoup d'espace pour aménager différentes zones; - Coin feu pour profiter des soirées à l'extérieur; - Espace aménagé avec module de jeux pour enfants; QUARTIER ET PROXIMITÉ Secteur résidentiel calme et familial; À proximité de l'école primaire L'Orée-des-Bois; À proximité de la future bibliothèque de Saint-Colomban; À +/- 10-15 minutes de l'autoroute 15; Accès facile aux commerces, services et commodités du secteur.",
-    "remFr": "Bienvenue dans cette propriété chaleureuse offrant 3 chambres à coucher et 2 salles de bain complètes, avec possibilité d'occupation rapide. Située dans un secteur paisible et familial, à proximité des services. Plusieurs améliorations réalisées en 2021 contribuent au caractère actuel de la propriété. La cuisine se démarque par son îlot central et ses comptoirs au goût du jour. Un garage détaché et chauffé, ajouté depuis l'acquisition, constitue un atout appréciable. Le vaste terrain aménagé de plus de 16 000 pi² accueille à la cour un ensoleillement optimal, une piscine chaufée et un modile de jeu. Voir addenda.",
+    "descFr": "Propriété située dans un beau quartier! REZ-DE-CHAUSSÉE Le rez-de-chaussée propose une cuisine au goût du jour avec îlot central et comptoirs de céramique blanche, ainsi qu'un salon de bonnes dimensions bénéficiant d'une belle luminosité naturelle grâce à sa grande fenêtre en baie. Une grande porte-patio située dans la cuisine donne un accès direct à la terrasse et à la cour arrière. Deux chambres à coucher de bonnes dimensions ainsi qu'une salle de bain complète avec bain et douche séparés complètent ce niveau. SOUS-SOL Le sous-sol ajoute une vaste salle familiale, une 3e chambre, une 2e salle de bain, une salle de lavage ainsi que du rangement. EXTÉRIEUR: À l'extérieur, le terrain aménagé de plus de 16 000 pi² devient un véritable prolongement de la maison : grande piscine hors terre chauffée, vaste terrasse sur deux niveaux, coin feu et espace avec module de jeux. Le garage détaché chauffé, ajouté depuis l'acquisition, constitue un atout supplémentaire, tout comme la grande allée pouvant accueillir jusqu'à 6 véhicules. Plusieurs améliorations ont été apportées à la propriété, notamment en 2021. Située dans un secteur paisible de Saint-Colomban, à proximité de l'école primaire L'Orée-des-Bois, de la future bibliothèque, des services et à environ 10-15 minutes de l'autoroute 15. Occupation rapide possible.",
+    "remFr": "Propriété avec garage, piscine hors-terre sise sur un grand terrain est disponible rapidement au besoin. Chaleureuse et offrant de beaux espaces de vie, cette propriété de 3 chambres et 2 salles de bain mérite votre attention! Le rez-de-chaussée propose une aire de vie où la cuisine rénovée, avec îlot central et comptoirs de céramique blanche, s'ouvre sur la salle à manger. Le sous-sol accueille une spacieuse salle familiale, une 3e chambre, une salle de bains et la salle de lavage. La cours est à faire rêve tout amateur des joies extérieures.",
     "features": [
       {
         "code": "ALLE",
@@ -3165,327 +3165,347 @@
       {
         "seq": 1,
         "type": "FACA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E272DDF45772D11&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EA4FDDF45772D12&t=pi&f=I"
       },
       {
         "seq": 2,
         "type": "FACA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EA4FDDF45772D4C&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E272DDF45772D44&t=pi&f=I"
       },
       {
         "seq": 3,
-        "type": "FACA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E278DDF45772D20&t=pi&f=I"
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E23CDDF45772D2E&t=pi&f=I"
       },
       {
         "seq": 4,
-        "type": "GARA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E273DDF45772DC1&t=pi&f=I"
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC81DDF45772DC1&t=pi&f=I"
       },
       {
         "seq": 5,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E276DDF45772DEC&t=pi&f=I"
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA21FD10DDF45772DE4&t=pi&f=I"
       },
       {
         "seq": 6,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E231DDF45772DAE&t=pi&f=I"
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC51DDF45772DA0&t=pi&f=I"
       },
       {
         "seq": 7,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E232DDF45772D0B&t=pi&f=I"
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EA29DDF45772D0F&t=pi&f=I"
       },
       {
         "seq": 8,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E23CDDF45772DBD&t=pi&f=I"
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EACFDDF45772DB4&t=pi&f=I"
       },
       {
         "seq": 9,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E23ADDF45772DF2&t=pi&f=I"
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EAC4DDF45772DFA&t=pi&f=I"
       },
       {
         "seq": 10,
-        "type": "REMI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E23BDDF45772D82&t=pi&f=I"
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC58DDF45772D8C&t=pi&f=I"
       },
       {
         "seq": 11,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E23FDDF45772D9E&t=pi&f=I"
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC6FDDF45772D9B&t=pi&f=I"
       },
       {
         "seq": 12,
-        "type": "PISC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E239DDF45772D7E&t=pi&f=I"
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA21FD1ADDF45772D7E&t=pi&f=I"
       },
       {
         "seq": 13,
-        "type": "PISC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E26EDDF45772D3E&t=pi&f=I"
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEDEDDF45772D3E&t=pi&f=I"
       },
       {
         "seq": 14,
-        "type": "TERA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E263DDF45772D51&t=pi&f=I"
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EED5DDF45772D54&t=pi&f=I"
       },
       {
         "seq": 15,
-        "type": "TERA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECDEDDF45772D6A&t=pi&f=I"
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE1CDDF45772D60&t=pi&f=I"
       },
       {
         "seq": 16,
-        "type": "TERA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC4ADDF457721DB&t=pi&f=I"
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE41DDF457721DC&t=pi&f=I"
       },
       {
         "seq": 17,
-        "type": "TERA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC45DDF4577211C&t=pi&f=I"
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE4FDDF45772112&t=pi&f=I"
       },
       {
         "seq": 18,
-        "type": "TERA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC2ADDF45772141&t=pi&f=I"
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE2DDDF4577214A&t=pi&f=I"
       },
       {
         "seq": 19,
-        "type": "TERA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECC4DDF4577212F&t=pi&f=I"
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE2BDDF4577212E&t=pi&f=I"
       },
       {
         "seq": 20,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECADDDF457721CD&t=pi&f=I"
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA21FD1EDDF457721CD&t=pi&f=I"
       },
       {
         "seq": 21,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC0DDDF457721E4&t=pi&f=I"
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEC0DDF457721E0&t=pi&f=I"
       },
       {
         "seq": 22,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC0FDDF457721A4&t=pi&f=I"
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEE1DDF457721A2&t=pi&f=I"
       },
       {
         "seq": 23,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECB4DDF45772100&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA21FD14DDF4577210D&t=pi&f=I"
       },
       {
         "seq": 24,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECFCDDF457721B1&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE04DDF457721BB&t=pi&f=I"
       },
       {
         "seq": 25,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC81DDF457721F0&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEB2DDF457721F1&t=pi&f=I"
       },
       {
         "seq": 26,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC89DDF45772184&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA21FDD9DDF4577218E&t=pi&f=I"
       },
       {
         "seq": 27,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC98DDF45772192&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEECDDF4577219B&t=pi&f=I"
       },
       {
         "seq": 28,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC72DDF45772171&t=pi&f=I"
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEA2DDF4577217F&t=pi&f=I"
       },
       {
         "seq": 29,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC77DDF4577213B&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEA9DDF4577213E&t=pi&f=I"
       },
       {
         "seq": 30,
-        "type": "AERIENNE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC5DDDF45772154&t=pi&f=I"
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA21F12BDDF45772152&t=pi&f=I"
       },
       {
         "seq": 31,
-        "type": "SAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC51DDF4577216C&t=pi&f=I"
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE99DDF4577216F&t=pi&f=I"
       },
       {
         "seq": 32,
-        "type": "SAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EA29DDF457724DC&t=pi&f=I"
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEF5DDF457724D4&t=pi&f=I"
       },
       {
         "seq": 33,
-        "type": "SAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EACFDDF45772410&t=pi&f=I"
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE84DDF45772414&t=pi&f=I"
       },
       {
         "seq": 34,
-        "type": "SAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EAC4DDF45772441&t=pi&f=I"
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE80DDF4577244B&t=pi&f=I"
       },
       {
         "seq": 35,
-        "type": "SAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC58DDF45772424&t=pi&f=I"
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE90DDF4577242D&t=pi&f=I"
       },
       {
         "seq": 36,
-        "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC6FDDF457724CA&t=pi&f=I"
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE71DDF457724CA&t=pi&f=I"
       },
       {
         "seq": 37,
-        "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEDEDDF457724E4&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE79DDF457724EC&t=pi&f=I"
       },
       {
         "seq": 38,
-        "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EED5DDF457724AF&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE70DDF457724AC&t=pi&f=I"
       },
       {
         "seq": 39,
-        "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE1CDDF4577240C&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA21F41DDDF45772401&t=pi&f=I"
       },
       {
         "seq": 40,
-        "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE41DDF457724B2&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE37DDF457724BF&t=pi&f=I"
       },
       {
         "seq": 41,
-        "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE4FDDF457724F4&t=pi&f=I"
+        "type": "CAV",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE50DDF457724FF&t=pi&f=I"
       },
       {
         "seq": 42,
-        "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE2DDDF45772484&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE6DDDF45772481&t=pi&f=I"
       },
       {
         "seq": 43,
-        "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE2BDDF45772491&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EAD4DDF45772492&t=pi&f=I"
       },
       {
         "seq": 44,
-        "type": "CCP",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEC0DDF45772474&t=pi&f=I"
+        "type": "RAN",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EAD6DDF4577247C&t=pi&f=I"
       },
       {
         "seq": 45,
-        "type": "CCP",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEE1DDF4577243B&t=pi&f=I"
+        "type": "GARA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EA2CDDF4577243D&t=pi&f=I"
       },
       {
         "seq": 46,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEECDDF45772454&t=pi&f=I"
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E276DDF45772454&t=pi&f=I"
       },
       {
         "seq": 47,
-        "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEA2DDF45772462&t=pi&f=I"
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E231DDF45772462&t=pi&f=I"
       },
       {
         "seq": 48,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEA9DDF457722D0&t=pi&f=I"
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E232DDF457722DC&t=pi&f=I"
       },
       {
         "seq": 49,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE04DDF45772212&t=pi&f=I"
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E23ADDF4577221B&t=pi&f=I"
       },
       {
         "seq": 50,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEB2DDF4577224A&t=pi&f=I"
+        "type": "REMI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E23BDDF45772241&t=pi&f=I"
       },
       {
         "seq": 51,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEFADDF45772221&t=pi&f=I"
+        "type": "PISC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E239DDF45772224&t=pi&f=I"
       },
       {
         "seq": 52,
-        "type": "SFM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EEF5DDF457722C0&t=pi&f=I"
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E23FDDF457722CC&t=pi&f=I"
       },
       {
         "seq": 53,
-        "type": "SFM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE84DDF457722E0&t=pi&f=I"
+        "type": "PISC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E26EDDF457722E2&t=pi&f=I"
       },
       {
         "seq": 54,
-        "type": "SFM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE80DDF457722A2&t=pi&f=I"
+        "type": "TERA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E263DDF457722AF&t=pi&f=I"
       },
       {
         "seq": 55,
-        "type": "SFM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE90DDF4577220E&t=pi&f=I"
+        "type": "TERA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECDEDDF4577220C&t=pi&f=I"
       },
       {
         "seq": 56,
-        "type": "SFM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE99DDF457722B0&t=pi&f=I"
+        "type": "TERA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC4ADDF457722BB&t=pi&f=I"
       },
       {
         "seq": 57,
-        "type": "SFM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE71DDF457722F4&t=pi&f=I"
+        "type": "TERA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC45DDF457722FC&t=pi&f=I"
       },
       {
         "seq": 58,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE79DDF45772280&t=pi&f=I"
+        "type": "TERA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC2ADDF4577228B&t=pi&f=I"
       },
       {
         "seq": 59,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE70DDF45772290&t=pi&f=I"
+        "type": "TERA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECC4DDF4577229A&t=pi&f=I"
       },
       {
         "seq": 60,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE37DDF45772271&t=pi&f=I"
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECADDDF45772270&t=pi&f=I"
       },
       {
         "seq": 61,
-        "type": "CAV",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE50DDF45772231&t=pi&f=I"
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC0DDDF4577223F&t=pi&f=I"
       },
       {
         "seq": 62,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EE6DDDF4577225A&t=pi&f=I"
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC0FDDF4577225F&t=pi&f=I"
       },
       {
         "seq": 63,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EAD4DDF4577226B&t=pi&f=I"
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECB4DDF4577226C&t=pi&f=I"
       },
       {
         "seq": 64,
-        "type": "RAN",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EAD6DDF45772CD0&t=pi&f=I"
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12ECFCDDF45772CDA&t=pi&f=I"
       },
       {
         "seq": 65,
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC98DDF45772C1F&t=pi&f=I"
+      },
+      {
+        "seq": 66,
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC5DDDF45772C4A&t=pi&f=I"
+      },
+      {
+        "seq": 67,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E278DDF45772C21&t=pi&f=I"
+      },
+      {
+        "seq": 68,
         "type": "GARA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EA2CDDF45772C12&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E273DDF45772CCE&t=pi&f=I"
+      },
+      {
+        "seq": 69,
+        "type": "AERIENNE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EC89DDF45772CE2&t=pi&f=I"
       }
     ],
     "slug": "9628867-rue-du-chatelet-saint-colomban"
@@ -3879,7 +3899,7 @@
       "sco": 253
     },
     "video": null,
-    "status": "new",
+    "status": "forsale",
     "listingDate": "2026-08-05",
     "descFr": "À l'extérieur, profitez d'une terrasse couverte, un véritable prolongement de l'espace de vie. Qu'il pleuve ou qu'il fasse beau, vous pourrez vous y installer en tout confort, avec en prime les installations pour un BBQ relié au gaz naturel, éliminant les contraintes des bonbonnes. La copropriété offre une piscine creusée chauffée, de nombreux espaces de stationnements visiteurs ainsi que des frais de copropriété incluant, entre autres, l'eau chaude. Son emplacement est tout aussi remarquable : à quelques minutes de marche du Carrefour de la Rive-Sud (Costco, IKEA, RONA, épiceries, pharmacies et restaurants), près des autoroutes 20 et 30, du transport en commun, des pistes cyclables, des parcs et des terrains de golf. LE CONDO *Situé à l'étage supérieur, sans voisin au-dessus; *Grande aire de vie ouverte et lumineuse; *Cuisine rénovée offrant de généreuses surfaces de travail; *Deux Porte-patio laissant entrer une abondante lumière naturelle; *Impressionnante terrasse couverte *Chambre principale avec walk-in aménagé; *Salle de bain attenante à la CCP *Thermopompe murale; *Espace de rangement à l'intérieur de l'unité; *Un espace de stationnement (B18) situé directement devant l'entrée. LA COPROPRIÉTÉ *Projet intégré très bien entretenu; *Piscine creusée chauffée réservée aux copropriétaires; *Eau chaude incluse dans les frais de copropriété; *Nombreux espaces de stationnement pour les visiteurs. LE SECTEUR *À quelques minutes de marche du Carrefour de la Rive-Sud; Costco, IKEA, RONA, épiceries, pharmacies, restaurants et nombreux commerces; *Accès rapide aux autoroutes 20 et 30; *Transport en commun facilement accessible; *Pistes cyclables, parcs et terrains de golf à proximité. Une propriété clé en main où confort, tranquillité et emplacement se rencontrent.",
     "remFr": "Les Cours Georgiennes -- Une occasion d'acquérir une unité au dernier étage offrant une tranquillité recherchée. Dès l'entrée, vous serez charmé par la vaste aire ouverte où la lumière naturelle est omniprésente grâce à une généreuse fenestration. La cuisine rénovée une vaste surface de travail ainsi qu'un aménagement fonctionnel. La chambre principale bénéficie d'un walk-in aménagé et d'un accès direct à la salle de bain. Une seconde chambre de bonnes dimensions en plus d'un espace de rangement pratique situé à même le condo complètent l'unité. La thermopompe murale assure un confort optimal.",
