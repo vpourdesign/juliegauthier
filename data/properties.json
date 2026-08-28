@@ -3872,6 +3872,357 @@
     "slug": "21474402-rue-landry-sainte-marthe-sur-le-lac"
   },
   {
+    "mls": "26780572",
+    "price": 520000,
+    "civic": "152",
+    "street": "Rue Lachapelle",
+    "address": "152, Rue Lachapelle",
+    "city": "Saint-Colomban",
+    "postalCode": "J5K1J9",
+    "type": "maison",
+    "beds": 2,
+    "baths": 2,
+    "powder": 0,
+    "yearBuilt": "2006",
+    "areaTerrain": "5201.70 MC",
+    "lat": 45.76995306,
+    "lon": -74.10414967,
+    "eval": {
+      "year": "2025",
+      "terrain": 156800,
+      "batiment": 460400,
+      "total": 617200
+    },
+    "taxes": {
+      "mun": 3280,
+      "year": "2026",
+      "sco": 408
+    },
+    "video": null,
+    "status": "new",
+    "listingDate": "2026-08-27",
+    "descFr": "-Toute promesse d'achat doit être présentée sur les formulaires produits par le ministre du Revenu du Québec. -Un acompte d'un montant représentant cinq pour cent (5 %) du prix offert, fait par chèque visé ou mandat postal, doit accompagner toute promesse d'achat. -La vente est faite sans aucune garantie et aux risques et périls de l'acheteur. -L'acheteur assume les frais du certificat de localisation, s'il y a lieu ainsi que de l'obtention de la lettre de conformité des installations septiques. -Le vendeur, en tant qu'administrateur provisoire d'une succession, doit obtenir l'autorisation du tribunal afin de vendre la propriété. Les délais menant à l'obtention de cette autorisation judiciaire sont très variables et ne peuvent pas être estimés. L'acte de vente ne peut, en aucun temps, être signé avant l'obtention de cette autorisation.",
+    "remFr": "Vente de succession! Située dans un rond-point paisible de St-Colomban, cette propriété se distingue par son vaste terrain de plus de 55 000 pi², offrant intimité et de belles possibilités d'aménagement. Elle comprend un garage ainsi qu'une remise munie d'une porte de garage. Au rez-de-chaussée, l'aire de vie ouverte réunit un salon avec accès direct à la véranda, une salle à manger conviviale et la cuisine. À l'étage, deux chambres à coucher complètent la propriété. Une belle occasion à saisir dans un environnement verdoyant et tranquille!",
+    "features": [
+      {
+        "code": "ALLE",
+        "value": "NPAV"
+      },
+      {
+        "code": "CHAU",
+        "value": "PELC"
+      },
+      {
+        "code": "EAU",
+        "value": "INCO"
+      },
+      {
+        "code": "GARA",
+        "value": "DET"
+      },
+      {
+        "code": "SDB",
+        "value": "DIND"
+      },
+      {
+        "code": "SS",
+        "value": "6"
+      },
+      {
+        "code": "SS",
+        "value": "AMNP"
+      },
+      {
+        "code": "STAT",
+        "value": "EXT"
+      },
+      {
+        "code": "STAT",
+        "value": "GARA"
+      },
+      {
+        "code": "SYEG",
+        "value": "INCO"
+      },
+      {
+        "code": "PART",
+        "value": "BOIS"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Hall d'entrée",
+        "level": "Rez-de-chaussée",
+        "dim": "8'2\" × 5'2\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salon",
+        "level": "Rez-de-chaussée",
+        "dim": "13'8\" × 10'",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "Rez-de-chaussée",
+        "dim": "12' × 10'7\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Cuisine",
+        "level": "Rez-de-chaussée",
+        "dim": "16'5\" × 9'2\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Rez-de-chaussée",
+        "dim": "8'11\" × 6'5\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Solarium",
+        "level": "Rez-de-chaussée",
+        "dim": "17'6\" × 11'8\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "2e niveau",
+        "dim": "21'8\" × 14'4\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Walk-in",
+        "level": "2e niveau",
+        "dim": "14'4\" × 4'1\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Chambre",
+        "level": "2e niveau",
+        "dim": "12'1\" × 9'11\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "2e niveau",
+        "dim": "14'5\" × 9'10\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle familiale",
+        "level": "Sous-sol",
+        "dim": "25'1\" × 17'2\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle de lavage",
+        "level": "Sous-sol",
+        "dim": "14'2\" × 8'5\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Autre",
+        "level": "Sous-sol",
+        "dim": "11'5\" × 8'5\"",
+        "rev": "Céramique"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9BCD1FB82F7D11&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9BAD1FB82F7D4C&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9B0D1FB82F7D2A&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9BBD1FB82F7DCB&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9BFD1FB82F7DED&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9B9D1FB82F7DAD&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9B7D1FB82F7D04&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9B3D1FB82F7DBC&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9B6D1FB82F7DF0&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9FDD1FB82F7D8C&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F1D1FB82F7D9A&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F4D1FB82F7D7B&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F2D1FB82F7D3D&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9FED1FB82F7D52&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9FAD1FB82F7D6E&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F0D1FB82F71DE&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "SOL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9FBD1FB82F7110&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "SOL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9FFD1FB82F714F&t=pi&f=I"
+      },
+      {
+        "seq": 19,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F9D1FB82F712F&t=pi&f=I"
+      },
+      {
+        "seq": 20,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F7D1FB82F71C1&t=pi&f=I"
+      },
+      {
+        "seq": 21,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F3D1FB82F71E2&t=pi&f=I"
+      },
+      {
+        "seq": 22,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F5D1FB82F71AE&t=pi&f=I"
+      },
+      {
+        "seq": 23,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9F6D1FB82F7100&t=pi&f=I"
+      },
+      {
+        "seq": 24,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB98DD1FB82F71BC&t=pi&f=I"
+      },
+      {
+        "seq": 25,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB981D1FB82F71FA&t=pi&f=I"
+      },
+      {
+        "seq": 26,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB984D1FB82F718E&t=pi&f=I"
+      },
+      {
+        "seq": 27,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB982D1FB82F7190&t=pi&f=I"
+      },
+      {
+        "seq": 28,
+        "type": "SDL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB98CD1FB82F717F&t=pi&f=I"
+      },
+      {
+        "seq": 29,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB98ED1FB82F7131&t=pi&f=I"
+      },
+      {
+        "seq": 30,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB98AD1FB82F7152&t=pi&f=I"
+      },
+      {
+        "seq": 31,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB980D1FB82F716E&t=pi&f=I"
+      },
+      {
+        "seq": 32,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB98BD1FB82F74DE&t=pi&f=I"
+      },
+      {
+        "seq": 33,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB98FD1FB82F7410&t=pi&f=I"
+      },
+      {
+        "seq": 34,
+        "type": "GARA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB988D1FB82F744A&t=pi&f=I"
+      },
+      {
+        "seq": 35,
+        "type": "GARA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB989D1FB82F742B&t=pi&f=I"
+      },
+      {
+        "seq": 36,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB987D1FB82F74CD&t=pi&f=I"
+      },
+      {
+        "seq": 37,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB983D1FB82F74E4&t=pi&f=I"
+      }
+    ],
+    "slug": "26780572-rue-lachapelle-saint-colomban"
+  },
+  {
     "mls": "27742275",
     "price": 459900,
     "civic": "672",
@@ -4057,97 +4408,122 @@
       {
         "seq": 9,
         "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7619D180EDC2DFD&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA24E672D180EDC2DF2&t=pi&f=I"
       },
       {
         "seq": 10,
         "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4883A6D180EDC2D81&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7619D180EDC2D8B&t=pi&f=I"
       },
       {
         "seq": 11,
         "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761FD180EDC2D9D&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4883A6D180EDC2D94&t=pi&f=I"
       },
       {
         "seq": 12,
-        "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761CD180EDC2D7A&t=pi&f=I"
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761FD180EDC2D71&t=pi&f=I"
       },
       {
         "seq": 13,
         "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7612D180EDC2D3A&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761CD180EDC2D30&t=pi&f=I"
       },
       {
         "seq": 14,
         "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761ED180EDC2D5F&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7612D180EDC2D50&t=pi&f=I"
       },
       {
         "seq": 15,
-        "type": "CCP",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761AD180EDC2D61&t=pi&f=I"
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761ED180EDC2D6D&t=pi&f=I"
       },
       {
         "seq": 16,
         "type": "CCP",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7610D180EDC21D1&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA24E674D180EDC21DC&t=pi&f=I"
       },
       {
         "seq": 17,
         "type": "CCP",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D3D180EDC211C&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761AD180EDC2111&t=pi&f=I"
       },
       {
         "seq": 18,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7611D180EDC2140&t=pi&f=I"
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA24E67CD180EDC214B&t=pi&f=I"
       },
       {
         "seq": 19,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7614D180EDC212F&t=pi&f=I"
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7610D180EDC212C&t=pi&f=I"
       },
       {
         "seq": 20,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D5D180EDC21CB&t=pi&f=I"
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D3D180EDC21C0&t=pi&f=I"
       },
       {
         "seq": 21,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D6D180EDC21ED&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA24E671D180EDC21EB&t=pi&f=I"
       },
       {
         "seq": 22,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761DD180EDC21AD&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7611D180EDC21A1&t=pi&f=I"
       },
       {
         "seq": 23,
-        "type": "BALCON",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76DBD180EDC210B&t=pi&f=I"
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7614D180EDC2102&t=pi&f=I"
       },
       {
         "seq": 24,
-        "type": "BALCON",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76DFD180EDC21BD&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA24E67DD180EDC21BD&t=pi&f=I"
       },
       {
         "seq": 25,
-        "type": "FACARR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D9D180EDC21FD&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D6D180EDC21FC&t=pi&f=I"
       },
       {
         "seq": 26,
-        "type": "FACARR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D7D180EDC218F&t=pi&f=I"
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D5D180EDC2181&t=pi&f=I"
       },
       {
         "seq": 27,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F761DD180EDC2194&t=pi&f=I"
+      },
+      {
+        "seq": 28,
+        "type": "BALCON",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76DBD180EDC217D&t=pi&f=I"
+      },
+      {
+        "seq": 29,
+        "type": "BALCON",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76DFD180EDC2134&t=pi&f=I"
+      },
+      {
+        "seq": 30,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D9D180EDC2154&t=pi&f=I"
+      },
+      {
+        "seq": 31,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F76D7D180EDC216C&t=pi&f=I"
+      },
+      {
+        "seq": 32,
         "type": "FACA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7617D180EDC2191&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4F7617D180EDC24DC&t=pi&f=I"
       }
     ],
     "slug": "27742275-rue-des-sureaux-boucherville"
@@ -5822,7 +6198,7 @@
       "sco": 226
     },
     "video": null,
-    "status": "new",
+    "status": "forsale",
     "listingDate": "2026-08-07",
     "descFr": "À l'étage, on y trouve deux chambres supplémentaires. À l'extérieur, profitez d'une belle cour gazonnée, d'une terrasse , une remise ainsi que d'un stationnement pouvant accueillir plusieurs véhicules. Située dans un secteur recherché de Bois-des-Filion, cette propriété bénéficie d'un environnement paisible tout en étant à proximité de l'eau et des principaux axes routiers, facilitant les déplacements vers Laval et Montréal. Bois-des-Filion est reconnue pour son milieu de vie familial, sa proximité avec la rivière des Mille Îles et son accès rapide aux services.",
     "remFr": "Une rareté à Bois-des-Filion! Implantée sur un terrain de 5000 pc elle représente une excellente occasion . Dès l'entrée, vous découvrirez une aire de vie lumineuse comprenant un salon agrémenté, une cuisine fonctionnelle avec îlot central et une salle à manger adjacente. Une spacieuse salle familiale baignée de lumière complète le rez-de-chaussée et donne accès à la terrasse et à la cour. Cette propriété offre un rez-de-chaussée aménagé pour répondre aux besoins d'une personne à mobilité réduite. La chambre principale y est située tout comme une salle de bains et les airs de vie communes.",
