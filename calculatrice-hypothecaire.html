@@ -455,16 +455,29 @@ a{color:var(--blue);text-decoration:none}
     window.addEventListener('scroll', onScroll, { passive:true }); onScroll();
 
     /* ---------- Dropdown « Outils » ---------- */
-    document.querySelectorAll('.jg-has-sub').forEach(function(wrap){
-      var btn = wrap.querySelector('.jg-subtoggle');
-      var menu = wrap.querySelector('.jg-submenu');
-      if(!btn || !menu) return;
-      var open = function(){ menu.classList.add('is-open'); btn.setAttribute('aria-expanded','true'); };
-      var close = function(){ menu.classList.remove('is-open'); btn.setAttribute('aria-expanded','false'); };
-      btn.addEventListener('click', function(e){ e.stopPropagation(); menu.classList.contains('is-open') ? close() : open(); });
-      wrap.addEventListener('keydown', function(e){ if(e.key==='Escape'){ close(); btn.focus(); } });
-      document.addEventListener('click', function(e){ if(!wrap.contains(e.target)) close(); });
-    });
+    (function(){
+      /* Un seul méga-menu ouvert à la fois. Auparavant, le stopPropagation du
+         bouton empêchait le gestionnaire « clic ailleurs » de refermer les
+         autres : en passant d'un menu au suivant, les panneaux s'empilaient. */
+      var subs=[].slice.call(document.querySelectorAll('.jg-has-sub'));
+      function fermer(sauf){ subs.forEach(function(w){ if(w===sauf)return;
+        var m=w.querySelector('.jg-submenu'), b=w.querySelector('.jg-subtoggle');
+        if(m)m.classList.remove('is-open'); if(b)b.setAttribute('aria-expanded','false'); }); }
+      subs.forEach(function(wrap){
+        var btn=wrap.querySelector('.jg-subtoggle'),menu=wrap.querySelector('.jg-submenu'); if(!btn||!menu)return;
+        btn.addEventListener('click',function(e){ e.stopPropagation();
+          var ouvert=menu.classList.contains('is-open'); fermer(wrap);
+          menu.classList.toggle('is-open',!ouvert); btn.setAttribute('aria-expanded',ouvert?'false':'true'); });
+        /* Le CSS ouvre aussi au survol : arriver sur un autre menu doit refermer
+           celui qui était resté ouvert au clic. */
+        wrap.addEventListener('mouseenter',function(){ fermer(wrap); });
+        wrap.addEventListener('keydown',function(e){ if(e.key==='Escape'){
+          menu.classList.remove('is-open'); btn.setAttribute('aria-expanded','false'); btn.focus(); } });
+      });
+      document.addEventListener('click',function(e){
+        for(var i=0;i<subs.length;i++) if(subs[i].contains(e.target))return;
+        fermer(null); });
+    })();
 
     /* ---------- Menu mobile ---------- */
     (function(){
