@@ -11,7 +11,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { ficheHTML } from './lib/fiche.mjs';
+import { ficheHTML, areaLabel } from './lib/fiche.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CENTRIS = path.join(ROOT, '_centris');
@@ -179,6 +179,60 @@ function writeListing(props) {
   console.log(`proprietes.html régénéré (${n} cartes, ${cities.length} villes).`);
 }
 
+/* ---------- vitrine de l'accueil : les 3 inscriptions les plus récentes ---------- */
+function homeCard(p) {
+  const photo = (p.photos[0] || {}).url || '';
+  const tag = p.status === 'new'
+    ? '<span class="jg-tag jg-tag--new">Nouveau</span>'
+    : p.status === 'sold'
+      ? '<span class="jg-tag jg-tag--sold">Vendu</span>'
+      : '<span class="jg-tag jg-tag--forsale"><span aria-hidden="true" class="jg-tag__dot"></span>À vendre</span>';
+
+  // Un terrain n'a ni chambre ni salle de bain : on ne montre que sa superficie.
+  const area = areaLabel(p.areaTerrain);
+  const specs = (p.type === 'terrain' ? [] : [
+    p.beds ? `<span class="jg-spec"><strong>${p.beds}</strong><span>ch.</span></span>` : '',
+    p.baths ? `<span class="jg-spec"><strong>${p.baths}</strong><span>sdb</span></span>` : '',
+  ]).concat(area ? `<span class="jg-spec"><strong>${esc(area)}</strong><span>terrain</span></span>` : '')
+    .filter(Boolean).join('\n              ');
+
+  return `      <div data-reveal>
+        <a class="jg-pcard" href="nos-proprietes/${p.slug}/" aria-label="Voir la propriété, ${esc(p.address)}, ${esc(p.city)}">
+          <div class="jg-pcard__media">
+            <img src="${photo}" alt="Photo de la propriété, ${esc(p.address)}, ${esc(p.city)}" loading="lazy">
+            <span aria-hidden="true" class="jg-pcard__scrim"></span>
+            <span class="jg-pcard__tag">${tag}</span>
+          </div>
+          <div class="jg-pcard__body">
+            <div class="jg-pcard__price">${fmtPrice(p.price)}</div>
+            <div class="jg-pcard__addr">${esc(p.address)}</div>
+            <div class="jg-pcard__city">${esc(p.city)}</div>
+            <div class="jg-pcard__specs">
+              ${specs}
+            </div>
+          </div>
+        </a>
+      </div>`;
+}
+
+function writeHome(props) {
+  const F = path.join(ROOT, 'index.html');
+  let h = fs.readFileSync(F, 'utf8');
+  const A = '<!-- CARTES:DEBUT', B = '<!-- CARTES:FIN -->';
+  const s = h.indexOf(A); if (s < 0) throw new Error('Ancre CARTES:DEBUT introuvable dans index.html');
+  const sEnd = h.indexOf('-->', s) + 3;
+  const e = h.indexOf(B, sEnd); if (e < 0) throw new Error('Ancre CARTES:FIN introuvable');
+
+  // Les plus récentes d'abord ; à date égale, la plus chère passe devant.
+  const recent = [...props]
+    .sort((a, b) => (b.listingDate || '').localeCompare(a.listingDate || '') || b.price - a.price)
+    .slice(0, 3);
+
+  h = h.slice(0, sEnd) + '\n' + recent.map(homeCard).join('\n') + '\n      ' + h.slice(e);
+  fs.writeFileSync(F, h);
+  console.log(`index.html : ${recent.length} inscriptions en vitrine (${recent.map(p => p.mls).join(', ')}).`);
+}
+
 /* ---------- génération des fiches individuelles ---------- */
 function writeFiches(props) {
   const dir = path.join(ROOT, 'nos-proprietes');
@@ -254,19 +308,26 @@ function writeSitemap(props) {
 /* ---------- main ---------- */
 const DATA = path.join(ROOT, 'data', 'properties.json');
 
-if (!fs.existsSync(path.join(CENTRIS,'INSCRIPTIONS.TXT'))) {
-  // Mode B : on ne retouche pas le HTML committé, mais le sitemap reste à jour
-  // (utile quand on ajoute une page statique sans zip Centris frais).
-  console.log('Mode B · pas de _centris/ — aucune régénération (HTML committé conservé).');
-  if (fs.existsSync(DATA)) writeSitemap(JSON.parse(fs.readFileSync(DATA,'utf8')));
-  else console.log('sitemap.xml ignoré (data/properties.json absent).');
+let props;
+
+if (fs.existsSync(path.join(CENTRIS,'INSCRIPTIONS.TXT'))) {
+  console.log('Mode A · lecture du zip Centris…');
+  props = ingest();
+  fs.mkdirSync(path.join(ROOT,'data'), { recursive: true });
+  fs.writeFileSync(DATA, JSON.stringify(props, null, 2));
+} else if (fs.existsSync(DATA)) {
+  // Mode B : pas de zip frais, mais on régénère quand même le HTML à partir des
+  // données déjà committées. C'est ce qui permet à une correction de gabarit de
+  // se propager sans attendre le prochain dépôt Centris.
+  console.log('Mode B · pas de _centris/ — régénération depuis data/properties.json.');
+  props = JSON.parse(fs.readFileSync(DATA,'utf8'));
+} else {
+  console.log('Aucune donnée (_centris/ et data/properties.json absents) — rien à faire.');
   process.exit(0);
 }
-console.log('Mode A · lecture du zip Centris…');
-const props = ingest();
-fs.mkdirSync(path.join(ROOT,'data'), { recursive: true });
-fs.writeFileSync(DATA, JSON.stringify(props, null, 2));
+
 writeListing(props);
 writeFiches(props);
+writeHome(props);
 writeSitemap(props);
 console.log('✓ build terminé.');

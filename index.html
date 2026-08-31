@@ -3,9 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Julie Gauthier · Courtière immobilière agréée · RE/MAX Crystal — Grand Montréal</title>
-<meta name="description" content="Julie Gauthier, courtière immobilière agréée chez RE/MAX Crystal. Achat et vente résidentiels dans le Grand Montréal, avec rigueur et chaleur. 514.895.4921.">
+<script>document.documentElement.classList.add('jg-anim')</script>
+<!-- La classe jg-anim conditionne le masquage de [data-reveal] : sans JS, tout reste visible. -->
+<title>Julie Gauthier · Courtière immobilière agréée · RE/MAX Crystal — Mirabel et Rive-Nord</title>
+<meta name="description" content="Julie Gauthier, courtière immobilière agréée chez RE/MAX Crystal. Achat et vente résidentiels à Mirabel et sur la Rive-Nord de Montréal, avec rigueur et chaleur. 514.895.4921.">
 <meta name="theme-color" content="#000E35">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","@id":"https://juliegauthier.immo/#julie-gauthier","name":"Julie Gauthier — RE/MAX Crystal","jobTitle":"Courtière immobilière agréée","url":"https://juliegauthier.immo/","image":"https://juliegauthier.immo/assets/img/og-julie-gauthier.jpg","telephone":"+1-514-895-4921","email":"julie.gauthier@remax-quebec.com","knowsLanguage":"fr-CA","address":{"@type":"PostalAddress","streetAddress":"479, boulevard Arthur-Sauvé","addressLocality":"Saint-Eustache","addressRegion":"QC","addressCountry":"CA"},"areaServed":[{"@type":"City","name":"Mirabel"},{"@type":"Place","name":"Saint-Augustin, Mirabel"},{"@type":"City","name":"Boisbriand"},{"@type":"City","name":"Deux-Montagnes"},{"@type":"City","name":"Sainte-Marthe-sur-le-Lac"},{"@type":"City","name":"Saint-Eustache"},{"@type":"Place","name":"Rive-Nord de Montréal"}],"memberOf":{"@type":"RealEstateOrganization","name":"RE/MAX Crystal"},"sameAs":["https://www.facebook.com/JulieGauthierRemax","https://www.instagram.com/juliegauthier_remax","https://www.remax-quebec.com/fr/courtiers-immobiliers/julie.gauthier"]}</script>
+<link rel="canonical" href="https://juliegauthier.immo/">
+<meta property="og:url" content="https://juliegauthier.immo/">
+<meta property="og:image" content="https://juliegauthier.immo/assets/img/og-julie-gauthier.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -13,7 +22,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_CA">
 <meta property="og:title" content="Julie Gauthier · Courtière immobilière agréée · RE/MAX Crystal">
-<meta property="og:description" content="Vendre et acheter, sereinement, dans le Grand Montréal. Un accompagnement humain et rigoureux, du premier rendez-vous jusqu'à la signature.">
+<meta property="og:description" content="Vendre et acheter, sereinement, sur la Rive-Nord de Montréal. Un accompagnement humain et rigoureux, du premier rendez-vous jusqu'à la signature.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,8 +110,10 @@ a{color:var(--blue);text-decoration:none}
 @keyframes jgHeroClip{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0 0 0 0)}}
 @keyframes jgRise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
 @keyframes jgPulse{0%,100%{opacity:.3;transform:translateY(0)}50%{opacity:.85;transform:translateY(5px)}}
-[data-reveal]{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease-spring),transform .8s var(--ease-spring)}
-[data-reveal].is-in{opacity:1;transform:none}
+/* Sur mobile le repère « Défiler » chevauchait le lien « Voir les propriétés ». */
+@media (max-width:900px){.jg-scrollcue{display:none!important}}
+html.jg-anim [data-reveal]{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease-spring),transform .8s var(--ease-spring)}
+html.jg-anim [data-reveal].is-in{opacity:1;transform:none}
 .jg-navlink{position:relative;white-space:nowrap;font:500 0.9375rem/1 var(--font-body);color:var(--nav-fg);text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:4px;transition:border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
 .jg-navlink:hover{border-bottom-color:var(--red)}
 .jg-has-sub{position:relative;display:flex;align-items:center}
@@ -326,7 +337,7 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
 <!-- ============ HÉRO ============ -->
 <section aria-labelledby="jg-hero-title" style="position:relative;min-height:100svh;margin-top:-76px;display:flex;align-items:flex-end;overflow:hidden;background:var(--navy)">
   <div class="jg-hero-clip" style="position:absolute;top:-12%;left:0;right:0;height:124%;overflow:hidden;will-change:transform;animation:jgHeroClip 1.2s var(--ease-spring) both">
-    <img class="jg-hero-img" src="assets/img/julie-hero.jpg" alt="Julie Gauthier, courtière immobilière agréée, dans une résidence du Grand Montréal" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;animation:jgHeroZoom 1.8s var(--ease-spring) both">
+    <img class="jg-hero-img" src="assets/img/julie-hero.jpg" alt="Julie Gauthier, courtière immobilière agréée, dans une résidence de la Rive-Nord" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;animation:jgHeroZoom 1.8s var(--ease-spring) both">
     <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(to top, rgba(0,14,53,0.92) 0%, rgba(0,14,53,0.55) 38%, rgba(0,14,53,0.20) 66%, rgba(0,14,53,0.34) 100%)"></div>
     <div aria-hidden="true" style="position:absolute;top:-30%;left:8%;width:60%;height:80%;background:var(--glow-blue);opacity:0.30;filter:blur(60px);mix-blend-mode:screen;border-radius:50%"></div>
     <div aria-hidden="true" style="position:absolute;inset:0;opacity:0.05;mix-blend-mode:overlay;background-image:url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22160%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%222%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/%3E%3C/svg%3E')"></div>
@@ -339,7 +350,7 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
       <span aria-hidden="true" style="width:24px;height:1px;background:color-mix(in oklch,var(--bg) 45%,transparent)"></span>
       <span style="font:600 var(--fs-eyebrow)/1 var(--font-body);text-transform:uppercase;letter-spacing:var(--ls-eyebrow);color:color-mix(in oklch,var(--bg) 80%,transparent)">RE/MAX Crystal</span>
     </div>
-    <h1 id="jg-hero-title" style="color:var(--bg);max-width:22ch;margin-top:var(--space-5);animation:jgRise 0.9s var(--ease-spring) both;animation-delay:0.16s">Julie Gauthier, votre partenaire pour tous vos besoins immobiliers</h1>
+    <h1 id="jg-hero-title" style="color:var(--bg);max-width:22ch;margin-top:var(--space-5);animation:jgRise 0.9s var(--ease-spring) both;animation-delay:0.16s">Julie Gauthier. Courtière à Mirabel et sur la Rive-Nord.</h1>
     <p style="color:color-mix(in oklch,var(--bg) 88%,transparent);font:400 var(--fs-lead)/var(--lh-lead) var(--font-body);margin-top:var(--space-5);max-width:54ch;animation:jgRise 0.9s var(--ease-spring) both;animation-delay:0.26s">Achat, vente ou évaluation : un accompagnement humain et rigoureux sur la <span style="font-family:var(--font-accent);font-weight:500;font-style:italic;color:var(--bg)">Rive-Nord de Montréal</span>, du premier rendez-vous jusqu'à la signature.</p>
     <div style="display:flex;gap:var(--space-5);margin-top:var(--space-7);flex-wrap:wrap;align-items:center;animation:jgRise 0.9s var(--ease-spring) both;animation-delay:0.36s">
       <a class="jg-btn jg-btn--primary jg-btn--lg" href="#contact">Prendre rendez-vous</a>
@@ -347,7 +358,7 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
     </div>
   </div>
 
-  <div aria-hidden="true" style="position:absolute;left:50%;bottom:24px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;animation:jgPulse 2.4s var(--ease-in-out) infinite">
+  <div class="jg-scrollcue" aria-hidden="true" style="position:absolute;left:50%;bottom:24px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;animation:jgPulse 2.4s var(--ease-in-out) infinite">
     <span style="font:500 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.2em;color:color-mix(in oklch,var(--bg) 70%,transparent)">Défiler</span>
     <span style="width:1px;height:34px;background:linear-gradient(to bottom,color-mix(in oklch,var(--bg) 70%,transparent),transparent)"></span>
   </div>
@@ -359,13 +370,13 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
     <div class="jg-about-portrait" data-reveal style="position:relative">
       <img src="assets/img/julie-portrait.jpg" alt="Portrait de Julie Gauthier, courtière immobilière agréée chez RE/MAX Crystal" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-xs);box-shadow:var(--shadow-md);display:block">
       <div aria-hidden="true" style="position:absolute;inset:0;border-radius:var(--r-xs);background:linear-gradient(150deg,transparent 55%,color-mix(in oklch,var(--navy) 22%,transparent));mix-blend-mode:multiply"></div>
-      <div style="position:absolute;left:18px;bottom:16px;font:500 0.75rem/1 var(--font-body);letter-spacing:0.04em;color:color-mix(in oklch,var(--bg) 88%,transparent)">Julie Gauthier · Grand Montréal</div>
+      <div style="position:absolute;left:18px;bottom:16px;font:500 0.75rem/1 var(--font-body);letter-spacing:0.04em;color:color-mix(in oklch,var(--bg) 88%,transparent)">Julie Gauthier · Mirabel et Rive-Nord</div>
       <img class="jg-about-inset" src="assets/img/julie-porte.jpg" alt="" aria-hidden="true" style="position:absolute;right:-22px;bottom:-30px;width:clamp(116px,34%,188px);aspect-ratio:3/4;object-fit:cover;border-radius:var(--r-xs);border:6px solid var(--bg);box-shadow:var(--shadow-md);display:block">
     </div>
     <div>
       <div data-reveal><span class="jg-eyebrow jg-eyebrow--blue">À propos</span></div>
       <h2 id="jg-about-title" data-reveal style="margin-top:var(--space-4);max-width:20ch"><span style="font-family:var(--font-accent);font-weight:500;letter-spacing:-0.01em">Julie Gauthier</span>, à vos côtés à chaque étape.</h2>
-      <p data-reveal style="margin-top:var(--space-5);color:var(--ink-2);font:400 var(--fs-lead)/1.6 var(--font-body);max-width:62ch">Julie vous accompagne avec écoute et transparence. Elle connaît le Grand Montréal, défend vos intérêts et avance à votre rythme. Chaque transaction commence par une vraie conversation, jamais par une pression.</p>
+      <p data-reveal style="margin-top:var(--space-5);color:var(--ink-2);font:400 var(--fs-lead)/1.6 var(--font-body);max-width:62ch">Julie vous accompagne avec écoute et transparence. Elle connaît la Rive-Nord, défend vos intérêts et avance à votre rythme. Chaque transaction commence par une vraie conversation, jamais par une pression.</p>
       <div data-reveal style="display:flex;flex-wrap:wrap;gap:0;margin-top:var(--space-7);padding-top:var(--space-6);border-top:1px solid var(--line)">
         <div style="display:flex;align-items:center;gap:10px;padding-right:var(--space-6)">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 11 3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
@@ -460,66 +471,67 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
     </div>
 
     <div class="jg-props" style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-6);margin-top:var(--space-8)">
-      <!-- DYNAMIQUE · Centris: INSCRIPTIONS.TXT + PHOTOS.TXT · build.mjs boucle ici -->
+      <!-- CARTES:DEBUT · générées par build.mjs depuis Centris (3 plus récentes) -->
       <div data-reveal>
-        <a class="jg-pcard" href="proprietes.html">
+        <a class="jg-pcard" href="nos-proprietes/26780572-rue-lachapelle-saint-colomban/" aria-label="Voir la propriété, 152, Rue Lachapelle, Saint-Colomban">
           <div class="jg-pcard__media">
-            <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=900&q=74" alt="78 rue Fabre, Rosemont (image temporaire)" loading="lazy">
-            <span aria-hidden="true" class="jg-pcard__scrim"></span>
-            <span class="jg-pcard__tag"><span class="jg-tag jg-tag--forsale"><span aria-hidden="true" class="jg-tag__dot"></span>À vendre</span></span>
-          </div>
-          <div class="jg-pcard__body">
-            <div class="jg-pcard__price">849 000 $</div>
-            <div class="jg-pcard__addr">78 rue Fabre</div>
-            <div class="jg-pcard__city">Rosemont, Montréal</div>
-            <div class="jg-pcard__specs">
-              <span class="jg-spec"><strong>4</strong><span>ch.</span></span>
-              <span class="jg-spec"><strong>2</strong><span>sdb</span></span>
-              <span class="jg-spec"><strong>1 850</strong><span>pi²</span></span>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div data-reveal>
-        <a class="jg-pcard" href="proprietes.html">
-          <div class="jg-pcard__media">
-            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=900&q=74" alt="2410 av. de Lorimier, Le Plateau-Mont-Royal (image temporaire)" loading="lazy">
+            <img src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2DB9BCD1FB82F7D11&t=pi&f=I" alt="Photo de la propriété, 152, Rue Lachapelle, Saint-Colomban" loading="lazy">
             <span aria-hidden="true" class="jg-pcard__scrim"></span>
             <span class="jg-pcard__tag"><span class="jg-tag jg-tag--new">Nouveau</span></span>
           </div>
           <div class="jg-pcard__body">
-            <div class="jg-pcard__price">1 295 000 $</div>
-            <div class="jg-pcard__addr">2410 av. de Lorimier</div>
-            <div class="jg-pcard__city">Le Plateau-Mont-Royal</div>
+            <div class="jg-pcard__price">520 000 $</div>
+            <div class="jg-pcard__addr">152, Rue Lachapelle</div>
+            <div class="jg-pcard__city">Saint-Colomban</div>
             <div class="jg-pcard__specs">
-              <span class="jg-spec"><strong>3</strong><span>ch.</span></span>
+              <span class="jg-spec"><strong>2</strong><span>ch.</span></span>
               <span class="jg-spec"><strong>2</strong><span>sdb</span></span>
-              <span class="jg-spec"><strong>1 620</strong><span>pi²</span></span>
+              <span class="jg-spec"><strong>5 202 m²</strong><span>terrain</span></span>
             </div>
           </div>
         </a>
       </div>
       <div data-reveal>
-        <a class="jg-pcard" href="proprietes.html">
+        <a class="jg-pcard" href="nos-proprietes/14298345-rue-principale-notre-dame-de-lourdes/" aria-label="Voir la propriété, 4290, Rue Principale, Notre-Dame-de-Lourdes">
           <div class="jg-pcard__media">
-            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=74" alt="155 av. Outremont, Outremont (image temporaire)" loading="lazy">
+            <img src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA45788DDD38475FD1B&t=pi&f=I" alt="Photo de la propriété, 4290, Rue Principale, Notre-Dame-de-Lourdes" loading="lazy">
             <span aria-hidden="true" class="jg-pcard__scrim"></span>
-            <span class="jg-pcard__tag"><span class="jg-tag jg-tag--sold">Vendu</span></span>
+            <span class="jg-pcard__tag"><span class="jg-tag jg-tag--new">Nouveau</span></span>
           </div>
           <div class="jg-pcard__body">
-            <div class="jg-pcard__price">2 050 000 $</div>
-            <div class="jg-pcard__addr">155 av. Outremont</div>
-            <div class="jg-pcard__city">Outremont</div>
+            <div class="jg-pcard__price">429 000 $</div>
+            <div class="jg-pcard__addr">4290, Rue Principale</div>
+            <div class="jg-pcard__city">Notre-Dame-de-Lourdes</div>
             <div class="jg-pcard__specs">
-              <span class="jg-spec"><strong>5</strong><span>ch.</span></span>
-              <span class="jg-spec"><strong>3</strong><span>sdb</span></span>
-              <span class="jg-spec"><strong>3 120</strong><span>pi²</span></span>
+              <span class="jg-spec"><strong>4</strong><span>ch.</span></span>
+              <span class="jg-spec"><strong>2</strong><span>sdb</span></span>
+              <span class="jg-spec"><strong>7 937 m²</strong><span>terrain</span></span>
             </div>
           </div>
         </a>
       </div>
+      <div data-reveal>
+        <a class="jg-pcard" href="nos-proprietes/27430960-rue-goyer-bois-des-filion/" aria-label="Voir la propriété, 423, Rue Goyer, Bois-des-Filion">
+          <div class="jg-pcard__media">
+            <img src="https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA4805E6D184FD2DD1D&t=pi&f=I" alt="Photo de la propriété, 423, Rue Goyer, Bois-des-Filion" loading="lazy">
+            <span aria-hidden="true" class="jg-pcard__scrim"></span>
+            <span class="jg-pcard__tag"><span class="jg-tag jg-tag--forsale"><span aria-hidden="true" class="jg-tag__dot"></span>À vendre</span></span>
+          </div>
+          <div class="jg-pcard__body">
+            <div class="jg-pcard__price">399 900 $</div>
+            <div class="jg-pcard__addr">423, Rue Goyer</div>
+            <div class="jg-pcard__city">Bois-des-Filion</div>
+            <div class="jg-pcard__specs">
+              <span class="jg-spec"><strong>3</strong><span>ch.</span></span>
+              <span class="jg-spec"><strong>1</strong><span>sdb</span></span>
+              <span class="jg-spec"><strong>465 m²</strong><span>terrain</span></span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- CARTES:FIN -->
     </div>
-    <p data-reveal style="margin-top:var(--space-5);font:400 0.8125rem/1.5 var(--font-body);color:var(--ink-3)">Aperçu temporaire, à connecter à Centris. Prix et fiches à titre indicatif.</p>
+    
   </div>
 </section>
 
@@ -536,18 +548,13 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
         <div style="font-family:var(--font-accent);font-weight:500;font-size:clamp(2.5rem,4.5vw,3.5rem);line-height:1;letter-spacing:-0.02em;color:var(--ink)"><span data-count="12" class="jg-num">12</span></div>
         <span style="font:500 0.8125rem/1.3 var(--font-body);letter-spacing:0.04em;color:var(--ink-3)">Années d'expérience</span>
       </div>
-      <div class="jg-stat-sep" aria-hidden="true" style="width:1px;align-self:stretch;background:var(--line);margin:0.5rem 0"></div>
-      <div style="display:flex;flex-direction:column;gap:8px">
-        <div style="font-family:var(--font-accent);font-weight:500;font-size:clamp(2.5rem,4.5vw,3.5rem);line-height:1;letter-spacing:-0.02em;color:var(--ink)"><span data-count="98" class="jg-num">98</span><span style="color:var(--red)">%</span></div>
-        <span style="font:500 0.8125rem/1.3 var(--font-body);letter-spacing:0.04em;color:var(--ink-3)">Clients satisfaits</span>
-      </div>
+      
       <div class="jg-stat-sep" aria-hidden="true" style="width:1px;align-self:stretch;background:var(--line);margin:0.5rem 0"></div>
       <div style="display:flex;flex-direction:column;gap:8px;max-width:18ch">
-        <div style="font-family:var(--font-accent);font-weight:500;font-size:clamp(1.5rem,2.4vw,2rem);line-height:1.05;letter-spacing:-0.01em;color:var(--ink)">Grand Montréal</div>
+        <div style="font-family:var(--font-accent);font-weight:500;font-size:clamp(1.5rem,2.4vw,2rem);line-height:1.05;letter-spacing:-0.01em;color:var(--ink)">Rive-Nord</div>
         <span style="font:500 0.8125rem/1.3 var(--font-body);letter-spacing:0.04em;color:var(--ink-3)">Secteur desservi</span>
       </div>
     </div>
-    <p style="margin:0;padding-bottom:var(--space-5);font:400 0.75rem/1.4 var(--font-body);color:var(--ink-3)">Données à confirmer.</p>
   </div>
 </section>
 
@@ -568,31 +575,42 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
     <h2 id="jg-temo-title" data-reveal style="margin-top:var(--space-4);max-width:18ch">Ce que disent les clients de Julie.</h2>
 
     <div class="jg-tstml-grid" style="display:grid;grid-template-columns:1.5fr 1fr;gap:var(--space-6);margin-top:var(--space-8)">
-      <figure class="jg-tstml-feat" data-reveal style="grid-row:1/3;margin:0;display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:var(--shadow-sm);padding:clamp(2rem,4vw,3rem)">
+      <figure class="jg-tstml-feat" data-reveal style="grid-row:1/4;margin:0;display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:var(--shadow-sm);padding:clamp(2rem,4vw,3rem)">
         <span aria-hidden="true" style="font-family:var(--font-accent);font-weight:600;font-size:3.5rem;line-height:0.5;color:var(--red);height:30px">&ldquo;</span>
-        <blockquote style="margin:0;flex:1;font-family:var(--font-accent);font-weight:400;font-size:clamp(1.5rem,2.4vw,2.05rem);line-height:1.3;letter-spacing:-0.01em;color:var(--ink)">Julie a vendu notre maison rapidement et au bon prix. Toujours disponible, toujours honnête.</blockquote>
+        <blockquote style="margin:0;flex:1;font-family:var(--font-accent);font-weight:400;font-size:clamp(1.25rem,1.9vw,1.6rem);line-height:1.4;letter-spacing:-0.01em;color:var(--ink)">Nous avons confié la vente de notre maison à Julie Gauthier de Remax Crystal. Elle est très professionnelle, disponible et à l'écoute, elle est de très bon conseil, elle fait un excellent travail. Avec tous mes remerciements à Julie pour son efficacité et son investissement personnel dans la vente de notre maison. Et pour avoir trouvé des solutions et nous avoir accompagné et guidé professionnellement jusqu'à la fin, tu as été super, mille fois merci à toi Julie.</blockquote>
         <figcaption style="margin-top:var(--space-6);display:flex;flex-direction:column;gap:3px">
-          <span style="font:600 1rem/1.2 var(--font-body);color:var(--ink)">Marie &amp; Patrick</span>
-          <span style="font:500 0.875rem/1 var(--font-body);color:var(--ink-3)">Vendeurs, Rosemont</span>
+          <span style="font:600 1rem/1.2 var(--font-body);color:var(--ink)">Monique MG</span>
+          <span style="font:500 0.875rem/1 var(--font-body);color:var(--ink-3)">Avis Google</span>
         </figcaption>
       </figure>
 
       <figure data-reveal style="margin:0;display:flex;flex-direction:column;gap:var(--space-4);padding:var(--space-6) 0;border-top:2px solid var(--red)">
-        <blockquote style="margin:0;font-family:var(--font-accent);font-weight:400;font-size:clamp(1.125rem,1.6vw,1.375rem);line-height:1.4;color:var(--ink)">Premier achat sans stress grâce à elle. On s'est sentis guidés du début à la fin.</blockquote>
+        <blockquote style="margin:0;font-family:var(--font-accent);font-weight:400;font-size:clamp(1.0625rem,1.4vw,1.25rem);line-height:1.45;color:var(--ink)">Si je pouvais mettre 10 étoiles, je le ferais. C'est la personne la plus humaine sur la terre, même dans des situations émotives. Je la recommande à 1000%.</blockquote>
         <figcaption style="display:flex;flex-direction:column;gap:3px">
-          <span style="font:600 0.9375rem/1.2 var(--font-body);color:var(--ink)">Sophie L.</span>
-          <span style="font:500 0.8125rem/1 var(--font-body);color:var(--ink-3)">Acheteuse, Villeray</span>
+          <span style="font:600 0.9375rem/1.2 var(--font-body);color:var(--ink)">Mélanie Lapierre</span>
+          <span style="font:500 0.8125rem/1 var(--font-body);color:var(--ink-3)">Avis Google</span>
         </figcaption>
       </figure>
 
       <figure data-reveal style="margin:0;display:flex;flex-direction:column;gap:var(--space-4);padding:var(--space-6) 0;border-top:2px solid var(--red)">
-        <blockquote style="margin:0;font-family:var(--font-accent);font-weight:400;font-size:clamp(1.125rem,1.6vw,1.375rem);line-height:1.4;color:var(--ink)">Une professionnelle calme et rigoureuse. Je la recommande sans hésiter.</blockquote>
+        <blockquote style="margin:0;font-family:var(--font-accent);font-weight:400;font-size:clamp(1.0625rem,1.4vw,1.25rem);line-height:1.45;color:var(--ink)">Nous avons eu service hors pair de la part de Julie. Très à l'écoute de nos besoins, très professionnel et très chaleureuse. Elle nous a mis en confiance dès la première rencontre. Je la recommande sans hésitation!</blockquote>
         <figcaption style="display:flex;flex-direction:column;gap:3px">
-          <span style="font:600 0.9375rem/1.2 var(--font-body);color:var(--ink)">Daniel T.</span>
-          <span style="font:500 0.8125rem/1 var(--font-body);color:var(--ink-3)">Vendeur, Ahuntsic</span>
+          <span style="font:600 0.9375rem/1.2 var(--font-body);color:var(--ink)">Gabrielle Mignault</span>
+          <span style="font:500 0.8125rem/1 var(--font-body);color:var(--ink-3)">Avis Google</span>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin:0;display:flex;flex-direction:column;gap:var(--space-4);padding:var(--space-6) 0;border-top:2px solid var(--red)">
+        <blockquote style="margin:0;font-family:var(--font-accent);font-weight:400;font-size:clamp(1.0625rem,1.4vw,1.25rem);line-height:1.45;color:var(--ink)">Nous avons eu un excellent service !!! Très satisfaits de son travail et de son support. Je la recommande à 1000% !</blockquote>
+        <figcaption style="display:flex;flex-direction:column;gap:3px">
+          <span style="font:600 0.9375rem/1.2 var(--font-body);color:var(--ink)">Laurence Chatel</span>
+          <span style="font:500 0.8125rem/1 var(--font-body);color:var(--ink-3)">Avis Google</span>
         </figcaption>
       </figure>
     </div>
+
+    <p data-reveal style="margin-top:var(--space-6);font:400 0.875rem/1.5 var(--font-body);color:var(--ink-3)">Témoignages publiés par les clientes et clients de Julie sur Google. <a class="jg-link" href="https://www.google.com/search?q=Julie+Gauthier+RE%2FMAX+Crystal+avis" target="_blank" rel="noopener noreferrer" style="font-size:0.875rem">Lire les avis sur Google</a></p>
+  </div>
   </div>
 </section>
 
@@ -611,7 +629,7 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
       <div style="position:relative;margin-top:var(--space-7);aspect-ratio:4/3;border-radius:var(--r-sm);overflow:hidden;box-shadow:var(--shadow-md)">
         <img src="assets/img/julie-contact.jpg" alt="Julie Gauthier, courtière immobilière agréée" style="width:100%;height:100%;object-fit:cover;object-position:center 22%;display:block">
         <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(to top, rgba(0,14,53,0.50) 0%, transparent 55%)"></div>
-        <span style="position:absolute;left:18px;bottom:14px;font:500 0.75rem/1 var(--font-body);letter-spacing:0.04em;color:var(--bg)">À votre service, dans le Grand Montréal</span>
+        <span style="position:absolute;left:18px;bottom:14px;font:500 0.75rem/1 var(--font-body);letter-spacing:0.04em;color:var(--bg)">À votre service, sur la Rive-Nord</span>
       </div>
     </div>
     <form class="jg-form" id="jg-contact-form" action="https://formspree.io/f/xdeokzpb" method="POST" style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4)">
@@ -652,11 +670,10 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
   <div class="jg-2col jg-foot-grid" style="max-width:var(--container);margin:0 auto;padding:0 var(--gutter);display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:var(--space-7)">
     <div style="max-width:340px">
       <img src="brand_assets/crystal-long-blanc.png" alt="RE/MAX Crystal" style="height:30px;width:auto;display:block">
-      <p style="margin-top:var(--space-5);color:color-mix(in oklch,var(--bg) 64%,transparent);font:400 0.9375rem/1.6 var(--font-body)">Julie Gauthier, courtière immobilière agréée. Au service des acheteurs et vendeurs du Grand Montréal.</p>
+      <p style="margin-top:var(--space-5);color:color-mix(in oklch,var(--bg) 64%,transparent);font:400 0.9375rem/1.6 var(--font-body)">Julie Gauthier, courtière immobilière agréée. Au service des acheteurs et vendeurs de Mirabel, Saint-Augustin, Boisbriand, Deux-Montagnes et de toute la Rive-Nord de Montréal.</p>
       <div style="display:flex;gap:12px;margin-top:var(--space-6)">
-        <a class="jg-soc" href="#contact" aria-label="Facebook de Julie Gauthier"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H8v3h2v6h3v-6h2.5l.5-3H13v-2a1 1 0 0 1 1-1Z"></path></svg></a>
-        <a class="jg-soc" href="#contact" aria-label="Instagram de Julie Gauthier"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"></circle></svg></a>
-        <a class="jg-soc" href="#contact" aria-label="LinkedIn de Julie Gauthier"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.5 8A1.5 1.5 0 1 0 6.5 5a1.5 1.5 0 0 0 0 3ZM5 10h3v9H5v-9Zm5 0h2.9v1.2h.04c.4-.75 1.4-1.55 2.9-1.55 3.1 0 3.66 2 3.66 4.7V19h-3v-4.1c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2V19h-3v-9Z"></path></svg></a>
+        <a class="jg-soc" href="https://www.facebook.com/JulieGauthierRemax" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Julie Gauthier (nouvel onglet)"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H8v3h2v6h3v-6h2.5l.5-3H13v-2a1 1 0 0 1 1-1Z"></path></svg></a>
+        <a class="jg-soc" href="https://www.instagram.com/juliegauthier_remax" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Julie Gauthier (nouvel onglet)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"></circle></svg></a>
       </div>
     </div>
     <div>
@@ -682,6 +699,7 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
   <div style="max-width:var(--container);margin:var(--space-8) auto 0;padding:var(--space-5) var(--gutter) 0;border-top:1px solid color-mix(in oklch,var(--bg) 12%,transparent);display:flex;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap;color:color-mix(in oklch,var(--bg) 58%,transparent);font:400 0.8125rem/1.4 var(--font-body)">
     <span>© 2026 Julie Gauthier. Tous droits réservés.</span>
     <span>Chaque bureau est indépendant et autonome.</span>
+    <a href="/politique-de-confidentialite.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Politique de confidentialité</a>
   </div>
   <div class="vp-credit">
     <span>Stratégie web</span>
@@ -716,7 +734,13 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
         });
       }, { threshold: 0.12, rootMargin: '0px 0px -7% 0px' });
       reveals.forEach(function(el){ io.observe(el); });
-      setTimeout(function(){ reveals.forEach(function(el){ el.classList.add('is-in'); }); }, 4000);
+      // Ce qui est déjà à l'écran au chargement apparaît sans attendre un scroll :
+      // sinon la page reste vide jusqu'au filet de sécurité.
+      (function(){ var vh=window.innerHeight;
+        reveals.forEach(function(el,i){ var r=el.getBoundingClientRect();
+          if(r.top<vh && r.bottom>0){ el.style.transitionDelay=(Math.min(i,8)*70)+'ms'; el.classList.add('is-in'); io.unobserve(el); } });
+      })();
+      setTimeout(function(){ reveals.forEach(function(el){ el.classList.add('is-in'); }); }, 1200);
     }
 
     // ---- Nav sticky : transparent -> crème + blur ----
@@ -725,9 +749,9 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
     function onScroll(){
       var s = window.scrollY > 80;
       if(nav){
-        nav.style.background = s ? 'color-mix(in oklch, var(--bg) 85%, transparent)' : 'transparent';
-        nav.style.backdropFilter = s ? 'blur(12px) saturate(1.4)' : 'none';
-        nav.style.webkitBackdropFilter = s ? 'blur(12px) saturate(1.4)' : 'none';
+        nav.style.background = s ? 'var(--bg)' : 'transparent';
+        nav.style.backdropFilter = 'none';
+        nav.style.webkitBackdropFilter = 'none';
         nav.style.borderBottomColor = s ? 'var(--line)' : 'transparent';
         nav.style.setProperty('--nav-fg', s ? 'var(--ink)' : 'var(--bg)');
         var blanc = nav.querySelector('.jg-logo-blanc');
@@ -835,6 +859,56 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
     }
   }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();
+</script>
+<script>
+/* Validation en français. Les messages natifs suivent la langue du navigateur et
+   non celle de la page : sur ce site fr-CA, un visiteur configuré en anglais
+   voyait « Please fill out this field. ». On fournit donc nos propres textes. */
+(function(){
+  var PAR_TYPE = {
+    valueMissing: { checkbox:"Veuillez cocher cette case pour continuer.",
+                    radio:"Veuillez choisir une option.",
+                    "select-one":"Veuillez choisir une option.",
+                    email:"Veuillez saisir votre adresse courriel.",
+                    tel:"Veuillez saisir votre numéro de téléphone." },
+    typeMismatch: { email:"Veuillez saisir une adresse courriel valide, par exemple vous@exemple.ca.",
+                    url:"Veuillez saisir une adresse web valide." }
+  };
+  var SIMPLE = {
+    valueMissing:"Veuillez remplir ce champ.",
+    typeMismatch:"Le format saisi n'est pas valide.",
+    patternMismatch:"Le format saisi n'est pas valide.",
+    tooShort:"Ce texte est trop court.",
+    tooLong:"Ce texte est trop long.",
+    rangeUnderflow:"La valeur est trop petite.",
+    rangeOverflow:"La valeur est trop grande.",
+    stepMismatch:"Cette valeur n'est pas valide.",
+    badInput:"Veuillez saisir une valeur valide."
+  };
+  function message(el){
+    var v = el.validity;
+    for (var cle in SIMPLE) {
+      if (!v[cle]) continue;
+      var parType = PAR_TYPE[cle];
+      return (parType && parType[el.type]) || SIMPLE[cle];
+    }
+    return "Veuillez vérifier ce champ.";
+  }
+  document.addEventListener('invalid', function(e){
+    var el = e.target;
+    if (!el || typeof el.setCustomValidity !== 'function') return;
+    el.setCustomValidity('');
+    if (el.validity.valid) return;
+    el.setCustomValidity(message(el));
+  }, true);
+  // Sans remise à zéro, le champ resterait invalide même une fois corrigé.
+  function reset(e){
+    var el = e.target;
+    if (el && typeof el.setCustomValidity === 'function') el.setCustomValidity('');
+  }
+  document.addEventListener('input', reset, true);
+  document.addEventListener('change', reset, true);
 })();
 </script>
 </body>
