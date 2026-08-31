@@ -6,6 +6,10 @@
 <title>Calculatrice hypothécaire · Julie Gauthier · RE/MAX Crystal</title>
 <meta name="description" content="Estimez vos versements hypothécaires : mise de fonds minimale, prime SCHL et paiement selon la fréquence. Calcul à titre indicatif par Julie Gauthier, courtière immobilière agréée.">
 <meta name="theme-color" content="#000E35">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_CA">
 <meta property="og:title" content="Calculatrice hypothécaire · Julie Gauthier · RE/MAX Crystal">
@@ -163,6 +167,16 @@ a{color:var(--blue);text-decoration:none}
   .calc-result{position:static!important}
 }
 @media (max-width:620px){ .jg-foot-grid{grid-template-columns:1fr!important} }
+
+/* ---- Signature V pour Design ---- */
+.vp-credit{display:flex;align-items:center;justify-content:center;gap:10px;max-width:var(--container);margin:var(--space-6) auto 0;padding:20px var(--gutter) 0;border-top:1px solid color-mix(in oklch,var(--bg) 8%,transparent);font:400 10px/1 var(--font-body);letter-spacing:0.14em;text-transform:uppercase;color:color-mix(in oklch,var(--bg) 32%,transparent)}
+.vp-credit a{display:block;line-height:0;border-radius:4px}
+.vp-credit a:focus-visible{outline:2px solid var(--sky);outline-offset:4px}
+.vp-logo{height:52px;width:auto;display:block;cursor:pointer;animation:vpFloat 3s ease-in-out infinite,vpGlow 3s ease-in-out infinite}
+.vp-logo:hover{animation:none;filter:invert(1) brightness(1.4) drop-shadow(0 0 18px rgba(163,212,242,0.9));transform:scale(1.07) translateY(-2px);transition:filter .3s cubic-bezier(0.22,0.61,0.36,1),transform .3s cubic-bezier(0.22,0.61,0.36,1)}
+@keyframes vpFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes vpGlow{0%,100%{filter:invert(1) brightness(0.7) drop-shadow(0 0 0 rgba(163,212,242,0))}50%{filter:invert(1) brightness(1.25) drop-shadow(0 0 14px rgba(163,212,242,0.6))}}
+@media (prefers-reduced-motion:reduce){.vp-logo{animation:none;filter:invert(1) brightness(1)}.vp-logo:hover{transform:none}}
 </style>
 </head>
 
@@ -198,6 +212,9 @@ a{color:var(--blue);text-decoration:none}
             <li role="none"><a role="menuitem" class="jg-sublink" href="secteurs.html">Tous les secteurs</a></li>
             <li role="none"><a role="menuitem" class="jg-sublink" href="mirabel.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Mirabel</a></li>
             <li role="none"><a role="menuitem" class="jg-sublink" href="saint-augustin.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Saint-Augustin</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="boisbriand.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Boisbriand</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="deux-montagnes.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Deux-Montagnes</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="rive-nord.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Rive-Nord</a></li>
           </ul>
         </li>
         <li class="jg-has-sub">
@@ -249,6 +266,9 @@ a{color:var(--blue);text-decoration:none}
     <a href="secteurs.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Tous les secteurs</a>
     <a href="mirabel.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Mirabel</a>
     <a href="saint-augustin.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Saint-Augustin</a>
+    <a href="boisbriand.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Boisbriand</a>
+    <a href="deux-montagnes.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Deux-Montagnes</a>
+    <a href="rive-nord.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Rive-Nord</a>
     <a href="index.html#temoignages" style="font:700 clamp(1.75rem,8vw,2.5rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">Témoignages</a>
     <div class="jg-mob-eyebrow">Outils</div>
     <a href="calculatrice-hypothecaire.html" aria-current="page" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--blue);text-decoration:none;padding:var(--space-2) 0">Calculatrice hypothécaire</a>
@@ -393,6 +413,7 @@ a{color:var(--blue);text-decoration:none}
         <li><a class="jg-foot-link" href="apropos.html">À propos</a></li>
         <li><a class="jg-foot-link" href="index.html#services">Services</a></li>
         <li><a class="jg-foot-link" href="proprietes.html">Propriétés</a></li>
+        <li><a class="jg-foot-link" href="secteurs.html">Secteurs</a></li>
         <li><a class="jg-foot-link" href="index.html#temoignages">Témoignages</a></li>
         <li><a class="jg-foot-link" href="calculatrice-hypothecaire.html">Calculatrice hypothécaire</a></li>
       </ul>
@@ -401,7 +422,7 @@ a{color:var(--blue);text-decoration:none}
       <div style="font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:color-mix(in oklch,var(--bg) 50%,transparent)">Contact</div>
       <ul style="list-style:none;margin:var(--space-5) 0 0;padding:0;display:flex;flex-direction:column;gap:var(--space-3)">
         <li><a class="jg-foot-link" href="tel:+15148954921">514.895.4921</a></li>
-        <li><a class="jg-foot-link" href="mailto:bonjour@juliegauthier.ca">bonjour@juliegauthier.ca</a></li>
+        <li><a class="jg-foot-link" href="mailto:julie.gauthier@remax-quebec.com">julie.gauthier@remax-quebec.com</a></li>
         <li><span style="color:color-mix(in oklch,var(--bg) 64%,transparent);font:400 0.9375rem/1.4 var(--font-body)">Courtière immobilière agréée</span></li>
       </ul>
     </div>
@@ -409,6 +430,10 @@ a{color:var(--blue);text-decoration:none}
   <div style="max-width:var(--container);margin:var(--space-8) auto 0;padding:var(--space-5) var(--gutter) 0;border-top:1px solid color-mix(in oklch,var(--bg) 12%,transparent);display:flex;justify-content:space-between;gap:var(--space-4) var(--space-6);flex-wrap:wrap;color:color-mix(in oklch,var(--bg) 58%,transparent);font:400 0.8125rem/1.5 var(--font-body)">
     <span>© 2026 Julie Gauthier. Tous droits réservés.</span>
     <span>Chaque bureau est indépendant et autonome.</span>
+  </div>
+  <div class="vp-credit">
+    <span>Stratégie web</span>
+    <a href="https://www.vpourdesign.com" target="_blank" rel="noopener noreferrer" aria-label="V pour Design, stratégie web (nouvel onglet)"><img class="vp-logo" src="brand_assets/logo-vpourdesign.png" alt="V pour Design" width="1500" height="1093" loading="lazy"></a>
   </div>
 </footer>
 

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page introuvable · Julie Gauthier · RE/MAX Crystal</title>
+<meta name="description" content="Cette page n'existe plus ou a changé d'adresse. Retrouvez les propriétés à vendre et les coordonnées de Julie Gauthier, courtière immobilière agréée.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#000E35">
+
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+
+<style>
+:root{
+  --bg:#F7F5EE; --paper:#FCFBF7;
+  --ink:#1A1A1C; --ink-2:#474C57; --ink-3:#8B909B;
+  --line:color-mix(in oklch, var(--ink) 12%, transparent);
+  --blue:#0043FF; --navy:#000E35; --red:#FF1200; --red-deep:#AA1120; --sky:#A3D4F2;
+  --font-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --font-body:"Inter","Helvetica Neue",Arial,sans-serif;
+  --gutter:clamp(1.25rem,4vw,2.5rem);
+  --r-sm:8px; --r-md:14px;
+  --ease-spring:cubic-bezier(0.16,1,0.3,1); --ease-out:cubic-bezier(0.22,0.61,0.36,1);
+  --shadow-sm:0 1px 2px rgba(12,39,73,.06),0 2px 6px rgba(12,39,73,.05);
+  --shadow-md:0 2px 6px rgba(12,39,73,.06),0 10px 24px rgba(12,39,73,.08),0 30px 60px rgba(12,39,73,.06);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--font-body);font-size:1.0625rem;line-height:1.7;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;
+}
+a{color:var(--blue);text-decoration:none}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
+::selection{background:color-mix(in oklch,var(--blue) 22%,transparent)}
+
+/* --- en-tête minimal : la marque ramène toujours à l'accueil --- */
+.hd{padding:var(--gutter);border-bottom:1px solid var(--line)}
+.hd a{display:inline-flex;align-items:center;gap:12px;line-height:1;color:var(--ink)}
+.hd img{height:38px;width:auto;display:block}
+.hd span{font-family:var(--font-display);font-weight:700;font-size:20px;letter-spacing:-.01em}
+
+/* --- composition principale : grille en zones nommées --- */
+.wrap{
+  display:grid;grid-template-columns:minmax(0,1fr);
+  grid-template-areas:"mark" "code" "title" "text" "acts" "help";
+  justify-items:center;text-align:center;
+  align-content:center;gap:0;
+  max-width:660px;margin:0 auto;padding:clamp(3rem,9vw,6rem) var(--gutter);
+}
+.mark{grid-area:mark;width:clamp(56px,9vw,76px);height:auto;filter:drop-shadow(0 8px 22px rgba(12,39,73,.16))}
+.code{
+  grid-area:code;margin-top:var(--gutter);
+  font:600 .75rem/1 var(--font-body);letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);display:inline-flex;align-items:center;gap:10px;
+}
+.code::before,.code::after{content:"";width:28px;height:1px;background:var(--line)}
+h1{
+  grid-area:title;margin:clamp(1rem,2vw,1.4rem) 0 0;
+  font-family:var(--font-display);font-weight:800;
+  font-size:clamp(2.1rem,5.4vw,3.5rem);line-height:1.04;letter-spacing:-.03em;
+  max-width:16ch;text-wrap:balance;
+}
+.lede{
+  grid-area:text;margin:clamp(.9rem,2vw,1.25rem) 0 0;
+  color:var(--ink-2);font-size:clamp(1.0625rem,1.6vw,1.25rem);line-height:1.6;
+  max-width:48ch;text-wrap:pretty;
+}
+.acts{
+  grid-area:acts;margin-top:clamp(1.75rem,4vw,2.5rem);
+  display:flex;flex-wrap:wrap;gap:12px;justify-content:center;
+}
+.btn{
+  font-family:var(--font-body);font-weight:600;font-size:.9375rem;line-height:1;
+  display:inline-flex;align-items:center;gap:8px;padding:14px 26px;
+  border:1px solid transparent;border-radius:var(--r-sm);cursor:pointer;
+  transition:transform 140ms var(--ease-spring),background-color 240ms var(--ease-out),
+             border-color 240ms var(--ease-out),color 240ms var(--ease-out);
+}
+.btn--primary{background:var(--red);color:var(--bg);box-shadow:var(--shadow-sm)}
+.btn--primary:hover{background:var(--red-deep);transform:translateY(-1px)}
+.btn--primary:active{transform:translateY(0) scale(.985)}
+.btn--secondary{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn--secondary:hover{background:var(--paper);transform:translateY(-1px)}
+.btn--secondary:active{transform:translateY(0) scale(.985)}
+
+/* --- rappel des pages utiles --- */
+.help{
+  grid-area:help;margin-top:clamp(2.25rem,5vw,3.25rem);padding-top:clamp(1.5rem,3vw,2rem);
+  border-top:1px solid var(--line);width:100%;
+}
+.help p{margin:0 0 14px;font-size:.8125rem;letter-spacing:.04em;text-transform:uppercase;
+  font-weight:600;color:var(--ink-3)}
+.help ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center}
+.help a{
+  color:var(--ink-2);font-size:.9375rem;font-weight:500;
+  border-bottom:1.5px solid transparent;padding-bottom:2px;
+  transition:color 240ms var(--ease-out),border-color 240ms var(--ease-out);
+}
+.help a:hover{color:var(--ink);border-bottom-color:var(--red)}
+
+/* --- pied : contact direct, l'issue la plus utile --- */
+.ft{
+  background:var(--navy);color:color-mix(in oklch,var(--bg) 72%,transparent);
+  padding:clamp(1.5rem,4vw,2rem) var(--gutter);text-align:center;font-size:.9375rem;
+}
+.ft a{color:var(--sky);border-bottom:1px solid color-mix(in oklch,var(--sky) 40%,transparent);
+  padding-bottom:1px;transition:color 240ms var(--ease-out),border-color 240ms var(--ease-out)}
+.ft a:hover{color:var(--bg);border-bottom-color:var(--bg)}
+.ft :focus-visible{outline-color:var(--sky)}
+
+/* --- entrée en scène, décalée --- */
+@media (prefers-reduced-motion:no-preference){
+  .wrap>*{opacity:0;transform:translateY(18px);animation:rise .72s var(--ease-spring) forwards}
+  .mark{animation-delay:.02s} .code{animation-delay:.10s} h1{animation-delay:.16s}
+  .lede{animation-delay:.23s} .acts{animation-delay:.30s} .help{animation-delay:.38s}
+  @keyframes rise{to{opacity:1;transform:none}}
+}
+@media (max-width:520px){
+  .acts{flex-direction:column;align-items:stretch}
+  .btn{justify-content:center;width:100%}
+}
+</style>
+</head>
+<body>
+
+<header class="hd">
+  <a href="/" aria-label="Julie Gauthier, RE/MAX Crystal, accueil">
+    <img src="/favicon.svg" alt="" aria-hidden="true" width="38" height="38">
+    <span>Julie Gauthier</span>
+  </a>
+</header>
+
+<main class="wrap">
+  <img class="mark" src="/favicon.svg" alt="" aria-hidden="true" width="76" height="76">
+
+  <span class="code">Erreur 404</span>
+
+  <h1>Cette page a changé d'adresse</h1>
+
+  <p class="lede">
+    Le lien que vous avez suivi ne mène plus à rien. La propriété est peut-être vendue,
+    ou l'adresse a simplement été modifiée. Voici par où reprendre.
+  </p>
+
+  <div class="acts">
+    <a class="btn btn--primary" href="/proprietes.html">Voir les propriétés</a>
+    <a class="btn btn--secondary" href="/">Retour à l'accueil</a>
+  </div>
+
+  <nav class="help" aria-label="Pages utiles">
+    <p>Pages les plus consultées</p>
+    <ul>
+      <li><a href="/acheter.html">Acheter</a></li>
+      <li><a href="/vendre.html">Vendre</a></li>
+      <li><a href="/secteurs.html">Secteurs</a></li>
+      <li><a href="/calculatrice-hypothecaire.html">Calculatrice hypothécaire</a></li>
+      <li><a href="/apropos.html">À propos</a></li>
+    </ul>
+  </nav>
+</main>
+
+<footer class="ft">
+  Vous cherchiez une propriété en particulier ?
+  Écrivez-moi ou appelez au <a href="tel:+15148954921">514.895.4921</a>.
+</footer>
+
+</body>
+</html>

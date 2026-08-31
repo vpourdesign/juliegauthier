@@ -1,0 +1,21 @@
+# robots.txt — juliegauthier.immo
+# Site vitrine de Julie Gauthier, courtière immobilière agréée, RE/MAX Crystal.
+
+User-agent: *
+Allow: /
+
+# Documentation interne et fichiers de build : aucun intérêt pour la recherche.
+Disallow: /CLAUDE.md
+Disallow: /CLAUDE-DESIGN-BRIEF.md
+Disallow: /CLAUDE-DESIGN-PROMPTS.md
+Disallow: /CENTRIS-SETUP.md
+Disallow: /DESIGN.md
+Disallow: /validation-video-google.md
+Disallow: /build.mjs
+Disallow: /serve.mjs
+Disallow: /lib/
+Disallow: /scripts/
+Disallow: /reference/
+Disallow: /_centris/
+
+Sitemap: https://juliegauthier.immo/sitemap.xml

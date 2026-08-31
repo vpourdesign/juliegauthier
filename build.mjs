@@ -9,11 +9,13 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { ficheHTML } from './lib/fiche.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CENTRIS = path.join(ROOT, '_centris');
+const SITE = 'https://juliegauthier.immo';   // domaine de production (sitemap + canonical)
 const FEED_DATE = new Date(); // date du build (pour le statut « Nouveau »)
 const FICHES_READY = true;    // fiches nos-proprietes/{slug}/ générées → cartes cliquables
 
@@ -194,15 +196,77 @@ function writeFiches(props) {
   console.log(`${props.length} fiches générées dans nos-proprietes/.`);
 }
 
+/* ---------- génération du sitemap.xml ---------- */
+// Pages jamais indexées : fiche.html est un gabarit de démonstration (propriété
+// fictive) et 404.html n'existe que pour les erreurs.
+const SITEMAP_SKIP = new Set(['fiche.html', '404.html']);
+const SITEMAP_PRIORITY = {
+  'proprietes.html': '0.9', 'acheter.html': '0.8', 'vendre.html': '0.8',
+  'apropos.html': '0.7', 'secteurs.html': '0.7',
+};
+
+// Date du dernier commit touchant le fichier ; à défaut, date de modification.
+function lastmodOf(rel) {
+  try {
+    const out = execFileSync('git', ['log', '-1', '--format=%cI', '--', rel],
+      { cwd: ROOT, stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
+    if (out) return out.slice(0, 10);
+  } catch { /* hors dépôt git ou fichier jamais committé */ }
+  try { return fs.statSync(path.join(ROOT, rel)).mtime.toISOString().slice(0, 10); }
+  catch { return null; }
+}
+
+function writeSitemap(props) {
+  const urls = [];
+  const add = (loc, lastmod, changefreq, priority) =>
+    urls.push({ loc, lastmod, changefreq, priority });
+
+  add(`${SITE}/`, lastmodOf('index.html'), 'weekly', '1.0');
+
+  // Pages racine découvertes automatiquement : les nouvelles pages (secteurs,
+  // articles de blogue) entrent dans le sitemap sans toucher au build.
+  for (const f of fs.readdirSync(ROOT).filter(f => f.endsWith('.html')).sort()) {
+    if (f === 'index.html' || SITEMAP_SKIP.has(f)) continue;
+    add(`${SITE}/${f}`, lastmodOf(f),
+      f === 'proprietes.html' ? 'daily' : 'monthly',
+      SITEMAP_PRIORITY[f] || '0.6');
+  }
+
+  for (const p of props) {
+    const d = /^\d{4}-\d{2}-\d{2}$/.test(p.listingDate || '') ? p.listingDate : null;
+    add(`${SITE}/nos-proprietes/${p.slug}/`, d, 'weekly', '0.8');
+  }
+
+  const xml = ['<?xml version="1.0" encoding="UTF-8"?>',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ...urls.map(u => ['  <url>',
+      `    <loc>${u.loc}</loc>`,
+      u.lastmod ? `    <lastmod>${u.lastmod}</lastmod>` : null,
+      `    <changefreq>${u.changefreq}</changefreq>`,
+      `    <priority>${u.priority}</priority>`,
+      '  </url>'].filter(Boolean).join('\n')),
+    '</urlset>', ''].join('\n');
+
+  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml);
+  console.log(`sitemap.xml régénéré (${urls.length} URLs).`);
+}
+
 /* ---------- main ---------- */
+const DATA = path.join(ROOT, 'data', 'properties.json');
+
 if (!fs.existsSync(path.join(CENTRIS,'INSCRIPTIONS.TXT'))) {
+  // Mode B : on ne retouche pas le HTML committé, mais le sitemap reste à jour
+  // (utile quand on ajoute une page statique sans zip Centris frais).
   console.log('Mode B · pas de _centris/ — aucune régénération (HTML committé conservé).');
+  if (fs.existsSync(DATA)) writeSitemap(JSON.parse(fs.readFileSync(DATA,'utf8')));
+  else console.log('sitemap.xml ignoré (data/properties.json absent).');
   process.exit(0);
 }
 console.log('Mode A · lecture du zip Centris…');
 const props = ingest();
 fs.mkdirSync(path.join(ROOT,'data'), { recursive: true });
-fs.writeFileSync(path.join(ROOT,'data','properties.json'), JSON.stringify(props, null, 2));
+fs.writeFileSync(DATA, JSON.stringify(props, null, 2));
 writeListing(props);
 writeFiches(props);
+writeSitemap(props);
 console.log('✓ build terminé.');

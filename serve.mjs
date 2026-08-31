@@ -22,6 +22,9 @@ const TYPES = {
   '.ico': 'image/x-icon',
   '.woff2': 'font/woff2',
   '.woff': 'font/woff',
+  '.txt': 'text/plain; charset=utf-8',
+  '.xml': 'application/xml; charset=utf-8',
+  '.webmanifest': 'application/manifest+json; charset=utf-8',
 };
 
 const server = http.createServer((req, res) => {
@@ -34,7 +37,15 @@ const server = http.createServer((req, res) => {
     if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
       const idx = path.join(filePath, 'index.html');
       if (fs.existsSync(idx)) filePath = idx;
-      else { res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }); res.end('404 — introuvable'); return; }
+      else {
+        // Comme en production (Netlify, Vercel, Cloudflare, GitHub Pages) :
+        // page 404 du site plutôt qu'un message brut.
+        const notFound = path.join(ROOT, '404.html');
+        res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+        if (fs.existsSync(notFound)) { fs.createReadStream(notFound).pipe(res); }
+        else res.end('404 — introuvable');
+        return;
+      }
     }
     const ext = path.extname(filePath).toLowerCase();
     res.writeHead(200, { 'Content-Type': TYPES[ext] || 'application/octet-stream' });

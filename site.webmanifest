@@ -1,0 +1,16 @@
+{
+  "name": "Julie Gauthier · Courtière immobilière agréée",
+  "short_name": "Julie Gauthier",
+  "description": "Achat et vente résidentiels sur la Rive-Nord de Montréal et dans les Basses-Laurentides.",
+  "lang": "fr-CA",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F7F5EE",
+  "theme_color": "#000E35",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

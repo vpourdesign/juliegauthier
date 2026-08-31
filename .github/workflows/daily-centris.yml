@@ -17,6 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Historique complet : le sitemap date chaque page d'après son dernier
+          # commit. Avec un clone superficiel, toutes les pages hériteraient de
+          # la date du jour et le lastmod changerait sans raison à chaque build.
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
