@@ -147,7 +147,7 @@ function propertyCard(p, i) {
 }
 
 /* ---------- réécriture de proprietes.html (par ancres structurelles) ---------- */
-function writeListing(props) {
+function writeListing(props, vendues = []) {
   const F = path.join(ROOT,'proprietes.html');
   let h = fs.readFileSync(F,'utf8');
   const n = props.length;
@@ -158,11 +158,14 @@ function writeListing(props) {
   const sEnd = s + open.length;
   const closeAnchor = '\n      </div>\n    </div>';
   const e = h.indexOf(closeAnchor, sEnd); if(e<0) throw new Error('Fin de grille introuvable');
-  const cards = props.map(propertyCard).join('\n');
+  // Les vendues ferment la grille : elles témoignent de l'activité sans
+  // reléguer les inscriptions encore disponibles.
+  const toutes = [...props, ...vendues];
+  const cards = toutes.map(propertyCard).join('\n');
   h = h.slice(0,sEnd) + '\n' + cards + '\n' + h.slice(e);
 
   // 2) options de ville
-  const cities = [...new Map(props.map(p=>[slug(p.city),p.city])).entries()].sort((a,b)=>a[1].localeCompare(b[1],'fr'));
+  const cities = [...new Map(toutes.map(p=>[slug(p.city),p.city])).entries()].sort((a,b)=>a[1].localeCompare(b[1],'fr'));
   const cityOpts = ['            <option value="tous">Toutes les villes</option>',
     ...cities.map(([v,l])=>`            <option value="${v}">${esc(l)}</option>`)].join('\n');
   const so = '<select id="jg-f-city" class="jg-select" data-filter-group="city">';
@@ -171,12 +174,63 @@ function writeListing(props) {
   const b = h.indexOf('</select>', aEnd);
   h = h.slice(0,aEnd) + '\n' + cityOpts + '\n          ' + h.slice(b);
 
-  // 3) compteurs
+  // 3) compteurs — « disponibles » ne compte que les inscriptions actives
   h = h.replace(/\d+\s+propriétés disponibles/, `${n} propriétés disponibles`);
-  h = h.replace(/\d+ sur \d+ affichées/, `${n} sur ${n} affichées`);
+  h = h.replace(/\d+ sur \d+ affichées/, `${toutes.length} sur ${toutes.length} affichées`);
 
   fs.writeFileSync(F, h);
-  console.log(`proprietes.html régénéré (${n} cartes, ${cities.length} villes).`);
+  console.log(`proprietes.html régénéré (${n} actives` +
+    (vendues.length ? ` + ${vendues.length} vendue(s)` : '') +
+    `, ${cities.length} villes).`);
+}
+
+/* ---------- propriétés vendues ----------------------------------------------
+   Le flux Centris ne contient que les inscriptions ACTIVES : la colonne de
+   statut vaut « AI » pour toutes, et il n'y a ni date ni prix de vente. Une
+   propriété vendue disparaît simplement du fichier. On repère donc les sorties
+   en comparant le flux du jour aux propriétés déjà connues, et on les garde
+   affichées JOURS_VENDU jours.
+
+   ATTENTION : une inscription peut aussi disparaître sans avoir été vendue
+   (mandat expiré, retrait du vendeur, transfert à un autre courtier). Le
+   fichier data/archives.json est volontairement lisible et modifiable à la
+   main : retirer une entrée suffit à la faire disparaître du site.           */
+const JOURS_VENDU = 30;
+
+function majArchives(actifs, aujourdhui, flux) {
+  const lire = f => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return []; } };
+  let arch = fs.existsSync(ARCHIVES) ? lire(ARCHIVES) : [];
+
+  const mlsActifs = new Set(actifs.map(p => p.mls));
+
+  // Une propriété remise en vente redevient active et quitte les archives.
+  arch = arch.filter(a => !mlsActifs.has(a.mls));
+
+  // Nouvelles sorties : connues au build précédent, absentes du flux d'aujourd'hui.
+  // Sans flux frais on ne peut rien conclure, donc on n'ajoute rien.
+  if (flux) {
+    const connues = fs.existsSync(DATA) ? lire(DATA) : [];
+    const deja = new Set(arch.map(a => a.mls));
+    for (const p of connues) {
+      if (mlsActifs.has(p.mls) || deja.has(p.mls)) continue;
+      arch.push({ ...p, status: 'sold', sortieLe: aujourdhui });
+    }
+  }
+
+  // Au-delà du délai, la propriété quitte le site.
+  const limite = new Date(aujourdhui + 'T00:00:00Z');
+  limite.setUTCDate(limite.getUTCDate() - JOURS_VENDU);
+  const limiteISO = limite.toISOString().slice(0, 10);
+  const avant = arch.length;
+  arch = arch.filter(a => (a.sortieLe || '') >= limiteISO);
+
+  arch.sort((a, b) => (b.sortieLe || '').localeCompare(a.sortieLe || '') || b.price - a.price);
+  fs.mkdirSync(path.dirname(ARCHIVES), { recursive: true });
+  fs.writeFileSync(ARCHIVES, JSON.stringify(arch, null, 2));
+  const expirees = avant - arch.length;
+  console.log(`vendues : ${arch.length} affichée(s)` +
+    (expirees > 0 ? `, ${expirees} retirée(s) après ${JOURS_VENDU} jours.` : '.'));
+  return arch;
 }
 
 /* ---------- vitrine de l'accueil : les 3 inscriptions les plus récentes ---------- */
@@ -307,12 +361,16 @@ function writeSitemap(props) {
 
 /* ---------- main ---------- */
 const DATA = path.join(ROOT, 'data', 'properties.json');
+const ARCHIVES = path.join(ROOT, 'data', 'archives.json');
 
-let props;
+let props, vendues;
+const AUJOURDHUI = FEED_DATE.toISOString().slice(0, 10);
 
 if (fs.existsSync(path.join(CENTRIS,'INSCRIPTIONS.TXT'))) {
   console.log('Mode A · lecture du zip Centris…');
   props = ingest();
+  // Avant d'écraser data/properties.json : ce qui a disparu du flux est vendu.
+  vendues = majArchives(props, AUJOURDHUI, true);
   fs.mkdirSync(path.join(ROOT,'data'), { recursive: true });
   fs.writeFileSync(DATA, JSON.stringify(props, null, 2));
 } else if (fs.existsSync(DATA)) {
@@ -321,13 +379,16 @@ if (fs.existsSync(path.join(CENTRIS,'INSCRIPTIONS.TXT'))) {
   // se propager sans attendre le prochain dépôt Centris.
   console.log('Mode B · pas de _centris/ — régénération depuis data/properties.json.');
   props = JSON.parse(fs.readFileSync(DATA,'utf8'));
+  // Sans flux frais, aucune nouvelle sortie détectable : on se contente de
+  // purger les vendues arrivées à échéance.
+  vendues = majArchives(props, AUJOURDHUI, false);
 } else {
   console.log('Aucune donnée (_centris/ et data/properties.json absents) — rien à faire.');
   process.exit(0);
 }
 
-writeListing(props);
-writeFiches(props);
-writeHome(props);
-writeSitemap(props);
+writeListing(props, vendues);
+writeFiches([...props, ...vendues]);   // la fiche d'une vendue reste en ligne 30 jours
+writeHome(props);                      // la vitrine ne montre que les inscriptions actives
+writeSitemap(props);                   // les vendues sont temporaires : hors sitemap
 console.log('✓ build terminé.');

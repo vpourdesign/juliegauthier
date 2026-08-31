@@ -1071,8 +1071,16 @@ html.jg-anim [data-reveal]{opacity:0;transform:translateY(24px)}
     });
     vis.forEach((c, i) => { c.style.order = String(i); });
 
-    // compteurs (aria-live)
-    if (this._countEl) this._countEl.textContent = visible + (visible === 1 ? ' propriété disponible' : ' propriétés disponibles');
+    // compteurs (aria-live) — « disponibles » exclut les vendues, qui restent
+    // affichées 30 jours mais ne sont plus à vendre.
+    const dispo = vis.filter(c => c.dataset.status !== 'sold').length;
+    const vendu = visible - dispo;
+    const acc = (n, s, p) => n + (n === 1 ? s : p);
+    let libelle;
+    if (vendu === 0)      libelle = acc(dispo, ' propriété disponible', ' propriétés disponibles');
+    else if (dispo === 0) libelle = acc(vendu, ' propriété vendue', ' propriétés vendues');
+    else                  libelle = acc(dispo, ' disponible', ' disponibles') + ' · ' + acc(vendu, ' vendue', ' vendues');
+    if (this._countEl) this._countEl.textContent = libelle;
     if (this._shownEl) this._shownEl.textContent = visible + ' sur ' + this._cards.length + ' affichées';
 
     // état vide
