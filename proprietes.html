@@ -892,7 +892,7 @@ html.jg-anim [data-reveal]{opacity:0;transform:translateY(24px)}
   /* ---------- Motion : GSAP + ScrollTrigger + Lenis (fallback IO) ---------- */
   initMotion() {
     const root = this._root;
-    const reveals = Array.from(root.querySelectorAll('[data-reveal]'));
+    const reveals = Array.from(document.querySelectorAll('[data-reveal]'));
     if (this._reduce) {
       reveals.forEach(el => { el.style.opacity = '1'; el.style.transform = 'none'; });
       return;

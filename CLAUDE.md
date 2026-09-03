@@ -237,3 +237,22 @@ Every design must have a layering system — surfaces should not all sit at the 
 - Do not use flat single-stop shadows
 - Do not animate layout properties — only `transform` and `opacity`
 - Do not use fixed px font sizes — always `clamp()`
+## Rédaction — bans de style (règle fixe, tout le site)
+
+**Interdit : le parallélisme négatif.** Une affirmation suivie d'un contraste négatif. C'est la signature la plus reconnaissable d'un texte écrit par une IA.
+
+Patrons bannis, sous toutes leurs formes :
+- `X, jamais Y` — « une vraie conversation, jamais une pression »
+- `X, pas seulement Y` — « jusqu'à la signature, pas seulement à la première visite »
+- `Ce n'est pas X, c'est Y` / `L'objectif n'est pas X, mais Y`
+- `Pas de X, juste Y`
+- toute variante où la deuxième moitié de la phrase existe seulement pour nier la première
+
+**La correction : couper la moitié négative.** Garder l'affirmation seule. Si la phrase perd de la substance, remplacer le négatif par un détail concret (un lieu, un chiffre, une étape), pas par un autre contraste.
+
+- Non : « J'appuie l'évaluation sur les ventes du bon secteur, jamais sur une moyenne régionale. »
+- Oui : « J'appuie l'évaluation sur les ventes du bon secteur, rue par rue. »
+
+**Ce qui reste permis :** les qualificatifs simples comme `sans pression`, `sans engagement`, `sans stress`. Ce sont des compléments, pas des contrastes rhétoriques : ils ne nient pas la première moitié de la phrase.
+
+Appliquer à toutes les pages, les articles de blogue, les métadonnées SEO et les infolettres.

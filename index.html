@@ -376,7 +376,7 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
     <div>
       <div data-reveal><span class="jg-eyebrow jg-eyebrow--blue">À propos</span></div>
       <h2 id="jg-about-title" data-reveal style="margin-top:var(--space-4);max-width:20ch"><span style="font-family:var(--font-accent);font-weight:500;letter-spacing:-0.01em">Julie Gauthier</span>, à vos côtés à chaque étape.</h2>
-      <p data-reveal style="margin-top:var(--space-5);color:var(--ink-2);font:400 var(--fs-lead)/1.6 var(--font-body);max-width:62ch">Julie vous accompagne avec écoute et transparence. Elle connaît la Rive-Nord, défend vos intérêts et avance à votre rythme. Chaque transaction commence par une vraie conversation, jamais par une pression.</p>
+      <p data-reveal style="margin-top:var(--space-5);color:var(--ink-2);font:400 var(--fs-lead)/1.6 var(--font-body);max-width:62ch">Julie vous accompagne avec écoute et transparence. Elle connaît la Rive-Nord, défend vos intérêts et avance à votre rythme. Chaque transaction commence par une vraie conversation.</p>
       <div data-reveal style="display:flex;flex-wrap:wrap;gap:0;margin-top:var(--space-7);padding-top:var(--space-6);border-top:1px solid var(--line)">
         <div style="display:flex;align-items:center;gap:10px;padding-right:var(--space-6)">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 11 3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
@@ -718,7 +718,7 @@ textarea.jg-field{height:auto;padding:12px 14px;resize:vertical}
     var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     // ---- Reveals au scroll (stagger) ----
-    var reveals = Array.prototype.slice.call(root.querySelectorAll('[data-reveal]'));
+    var reveals = Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));
     if(reduce){
       reveals.forEach(function(el){ el.classList.add('is-in'); });
     } else {
