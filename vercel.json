@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/fr",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/a-propos",
+      "destination": "/apropos.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/about",
+      "destination": "/apropos.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/temoignages.html",
+      "destination": "/#temoignages",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/temoignages",
+      "destination": "/#temoignages",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/partenaires",
+      "destination": "/apropos.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/acheter.html",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/achat-vente.html",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/achetez-une-propriete",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/achetez-une-copropriete",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guide-acheteur",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/integri-t.html",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/integri-t",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/vendre.html",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/vendre-ma-propriete",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guide-vendeur",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/evaluation-immobiliere",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/outils/evaluation-immobiliere.html",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/tranquilli-t/:path*",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/tranquilli-t.html",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/proprietes/:path*",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/proprietes",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/nos-proprietes/:path*",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/mes-proprietes.html",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/alerte-immobiliere",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/outils/alerte-immobiliere.html",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/blogue/:path*",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/blogue",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/articles/:path*",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/articles",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/ressources-videos",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/calculatrice-hypothecaire",
+      "destination": "/calculatrice-hypothecaire.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/outils/calculatrice-hypothecaire.html",
+      "destination": "/calculatrice-hypothecaire.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/outils-pratiques",
+      "destination": "/calculatrice-hypothecaire.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/outils/calculatrice-taxe-mutation.html",
+      "destination": "/taxe-de-bienvenue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/aide-au-financement",
+      "destination": "/capacite-emprunt.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/outils/:path*",
+      "destination": "/calculatrice-hypothecaire.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/mes-secteurs",
+      "destination": "/secteurs.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/secteur-mirabel",
+      "destination": "/mirabel.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/secteur-saint-augustin",
+      "destination": "/saint-augustin.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/politique-confidentialite.html",
+      "destination": "/politique-de-confidentialite.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/politique-confidentialite",
+      "destination": "/politique-de-confidentialite.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/conditions-et-utilisation",
+      "destination": "/politique-de-confidentialite.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/contact",
+      "destination": "/#contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "/",
+      "statusCode": 301
+    }
+  ]
+}
