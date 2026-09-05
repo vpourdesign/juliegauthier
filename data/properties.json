@@ -30,7 +30,7 @@
     "status": "forsale",
     "listingDate": "2026-04-29",
     "descFr": "Les installations équestres, conçues pour répondre aux standards les plus exigeants, se démarquent par leur qualité de construction et leur fonctionnalité irréprochable. La vaste écurie impressionne par ses allées larges et ses plafonds généreux, créant un environnement adapté aux chevaux comme aux cavaliers. Les bâtiments: l'écurie, le manège intérieur et le bâtiment de machinerie reposent sur des structures d'acier. L'écurie comprend : -42 stalles, dont plusieurs grands boxes de 18 x 12 pieds, idéals pour le poulinage ou les étalons -Salle de collecte, -Laboratoire et salle d'examen avec chute -Deux bureaux, -Salle de bain -nombreux espaces de rangement -Grenier pouvant accueillir environ 10 000 balles de foin -Manège intérieur de 200 x 80 pieds À l'extérieur, les installations se poursuivent avec : - Domaine composé de Pins et d'Érables. - Piste de course d'un demi-mille (permis à demande/confirmer pour la réaménager) - Bâtiment de machinerie de 50 x 100 pieds - Environ 15 acres de pâturages - Sentiers de randonnée directement sur la propriété Le tout, idéalement située à seulement quelques minutes de Joliette et à moins d'une heure de Montréal, cette propriété offre un équilibre remarquable entre la tranquillité d'un environnement naturel et l'accès rapide à tous les services essentiels. Les propriétés de cette envergure, combinant infrastructures équestres complètes, vaste domaine boisé et proximité des services, sont rares sur le marché. Une opportunité exceptionnelle, autant pour les passionnés que pour les professionnels du monde équestre.",
-    "remFr": "Découvrez l'emplacement des installations de Trans-Bio. Une propriété unique sise sur un terrain de 100 arpents ( 83 acres) située à quelques minutes de Joliette où nature et infrastructures équestres se rencontrent harmonieusement. Dès l'arrivée, on ressent immédiatement le potentiel unique de ce domaine où la passion équestre prend tout son sens. Ce domaine avec, entre autres, écurie et manège intérieur bénéficie également d'un sol sablonneux naturel, particulièrement recherché pour l'entraînement des chevaux. Une opportunité distinctive pour ceux qui souhaitent allier passion, espace et vision. Voir addenda.",
+    "remFr": "Découvrez un site unique! Terrain de 100 arpents ( 83 acres) située à quelques minutes de Joliette où nature et infrastructures équestres se rencontrent harmonieusement. Dès l'arrivée, on ressent immédiatement le potentiel unique de ce domaine où la passion équestre prend tout son sens. Ce domaine avec, entre autres, écurie et manège intérieur bénéficie également d'un sol sablonneux naturel, particulièrement recherché pour l'entraînement des chevaux. Une opportunité distinctive pour ceux qui souhaitent allier passion, espace et vision. Voir addenda.",
     "features": [
       {
         "code": "ALLE",
@@ -427,6 +427,22 @@
       {
         "code": "ALLE",
         "value": "NPAV"
+      },
+      {
+        "code": "BATI",
+        "value": "AU"
+      },
+      {
+        "code": "BATI",
+        "value": "GARA"
+      },
+      {
+        "code": "BATI",
+        "value": "GRNG"
+      },
+      {
+        "code": "BATI",
+        "value": "REMI"
       },
       {
         "code": "CHAU",
