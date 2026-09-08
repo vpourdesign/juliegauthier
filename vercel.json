@@ -237,6 +237,206 @@
       "statusCode": 301
     },
     {
+      "source": "/en/properties/:path*",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/properties",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/our-properties/:path*",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/our-properties",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/my-properties.html",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/real-estate-alert",
+      "destination": "/proprietes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/:path*",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/articles/:path*",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/articles",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/video-resources",
+      "destination": "/blogue.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/buying.html",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/buy-a-property",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/buy-a-condominium",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/buyers-guide",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/integri-t.html",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/integri-t",
+      "destination": "/acheter.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/selling.html",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/sell-my-property",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/sellers-guide",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/property-assessment",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/tools/property-assessment.html",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/tranquilli-t/:path*",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/tranquilli-t.html",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/tranquilli-t",
+      "destination": "/vendre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/testimonials.html",
+      "destination": "/#temoignages",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/testimonials",
+      "destination": "/#temoignages",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/partners",
+      "destination": "/apropos.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/my-areas",
+      "destination": "/secteurs.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/area-mirabel",
+      "destination": "/mirabel.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/area-saint-augustin",
+      "destination": "/saint-augustin.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/tools/mortgage-payment.html",
+      "destination": "/calculatrice-hypothecaire.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/mortgage-payment-calculator",
+      "destination": "/calculatrice-hypothecaire.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/useful-tools",
+      "destination": "/calculatrice-hypothecaire.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/tools/:path*",
+      "destination": "/calculatrice-hypothecaire.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/financial-assistance",
+      "destination": "/capacite-emprunt.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/privacy-policy.html",
+      "destination": "/politique-de-confidentialite.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/privacy-policy",
+      "destination": "/politique-de-confidentialite.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/terms-of-use",
+      "destination": "/politique-de-confidentialite.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/contact",
+      "destination": "/#contact",
+      "statusCode": 301
+    },
+    {
       "source": "/fr/:path*",
       "destination": "/",
       "statusCode": 301
