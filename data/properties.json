@@ -3527,6 +3527,444 @@
     "slug": "9628867-rue-du-chatelet-saint-colomban"
   },
   {
+    "mls": "17418208",
+    "price": 524900,
+    "civic": "299",
+    "street": "Av. Tulip",
+    "address": "299, Av. Tulip",
+    "city": "Dorval",
+    "postalCode": "H9S3P5",
+    "type": "maison",
+    "beds": 2,
+    "baths": 2,
+    "powder": 0,
+    "yearBuilt": "1951",
+    "areaTerrain": "453.60 MC",
+    "lat": 45.44472252,
+    "lon": -73.73263059,
+    "eval": {
+      "year": "2026",
+      "terrain": 310400,
+      "batiment": 234300,
+      "total": 544700
+    },
+    "taxes": {
+      "mun": 2159,
+      "year": "2026",
+      "sco": 405
+    },
+    "video": null,
+    "status": "new",
+    "listingDate": "2026-09-10",
+    "descFr": "Le rez-de-chaussée comprend actuellement une chambre à coucher. L'espace occupé par la salle à manger constituait anciennement une deuxième chambre. Au sous-sol, on découvre une grande salle familiale offrant plusieurs possibilités d'aménagement. Le poêle à bois ajoute du caractère à cet espace. À l'extérieur, une remise offre du rangement supplémentaire, auquel s'ajoute l'espace de rangement situé sous le balcon. Le balcon couvert permet de profiter de l'extérieur à l'abri des intempéries. L'allée asphaltée est spacieuse et offre plusieurs espaces de stationnement. L'emplacement permet de profiter pleinement des avantages de Dorval. Plusieurs parcs et installations sportives se trouvent à proximité, notamment le Complexe aquatique et sportif de Dorval, qui comprend entre autres des piscines et un gymnase. Les amateurs de plein air apprécieront également les nombreux espaces verts ainsi que les installations aménagées en bordure du lac Saint-Louis.",
+    "remFr": "Propriété soigneusement entretenue, fraîchement peinte et disponible dès maintenant, située dans un secteur établi de Dorval, à proximité de nombreux services, parcs et moyens de transport. D'importants investissements ont été réalisés en 2024, notamment pour le revêtement extérieur (47 542 $) et la rénovation du sous-sol (84 370 $). Le rez-de-chaussée propose de beaux espaces lumineux agrémentés de planchers de bois. Située sur un coin de rue, la propriété bénéficie d'une cour arrière offrant un bel espace vert, d'une terrasse couverte ainsi que d'une remise. Voir addenda pour plus de détails.",
+    "features": [
+      {
+        "code": "ALLE",
+        "value": "ASPH"
+      },
+      {
+        "code": "ARMO",
+        "value": "BOIS"
+      },
+      {
+        "code": "EAU",
+        "value": "AMU"
+      },
+      {
+        "code": "ENER",
+        "value": "ELEC"
+      },
+      {
+        "code": "FENE",
+        "value": "ALUM"
+      },
+      {
+        "code": "FENE",
+        "value": "PVC"
+      },
+      {
+        "code": "FOND",
+        "value": "BETO"
+      },
+      {
+        "code": "FOPO",
+        "value": "BOIS"
+      },
+      {
+        "code": "PART",
+        "value": "COIN"
+      },
+      {
+        "code": "PROX",
+        "value": "AUTO"
+      },
+      {
+        "code": "PROX",
+        "value": "GCPE"
+      },
+      {
+        "code": "PROX",
+        "value": "GOLF"
+      },
+      {
+        "code": "PROX",
+        "value": "PARC"
+      },
+      {
+        "code": "PROX",
+        "value": "PCYC"
+      },
+      {
+        "code": "PROX",
+        "value": "PRIM"
+      },
+      {
+        "code": "PROX",
+        "value": "SEC"
+      },
+      {
+        "code": "PROX",
+        "value": "TRSP"
+      },
+      {
+        "code": "PARE",
+        "value": "ALUM"
+      },
+      {
+        "code": "PARE",
+        "value": "BRIQ"
+      },
+      {
+        "code": "SS",
+        "value": "6"
+      },
+      {
+        "code": "STAT",
+        "value": "EXT"
+      },
+      {
+        "code": "SYEG",
+        "value": "EGMU"
+      },
+      {
+        "code": "TFEN",
+        "value": "COUL"
+      },
+      {
+        "code": "TFEN",
+        "value": "MAN"
+      },
+      {
+        "code": "TOIT",
+        "value": "BAA"
+      },
+      {
+        "code": "TOPO",
+        "value": "PLAT"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "SER",
+        "level": "Rez-de-chaussée",
+        "dim": "11'5\" × 16'1\"",
+        "rev": "PARQ"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "Rez-de-chaussée",
+        "dim": "10'2\" × 19'5\"",
+        "rev": "PARQ"
+      },
+      {
+        "name": "Cuisine",
+        "level": "Rez-de-chaussée",
+        "dim": "14'1\" × 12'2\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "Rez-de-chaussée",
+        "dim": "13'6\" × 10'2\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Rez-de-chaussée",
+        "dim": "11'2\" × 6'1\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle familiale",
+        "level": "Sous-sol",
+        "dim": "18'1\" × 19'10\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre",
+        "level": "Sous-sol",
+        "dim": "16' × 11'11\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Sous-sol",
+        "dim": "4'5\" × 9'4\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle de lavage",
+        "level": "Sous-sol",
+        "dim": "10'11\" × 9'4\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Atelier",
+        "level": "Sous-sol",
+        "dim": "11'10\" × 7'4\"",
+        "rev": "Céramique"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2B853FD1DF705DD1F&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2B853BD1DF705DD4F&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "AU",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2BA0BAD1DF705DD21&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205348D1DF705DDCC&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205349D1DF705DDEA&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205347D1DF705DDAB&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "AU",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2BA0B1D1DF705DD0D&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205343D1DF705DDB1&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205346D1DF705DDFC&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA20532DD1DF705DD81&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205321D1DF705DD92&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205324D1DF705DD7E&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA20532CD1DF705DD3B&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205322D1DF705DD5B&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "AU",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2BA0B7D1DF705DD62&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA20532ED1DF705D1DD&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA20532AD1DF705D114&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205320D1DF705D14C&t=pi&f=I"
+      },
+      {
+        "seq": 19,
+        "type": "AU",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2BA00AD1DF705D121&t=pi&f=I"
+      },
+      {
+        "seq": 20,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205328D1DF705D1CA&t=pi&f=I"
+      },
+      {
+        "seq": 21,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA20532FD1DF705D1EF&t=pi&f=I"
+      },
+      {
+        "seq": 22,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205329D1DF705D1AF&t=pi&f=I"
+      },
+      {
+        "seq": 23,
+        "type": "ENTREE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205327D1DF705D101&t=pi&f=I"
+      },
+      {
+        "seq": 24,
+        "type": "ENTREE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053CFD1DF705D1B2&t=pi&f=I"
+      },
+      {
+        "seq": 25,
+        "type": "AU",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2BA0FDD1DF705D1F2&t=pi&f=I"
+      },
+      {
+        "seq": 26,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205326D1DF705D18C&t=pi&f=I"
+      },
+      {
+        "seq": 27,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205323D1DF705D192&t=pi&f=I"
+      },
+      {
+        "seq": 28,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA205325D1DF705D17E&t=pi&f=I"
+      },
+      {
+        "seq": 29,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053CDD1DF705D13A&t=pi&f=I"
+      },
+      {
+        "seq": 30,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053C4D1DF705D15F&t=pi&f=I"
+      },
+      {
+        "seq": 31,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053C2D1DF705D161&t=pi&f=I"
+      },
+      {
+        "seq": 32,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053CCD1DF705D4D1&t=pi&f=I"
+      },
+      {
+        "seq": 33,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053CED1DF705D412&t=pi&f=I"
+      },
+      {
+        "seq": 34,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053CAD1DF705D44E&t=pi&f=I"
+      },
+      {
+        "seq": 35,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053CBD1DF705D42B&t=pi&f=I"
+      },
+      {
+        "seq": 36,
+        "type": "AU",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2BA009D1DF705D4CE&t=pi&f=I"
+      },
+      {
+        "seq": 37,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053EDD1DF705D4E2&t=pi&f=I"
+      },
+      {
+        "seq": 38,
+        "type": "AU",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2BABF2D1DF705D4AE&t=pi&f=I"
+      },
+      {
+        "seq": 39,
+        "type": "BALCON",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053C9D1DF705D404&t=pi&f=I"
+      },
+      {
+        "seq": 40,
+        "type": "BALCON",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053C3D1DF705D4BE&t=pi&f=I"
+      },
+      {
+        "seq": 41,
+        "type": "RAN",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053C6D1DF705D4FB&t=pi&f=I"
+      },
+      {
+        "seq": 42,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053E0D1DF705D484&t=pi&f=I"
+      },
+      {
+        "seq": 43,
+        "type": "STAT",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053E2D1DF705D49F&t=pi&f=I"
+      },
+      {
+        "seq": 44,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053EAD1DF705D472&t=pi&f=I"
+      },
+      {
+        "seq": 45,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA20534FD1DF705D43C&t=pi&f=I"
+      },
+      {
+        "seq": 46,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA2053ECD1DF705D452&t=pi&f=I"
+      }
+    ],
+    "slug": "17418208-av-tulip-dorval"
+  },
+  {
     "mls": "26780572",
     "price": 520000,
     "civic": "152",
