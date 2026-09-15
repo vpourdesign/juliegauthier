@@ -3676,12 +3676,12 @@
       {
         "seq": 1,
         "type": "FACA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EA4FDDF45772D12&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E272DDF45772D11&t=pi&f=I"
       },
       {
         "seq": 2,
         "type": "FACA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12E272DDF45772D44&t=pi&f=I"
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA12EA4FDDF45772D4C&t=pi&f=I"
       },
       {
         "seq": 3,
@@ -4210,19 +4210,19 @@
         "name": "Salle de bains",
         "level": "Sous-sol",
         "dim": "4'5\" × 9'4\"",
-        "rev": "Céramique"
+        "rev": "Linoléum"
       },
       {
         "name": "Salle de lavage",
         "level": "Sous-sol",
         "dim": "10'11\" × 9'4\"",
-        "rev": "Céramique"
+        "rev": "Linoléum"
       },
       {
         "name": "Atelier",
         "level": "Sous-sol",
         "dim": "11'10\" × 7'4\"",
-        "rev": "Céramique"
+        "rev": "Linoléum"
       }
     ],
     "photos": [
@@ -5474,7 +5474,7 @@
       "sco": 137
     },
     "video": null,
-    "status": "new",
+    "status": "forsale",
     "listingDate": "2026-08-25",
     "descFr": "",
     "remFr": "À la recherche d'un havre de paix où concrétiser vos projets de vie rurale sans renoncer à la proximité de la ville ? Située dans le cadre enchanteur de Notre-Dame-de-Lourdes, à quelques minutes de Joliette et de tous ses services, cette propriété unique représente le parfait équilibre entre nature, espace et accessibilité. Érigée sur un vaste terrain plat et entièrement exploitable de plus de 85 000 pieds carrés (près de 2 acres), cette propriété offre un terrain de jeu exceptionnel pour quiconque rêve de grands espaces. Bordé d'arbres matures et offrant une intimité remarquable.",
