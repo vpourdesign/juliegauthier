@@ -115,14 +115,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://juliegauthier.immo/nos-proprietes/15923597-rue-st-jean-mirabel/</loc>
-    <lastmod>2026-08-06</lastmod>
+    <loc>https://juliegauthier.immo/nos-proprietes/11398356-rg-ste-rose-notre-dame-de-lourdes/</loc>
+    <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://juliegauthier.immo/nos-proprietes/11398356-rg-ste-rose-notre-dame-de-lourdes/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <loc>https://juliegauthier.immo/nos-proprietes/15923597-rue-st-jean-mirabel/</loc>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -147,6 +147,12 @@
   <url>
     <loc>https://juliegauthier.immo/nos-proprietes/27276924-rue-brunet-saint-eustache/</loc>
     <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juliegauthier.immo/nos-proprietes/28127185-rue-de-verdun-montreal-verdun-ile-des-soeurs/</loc>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
