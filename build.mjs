@@ -3,7 +3,7 @@
 // Idempotent : relançable à chaque dépôt du zip quotidien (voir CENTRIS-SETUP.md).
 //
 //   Mode A : _centris/ présent (zip frais) → parse + régénère + écrit data/properties.json
-//   Mode B : pas de _centris/ → ne touche à rien (garde le HTML committé)
+//   Mode B : pas de _centris/ → régénère le HTML depuis data/properties.json
 //
 // Aucune dépendance externe. Encodage source Centris = windows-1252.
 
@@ -111,6 +111,7 @@ function ingest() {
       eval:{year:r[78]||'',terrain:parseFloat(r[79])||0,batiment:parseFloat(r[80])||0,total:(parseFloat(r[79])||0)+(parseFloat(r[80])||0)},
       taxes:taxByMls[mls]||null, video:vidByMls[mls]||null,
       status, listingDate:(r[20]||'').replace(/\//g,'-'),
+      centris:(r[115]||'').trim(),   // EV = en vigueur, VE = vendue (promesse acceptée)
       descFr, remFr:remMap[mls+'|F']||'',
       features:caractsByMls[mls]||[], rooms, photos:ph,
       slug:`${mls}-${slug(street)}-${slug(city)}`
@@ -118,8 +119,10 @@ function ingest() {
   }).filter(p => p.price>0 && p.photos.length>=3)
     .sort((a,b)=>b.price-a.price);
 
-  console.log(`Chargé ${props.length} propriétés actives.`);
-  return props;
+  const actives = props.filter(p => p.centris !== 'VE');
+  const vendues = props.filter(p => p.centris === 'VE');
+  console.log(`Chargé ${actives.length} propriétés actives, ${vendues.length} vendue(s) selon Centris.`);
+  return { actives, vendues };
 }
 
 /* ---------- génération des cartes ---------- */
@@ -185,52 +188,62 @@ function writeListing(props, vendues = []) {
 }
 
 /* ---------- propriétés vendues ----------------------------------------------
-   Le flux Centris ne contient que les inscriptions ACTIVES : la colonne de
-   statut vaut « AI » pour toutes, et il n'y a ni date ni prix de vente. Une
-   propriété vendue disparaît simplement du fichier. On repère donc les sorties
-   en comparant le flux du jour aux propriétés déjà connues, et on les garde
-   affichées JOURS_VENDU jours.
+   La colonne 116 d'INSCRIPTIONS.TXT (index 115) porte le statut Centris :
+   « EV » = en vigueur, « VE » = vendue. Une inscription vendue reste quelques
+   jours dans le flux avec VE (centris.ca la masque déjà), puis disparaît.
+   Seul VE fait afficher « Vendu ». Une inscription qui sort du flux sans être
+   passée par VE a été retirée du marché (mandat expiré, retrait du vendeur,
+   transfert) : elle quitte simplement le site.
 
-   ATTENTION : une inscription peut aussi disparaître sans avoir été vendue
-   (mandat expiré, retrait du vendeur, transfert à un autre courtier). Le
-   fichier data/archives.json est volontairement lisible et modifiable à la
-   main : retirer une entrée suffit à la faire disparaître du site.           */
+   Une vendue reste affichée JOURS_VENDU jours après la première détection du
+   VE (champ sortieLe). Tant que Centris la liste encore en VE, l'entrée est
+   gardée (masquée) dans data/archives.json pour ne pas repartir à zéro.
+   Le fichier reste modifiable à la main : retirer une entrée la retire du site. */
 const JOURS_VENDU = 30;
 
-function majArchives(actifs, aujourdhui, flux) {
+function majArchives(actifs, vendusFlux, aujourdhui) {
   const lire = f => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return []; } };
   let arch = fs.existsSync(ARCHIVES) ? lire(ARCHIVES) : [];
 
   const mlsActifs = new Set(actifs.map(p => p.mls));
 
   // Une propriété remise en vente redevient active et quitte les archives.
-  arch = arch.filter(a => !mlsActifs.has(a.mls));
+  // Les entrées sans VE datent de l'ancienne règle (toute sortie = vendue) : on les retire.
+  arch = arch.filter(a => !mlsActifs.has(a.mls) && a.centris === 'VE');
 
-  // Nouvelles sorties : connues au build précédent, absentes du flux d'aujourd'hui.
-  // Sans flux frais on ne peut rien conclure, donc on n'ajoute rien.
-  if (flux) {
+  // Avec un flux frais (vendusFlux non nul) : ajouter les nouvelles VE, rafraîchir
+  // les autres en gardant leur date, et signaler les retraits du marché.
+  if (vendusFlux) {
+    const parMls = new Map(arch.map(a => [a.mls, a]));
+    for (const p of vendusFlux) {
+      const deja = parMls.get(p.mls);
+      parMls.set(p.mls, { ...p, status: 'sold', sortieLe: deja?.sortieLe || aujourdhui });
+    }
+    arch = [...parMls.values()];
+
     const connues = fs.existsSync(DATA) ? lire(DATA) : [];
-    const deja = new Set(arch.map(a => a.mls));
     for (const p of connues) {
-      if (mlsActifs.has(p.mls) || deja.has(p.mls)) continue;
-      arch.push({ ...p, status: 'sold', sortieLe: aujourdhui });
+      if (!mlsActifs.has(p.mls) && !parMls.has(p.mls))
+        console.log(`retirée du marché (sortie sans VE) : ${p.address}, ${p.city} (${p.mls})`);
     }
   }
 
-  // Au-delà du délai, la propriété quitte le site.
+  // Au-delà du délai, la propriété quitte le site. L'entrée n'est purgée du
+  // fichier qu'une fois sortie du flux (sinon elle reviendrait avec une date neuve).
   const limite = new Date(aujourdhui + 'T00:00:00Z');
   limite.setUTCDate(limite.getUTCDate() - JOURS_VENDU);
   const limiteISO = limite.toISOString().slice(0, 10);
-  const avant = arch.length;
-  arch = arch.filter(a => (a.sortieLe || '') >= limiteISO);
+  const recente = a => (a.sortieLe || '') >= limiteISO;
+  const mlsVE = new Set((vendusFlux || []).map(p => p.mls));
+  if (vendusFlux) arch = arch.filter(a => recente(a) || mlsVE.has(a.mls));
 
   arch.sort((a, b) => (b.sortieLe || '').localeCompare(a.sortieLe || '') || b.price - a.price);
   fs.mkdirSync(path.dirname(ARCHIVES), { recursive: true });
   fs.writeFileSync(ARCHIVES, JSON.stringify(arch, null, 2));
-  const expirees = avant - arch.length;
-  console.log(`vendues : ${arch.length} affichée(s)` +
-    (expirees > 0 ? `, ${expirees} retirée(s) après ${JOURS_VENDU} jours.` : '.'));
-  return arch;
+  const affichees = arch.filter(recente);
+  console.log(`vendues : ${affichees.length} affichée(s)` +
+    (arch.length > affichees.length ? `, ${arch.length - affichees.length} masquée(s) après ${JOURS_VENDU} jours.` : '.'));
+  return affichees;
 }
 
 /* ---------- vitrine de l'accueil : les 3 inscriptions les plus récentes ---------- */
@@ -368,9 +381,10 @@ const AUJOURDHUI = FEED_DATE.toISOString().slice(0, 10);
 
 if (fs.existsSync(path.join(CENTRIS,'INSCRIPTIONS.TXT'))) {
   console.log('Mode A · lecture du zip Centris…');
-  props = ingest();
-  // Avant d'écraser data/properties.json : ce qui a disparu du flux est vendu.
-  vendues = majArchives(props, AUJOURDHUI, true);
+  const flux = ingest();
+  props = flux.actives;
+  // Avant d'écraser data/properties.json : il sert à repérer les retraits du marché.
+  vendues = majArchives(props, flux.vendues, AUJOURDHUI);
   fs.mkdirSync(path.join(ROOT,'data'), { recursive: true });
   fs.writeFileSync(DATA, JSON.stringify(props, null, 2));
 } else if (fs.existsSync(DATA)) {
@@ -379,9 +393,9 @@ if (fs.existsSync(path.join(CENTRIS,'INSCRIPTIONS.TXT'))) {
   // se propager sans attendre le prochain dépôt Centris.
   console.log('Mode B · pas de _centris/ — régénération depuis data/properties.json.');
   props = JSON.parse(fs.readFileSync(DATA,'utf8'));
-  // Sans flux frais, aucune nouvelle sortie détectable : on se contente de
-  // purger les vendues arrivées à échéance.
-  vendues = majArchives(props, AUJOURDHUI, false);
+  // Sans flux frais, aucun nouveau VE détectable : on se contente de
+  // masquer les vendues arrivées à échéance.
+  vendues = majArchives(props, null, AUJOURDHUI);
 } else {
   console.log('Aucune donnée (_centris/ et data/properties.json absents) — rien à faire.');
   process.exit(0);
