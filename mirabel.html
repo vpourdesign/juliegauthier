@@ -120,6 +120,13 @@ html.jg-anim [data-reveal].is-in{opacity:1;transform:none}
 .sec-hubcard{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:340px;padding:var(--space-7);border-radius:var(--r-md);overflow:hidden;text-decoration:none;color:var(--bg);border:1px solid color-mix(in oklch,var(--ink) 8%,transparent);box-shadow:var(--shadow-md);transition:transform var(--dur-base) var(--ease-spring),box-shadow var(--dur-base) var(--ease-out)}
 .sec-hubcard::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,14,53,0.15) 0%,rgba(0,14,53,0.45) 55%,rgba(0,14,53,0.88) 100%);z-index:1}
 .sec-hubcard__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;transition:transform var(--dur-slow) var(--ease-out)}
+/* Cadrage sur le visage : photos en portrait, cartes en paysage. Le 5:4 laisse la tête au-dessus du texte. */
+.sec-hubcard:not(.sec-hubcard--wide){aspect-ratio:5/4;min-width:0}
+@media (max-width:760px){.sec-hubcard:not(.sec-hubcard--wide){aspect-ratio:1/1}}
+@media (max-width:560px){.sec-hubcard:not(.sec-hubcard--wide){aspect-ratio:4/5}}
+.sec-hubcard__img[src*="julie-services"],.sec-hubcard__img[src*="julie-contact"]{object-position:50% 23%}
+.sec-hubcard__img[src*="julie-porte"]{object-position:50% 39%}
+.sec-hubcard__img[src*="julie-hero"]{object-position:50% 20%}
 .sec-hubcard:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}
 .sec-hubcard:hover .sec-hubcard__img{transform:scale(1.05)}
 .sec-hubcard:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
