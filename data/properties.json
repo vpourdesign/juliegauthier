@@ -5775,337 +5775,6 @@
     "slug": "17418208-av-tulip-dorval"
   },
   {
-    "mls": "11835307",
-    "price": 449900,
-    "civic": "3500",
-    "street": "Boul. St-Elzear O.",
-    "address": "3500, Boul. St-Elzear O.",
-    "city": "Laval (Chomedey)",
-    "postalCode": "H7P0M3",
-    "type": "maison",
-    "beds": 1,
-    "baths": 1,
-    "powder": 0,
-    "yearBuilt": "2022",
-    "areaTerrain": "",
-    "lat": 45.57012323,
-    "lon": -73.77145727,
-    "eval": {
-      "year": "2026",
-      "terrain": 13700,
-      "batiment": 328200,
-      "total": 341900
-    },
-    "taxes": {
-      "mun": 2363,
-      "year": "2026",
-      "sco": 214
-    },
-    "video": "https://youtube.com/shorts/Dxd_jJdZ58M",
-    "status": "forsale",
-    "listingDate": "2026-06-29",
-    "centris": "EV",
-    "descFr": "Les copropriétaires bénéficient d'installations communes recherchées, incluant une piscine et une salle communautaire, contribuant à un mode de vie agréable à proximité des commerces, restaurants, services et principaux axes routiers. La combinaison d'une vue en hauteur, des commodités offertes par l'immeuble et des fonctionnalités intelligentes intégrées à l'unité en fait une propriété particulièrement intéressante pour un acheteur à la recherche d'un mode de vie urbain moderne et simplifié.",
-    "remFr": "Découvrez ce condo 3 ½ situé au 8e étage avec espace intérieur au garage. Son style industriel se distingue par ses plafonds de béton apparent et ses grandes surfaces vitrées qui inondent les espaces de lumière naturelle. L'aire de vie ouverte rassemble le salon, la SAM et la cuisine. La cuisine est équipée d'un vaste îlot central offrant une généreuse surface de travail et de rangement. La chambre profite également d'une belle fenestration. L'unité est équipée d'un système domotique compatible avec Google permettant le contrôle des stores et de l'éclairage. Espace communs munis d'une piscine, table de billard, gym et plus encore!",
-    "features": [
-      {
-        "code": "REPE",
-        "value": "COND"
-      },
-      {
-        "code": "CHAU",
-        "value": "PELC"
-      },
-      {
-        "code": "SDIS",
-        "value": "AIRC"
-      },
-      {
-        "code": "FACC",
-        "value": "ASCE"
-      },
-      {
-        "code": "SDIS",
-        "value": "CHUD"
-      },
-      {
-        "code": "SDIS",
-        "value": "EXER"
-      },
-      {
-        "code": "SDIS",
-        "value": "PINT"
-      },
-      {
-        "code": "SDIS",
-        "value": "RINT"
-      },
-      {
-        "code": "EAU",
-        "value": "AMU"
-      },
-      {
-        "code": "ENER",
-        "value": "ELEC"
-      },
-      {
-        "code": "EQUI",
-        "value": "CLMM"
-      },
-      {
-        "code": "EQUI",
-        "value": "EAIR"
-      },
-      {
-        "code": "GARA",
-        "value": "INTG"
-      },
-      {
-        "code": "SDB",
-        "value": "DIND"
-      },
-      {
-        "code": "STAT",
-        "value": "GARA"
-      },
-      {
-        "code": "SYEG",
-        "value": "EGMU"
-      },
-      {
-        "code": "ZONG",
-        "value": "RES"
-      }
-    ],
-    "rooms": [
-      {
-        "name": "Hall d'entrée",
-        "level": "AU",
-        "dim": "5'4\" × 6'1\"",
-        "rev": "Plancher flottant"
-      },
-      {
-        "name": "Salon",
-        "level": "AU",
-        "dim": "10'1\" × 11'11\"",
-        "rev": "Plancher flottant"
-      },
-      {
-        "name": "Salle à manger",
-        "level": "AU",
-        "dim": "11'11\" × 6'11\"",
-        "rev": "Plancher flottant"
-      },
-      {
-        "name": "Cuisine",
-        "level": "AU",
-        "dim": "9'4\" × 10'",
-        "rev": "Plancher flottant"
-      },
-      {
-        "name": "Chambre",
-        "level": "AU",
-        "dim": "11'4\" × 10'",
-        "rev": "Plancher flottant"
-      },
-      {
-        "name": "Salle de bains",
-        "level": "AU",
-        "dim": "9'1\" × 8'",
-        "rev": "Céramique"
-      },
-      {
-        "name": "Autre",
-        "level": "AU",
-        "dim": "20'1\" × 6'2\"",
-        "rev": "TAP"
-      }
-    ],
-    "photos": [
-      {
-        "seq": 1,
-        "type": "FACA",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C40DD9CF089D1D&t=pi&f=I"
-      },
-      {
-        "seq": 2,
-        "type": "ENTREE",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C05DD9CF089D4D&t=pi&f=I"
-      },
-      {
-        "seq": 3,
-        "type": "HAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C49DD9CF089D22&t=pi&f=I"
-      },
-      {
-        "seq": 4,
-        "type": "HAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C43DD9CF089DCA&t=pi&f=I"
-      },
-      {
-        "seq": 5,
-        "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC1DD9CF089DED&t=pi&f=I"
-      },
-      {
-        "seq": 6,
-        "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC4DD9CF089DA4&t=pi&f=I"
-      },
-      {
-        "seq": 7,
-        "type": "CUI",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC2DD9CF089D0C&t=pi&f=I"
-      },
-      {
-        "seq": 8,
-        "type": "SAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C24DD9CF089DB2&t=pi&f=I"
-      },
-      {
-        "seq": 9,
-        "type": "SAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C20DD9CF089DFF&t=pi&f=I"
-      },
-      {
-        "seq": 10,
-        "type": "SAL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C28DD9CF089D80&t=pi&f=I"
-      },
-      {
-        "seq": 11,
-        "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C23DD9CF089D91&t=pi&f=I"
-      },
-      {
-        "seq": 12,
-        "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C25DD9CF089D72&t=pi&f=I"
-      },
-      {
-        "seq": 13,
-        "type": "SAM",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CCDDD9CF089D3C&t=pi&f=I"
-      },
-      {
-        "seq": 14,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CCCDD9CF089D5F&t=pi&f=I"
-      },
-      {
-        "seq": 15,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CCADD9CF089D64&t=pi&f=I"
-      },
-      {
-        "seq": 16,
-        "type": "CAC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC0DD9CF0891D4&t=pi&f=I"
-      },
-      {
-        "seq": 17,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CCBDD9CF08911C&t=pi&f=I"
-      },
-      {
-        "seq": 18,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC8DD9CF08914C&t=pi&f=I"
-      },
-      {
-        "seq": 19,
-        "type": "SDB",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC9DD9CF08912A&t=pi&f=I"
-      },
-      {
-        "seq": 20,
-        "type": "SDL",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC7DD9CF0891CB&t=pi&f=I"
-      },
-      {
-        "seq": 21,
-        "type": "BALCON",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC3DD9CF0891ED&t=pi&f=I"
-      },
-      {
-        "seq": 22,
-        "type": "BALCON",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC6DD9CF0891A2&t=pi&f=I"
-      },
-      {
-        "seq": 23,
-        "type": "STAT",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CE4DD9CF08910E&t=pi&f=I"
-      },
-      {
-        "seq": 24,
-        "type": "PISC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CE2DD9CF0891B0&t=pi&f=I"
-      },
-      {
-        "seq": 25,
-        "type": "PISC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CECDD9CF0891FF&t=pi&f=I"
-      },
-      {
-        "seq": 26,
-        "type": "SEXERC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CA3DD9CF08918C&t=pi&f=I"
-      },
-      {
-        "seq": 27,
-        "type": "SEXERC",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEFDD9CF089192&t=pi&f=I"
-      },
-      {
-        "seq": 28,
-        "type": "SCOMMUN",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CE0DD9CF089174&t=pi&f=I"
-      },
-      {
-        "seq": 29,
-        "type": "SCOMMUN",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEBDD9CF08913C&t=pi&f=I"
-      },
-      {
-        "seq": 30,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEDDD9CF089150&t=pi&f=I"
-      },
-      {
-        "seq": 31,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEADD9CF08916C&t=pi&f=I"
-      },
-      {
-        "seq": 32,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEEDD9CF0894D4&t=pi&f=I"
-      },
-      {
-        "seq": 33,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C02DD9CF089412&t=pi&f=I"
-      },
-      {
-        "seq": 34,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C0BDD9CF08944F&t=pi&f=I"
-      },
-      {
-        "seq": 35,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C07DD9CF089421&t=pi&f=I"
-      },
-      {
-        "seq": 36,
-        "type": "COUR",
-        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CB4DD9CF0894CA&t=pi&f=I"
-      }
-    ],
-    "slug": "11835307-boul-st-elzear-o-laval-chomedey"
-  },
-  {
     "mls": "12692177",
     "price": 425000,
     "civic": "90",
@@ -7183,6 +6852,337 @@
       }
     ],
     "slug": "27742275-rue-des-sureaux-boucherville"
+  },
+  {
+    "mls": "11835307",
+    "price": 419900,
+    "civic": "3500",
+    "street": "Boul. St-Elzear O.",
+    "address": "3500, Boul. St-Elzear O.",
+    "city": "Laval (Chomedey)",
+    "postalCode": "H7P0M3",
+    "type": "maison",
+    "beds": 1,
+    "baths": 1,
+    "powder": 0,
+    "yearBuilt": "2022",
+    "areaTerrain": "",
+    "lat": 45.57012323,
+    "lon": -73.77145727,
+    "eval": {
+      "year": "2026",
+      "terrain": 13700,
+      "batiment": 328200,
+      "total": 341900
+    },
+    "taxes": {
+      "mun": 2363,
+      "year": "2026",
+      "sco": 214
+    },
+    "video": "https://youtube.com/shorts/Dxd_jJdZ58M",
+    "status": "forsale",
+    "listingDate": "2026-06-29",
+    "centris": "EV",
+    "descFr": "Les copropriétaires bénéficient d'installations communes recherchées, incluant une piscine et une salle communautaire, contribuant à un mode de vie agréable à proximité des commerces, restaurants, services et principaux axes routiers. La combinaison d'une vue en hauteur, des commodités offertes par l'immeuble et des fonctionnalités intelligentes intégrées à l'unité en fait une propriété particulièrement intéressante pour un acheteur à la recherche d'un mode de vie urbain moderne et simplifié.",
+    "remFr": "Découvrez ce condo 3 ½ situé au 8e étage avec espace intérieur au garage. Son style industriel se distingue par ses plafonds de béton apparent et ses grandes surfaces vitrées qui inondent les espaces de lumière naturelle. L'aire de vie ouverte rassemble le salon, la SAM et la cuisine. La cuisine est équipée d'un vaste îlot central offrant une généreuse surface de travail et de rangement. La chambre profite également d'une belle fenestration. L'unité est équipée d'un système domotique compatible avec Google permettant le contrôle des stores et de l'éclairage. Espace communs munis d'une piscine, table de billard, gym et plus encore!",
+    "features": [
+      {
+        "code": "REPE",
+        "value": "COND"
+      },
+      {
+        "code": "CHAU",
+        "value": "PELC"
+      },
+      {
+        "code": "SDIS",
+        "value": "AIRC"
+      },
+      {
+        "code": "FACC",
+        "value": "ASCE"
+      },
+      {
+        "code": "SDIS",
+        "value": "CHUD"
+      },
+      {
+        "code": "SDIS",
+        "value": "EXER"
+      },
+      {
+        "code": "SDIS",
+        "value": "PINT"
+      },
+      {
+        "code": "SDIS",
+        "value": "RINT"
+      },
+      {
+        "code": "EAU",
+        "value": "AMU"
+      },
+      {
+        "code": "ENER",
+        "value": "ELEC"
+      },
+      {
+        "code": "EQUI",
+        "value": "CLMM"
+      },
+      {
+        "code": "EQUI",
+        "value": "EAIR"
+      },
+      {
+        "code": "GARA",
+        "value": "INTG"
+      },
+      {
+        "code": "SDB",
+        "value": "DIND"
+      },
+      {
+        "code": "STAT",
+        "value": "GARA"
+      },
+      {
+        "code": "SYEG",
+        "value": "EGMU"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Hall d'entrée",
+        "level": "AU",
+        "dim": "5'4\" × 6'1\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salon",
+        "level": "AU",
+        "dim": "10'1\" × 11'11\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "AU",
+        "dim": "11'11\" × 6'11\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Cuisine",
+        "level": "AU",
+        "dim": "9'4\" × 10'",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre",
+        "level": "AU",
+        "dim": "11'4\" × 10'",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "AU",
+        "dim": "9'1\" × 8'",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Autre",
+        "level": "AU",
+        "dim": "20'1\" × 6'2\"",
+        "rev": "TAP"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C40DD9CF089D1D&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "ENTREE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C05DD9CF089D4D&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C49DD9CF089D22&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C43DD9CF089DCA&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC1DD9CF089DED&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC4DD9CF089DA4&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC2DD9CF089D0C&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C24DD9CF089DB2&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C20DD9CF089DFF&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C28DD9CF089D80&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C23DD9CF089D91&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C25DD9CF089D72&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CCDDD9CF089D3C&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CCCDD9CF089D5F&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CCADD9CF089D64&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC0DD9CF0891D4&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CCBDD9CF08911C&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC8DD9CF08914C&t=pi&f=I"
+      },
+      {
+        "seq": 19,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC9DD9CF08912A&t=pi&f=I"
+      },
+      {
+        "seq": 20,
+        "type": "SDL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC7DD9CF0891CB&t=pi&f=I"
+      },
+      {
+        "seq": 21,
+        "type": "BALCON",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC3DD9CF0891ED&t=pi&f=I"
+      },
+      {
+        "seq": 22,
+        "type": "BALCON",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CC6DD9CF0891A2&t=pi&f=I"
+      },
+      {
+        "seq": 23,
+        "type": "STAT",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CE4DD9CF08910E&t=pi&f=I"
+      },
+      {
+        "seq": 24,
+        "type": "PISC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CE2DD9CF0891B0&t=pi&f=I"
+      },
+      {
+        "seq": 25,
+        "type": "PISC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CECDD9CF0891FF&t=pi&f=I"
+      },
+      {
+        "seq": 26,
+        "type": "SEXERC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CA3DD9CF08918C&t=pi&f=I"
+      },
+      {
+        "seq": 27,
+        "type": "SEXERC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEFDD9CF089192&t=pi&f=I"
+      },
+      {
+        "seq": 28,
+        "type": "SCOMMUN",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CE0DD9CF089174&t=pi&f=I"
+      },
+      {
+        "seq": 29,
+        "type": "SCOMMUN",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEBDD9CF08913C&t=pi&f=I"
+      },
+      {
+        "seq": 30,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEDDD9CF089150&t=pi&f=I"
+      },
+      {
+        "seq": 31,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEADD9CF08916C&t=pi&f=I"
+      },
+      {
+        "seq": 32,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CEEDD9CF0894D4&t=pi&f=I"
+      },
+      {
+        "seq": 33,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C02DD9CF089412&t=pi&f=I"
+      },
+      {
+        "seq": 34,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C0BDD9CF08944F&t=pi&f=I"
+      },
+      {
+        "seq": 35,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184C07DD9CF089421&t=pi&f=I"
+      },
+      {
+        "seq": 36,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDA184CB4DD9CF0894CA&t=pi&f=I"
+      }
+    ],
+    "slug": "11835307-boul-st-elzear-o-laval-chomedey"
   },
   {
     "mls": "27430960",
