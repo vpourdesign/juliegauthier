@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add('jg-anim')</script>
+<!-- La classe jg-anim conditionne le masquage de [data-reveal] : sans JS, tout reste visible. -->
+<title>Marché immobilier : Mirabel, Boisbriand, Deux-Montagnes, Lachute · Julie Gauthier · RE/MAX Crystal</title>
+<meta name="description" content="Découvrez le portrait du 3e trimestre 2026 à Mirabel, Boisbriand, Deux-Montagnes et Lachute : ventes, prix médians et délais, avec Julie Gauthier.">
+<meta name="theme-color" content="#000E35">
+<link rel="canonical" href="https://juliegauthier.immo/marche-immobilier.html">
+<meta property="og:url" content="https://juliegauthier.immo/marche-immobilier.html">
+<meta property="og:image" content="https://juliegauthier.immo/assets/img/og-julie-gauthier.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website"><meta property="og:locale" content="fr_CA">
+<meta property="og:title" content="Marché immobilier : Mirabel, Boisbriand, Deux-Montagnes, Lachute"><meta property="og:description" content="Découvrez le portrait du 3e trimestre 2026 à Mirabel, Boisbriand, Deux-Montagnes et Lachute : ventes, prix médians et délais, avec Julie Gauthier.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Julie Gauthier — RE/MAX Crystal","telephone":"+1-514-895-4921","image":"brand_assets/ballon.png","knowsLanguage":"fr-CA","priceRange":"$$","memberOf":{"@type":"RealEstateOrganization","name":"RE/MAX Crystal"},"areaServed":{"@type":"City","name":"Mirabel","containedInPlace":{"@type":"AdministrativeArea","name":"Laurentides, Québec"}}}</script>
+<style>
+:root{
+  --bg:#F7F5EE; --paper:#FCFBF7; --white:#FFFFFF;
+  --ink:#1A1A1C; --ink-2:#474C57; --ink-3:#8B909B;
+  --line:color-mix(in oklch, var(--ink) 12%, transparent); --line-2:color-mix(in oklch, var(--ink) 7%, transparent);
+  --blue:#0043FF; --blue-deep:#0C2749; --navy:#000E35; --red:#FF1200; --red-deep:#AA1120; --red-dark:#660000; --sky:#A3D4F2;
+  --focus-ring:var(--blue);
+  --font-display:"Archivo","Helvetica Neue",Arial,sans-serif; --font-body:"Inter","Helvetica Neue",Arial,sans-serif;
+  --fw-regular:400; --fw-medium:500; --fw-semibold:600; --fw-bold:700; --fw-black:800;
+  --fs-display:clamp(2.75rem,6vw,5.5rem); --fs-h2:clamp(2rem,4vw,3.25rem); --fs-h3:clamp(1.25rem,2vw,1.6rem);
+  --fs-lead:clamp(1.125rem,1.6vw,1.375rem); --fs-body:1.0625rem; --fs-eyebrow:0.75rem; --fs-label:0.8125rem;
+  --lh-display:1.02; --lh-h2:1.06; --lh-h3:1.2; --lh-lead:1.6; --lh-body:1.7;
+  --ls-display:-0.03em; --ls-h2:-0.02em; --ls-tight:-0.01em; --ls-eyebrow:0.16em; --ls-label:0.04em;
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px; --space-6:32px; --space-7:48px; --space-8:64px; --space-9:96px; --space-10:128px;
+  --section-y:clamp(5rem,10vw,9rem); --gutter:clamp(1.25rem,4vw,2.5rem); --container:1240px; --container-wide:1400px; --nav-h:76px;
+  --r-xs:4px; --r-sm:8px; --r-md:14px; --r-pill:999px;
+  --shadow-sm:0 1px 2px rgba(12,39,73,0.06),0 2px 6px rgba(12,39,73,0.05);
+  --shadow-md:0 2px 6px rgba(12,39,73,0.06),0 10px 24px rgba(12,39,73,0.08),0 30px 60px rgba(12,39,73,0.06);
+  --shadow-hover:0 6px 16px rgba(12,39,73,0.10),0 22px 50px rgba(12,39,73,0.12);
+  --ease-spring:cubic-bezier(0.16,1,0.3,1); --ease-out:cubic-bezier(0.22,0.61,0.36,1);
+  --dur-fast:140ms; --dur-base:240ms; --dur-slow:420ms; --dur-reveal:720ms;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:var(--fs-body);line-height:var(--lh-body);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;overflow-x:hidden}
+h1,h2,h3,h4{font-family:var(--font-display);color:var(--ink);margin:0;font-weight:var(--fw-bold)}
+h1{font-size:var(--fs-display);font-weight:var(--fw-black);line-height:var(--lh-display);letter-spacing:var(--ls-display)}
+h2{font-size:var(--fs-h2);line-height:var(--lh-h2);letter-spacing:var(--ls-h2)}
+h3{font-size:var(--fs-h3);font-weight:var(--fw-semibold);line-height:var(--lh-h3);letter-spacing:var(--ls-tight)}
+p{margin:0;text-wrap:pretty}
+a{color:var(--blue);text-decoration:none}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+::selection{background:color-mix(in oklch,var(--blue) 22%,transparent);color:var(--ink)}
+.jg-btn{font-family:var(--font-body);font-weight:600;letter-spacing:.01em;line-height:1;display:inline-flex;align-items:center;justify-content:center;border:1px solid transparent;cursor:pointer;text-decoration:none;white-space:nowrap;user-select:none;transition:transform var(--dur-fast) var(--ease-spring),background-color var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-btn--sm{padding:8px 16px;font-size:.8125rem;gap:6px}
+.jg-btn--md{padding:13px 24px;font-size:.9375rem;gap:8px}
+.jg-btn--lg{padding:17px 32px;font-size:1.0625rem;gap:10px}
+.jg-btn--primary{background:var(--red);color:var(--bg);border-radius:var(--r-sm);box-shadow:var(--shadow-sm)}
+.jg-btn--primary:hover{background:var(--red-deep);transform:translateY(-1px)}
+.jg-btn--primary:active{transform:translateY(0) scale(.985)}
+.jg-btn--secondary{background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:var(--r-sm)}
+.jg-btn--secondary:hover{background:var(--paper)}
+.jg-btn--full{display:flex;width:100%}
+.jg-skip{position:fixed;top:-64px;left:16px;z-index:200;background:var(--navy);color:var(--bg);padding:11px 18px;border-radius:var(--r-sm);font:600 14px/1 var(--font-body);text-decoration:none;transition:top var(--dur-base) var(--ease-out)}
+.jg-skip:focus{top:16px}
+html.jg-anim [data-reveal]{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease-spring),transform .7s var(--ease-spring)}
+html.jg-anim [data-reveal].is-in{opacity:1;transform:none}
+.jg-navlink{position:relative;white-space:nowrap;font:500 0.9375rem/1 var(--font-body);color:var(--nav-fg);text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:4px;transition:border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-navlink:hover{border-bottom-color:var(--red)}
+.jg-navlink[aria-current="page"]{border-bottom-color:var(--blue);color:var(--ink)}
+.jg-navlink:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
+.jg-burger{display:none}
+.jg-has-sub{position:relative;display:flex;align-items:center}
+.jg-subtoggle{display:inline-flex;align-items:center;gap:6px;background:none;border:0;cursor:pointer;font:500 0.9375rem/1 var(--font-body);color:var(--nav-fg);padding:0 0 4px;border-bottom:1.5px solid transparent;transition:border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-subtoggle:hover,.jg-has-sub:hover .jg-subtoggle,.jg-subtoggle[aria-expanded="true"],.jg-subtoggle[data-active="true"]{border-bottom-color:var(--blue);color:var(--ink)}
+.jg-subtoggle svg{transition:transform var(--dur-base) var(--ease-out)}
+.jg-has-sub:hover .jg-subtoggle svg,.jg-subtoggle[aria-expanded="true"] svg{transform:rotate(180deg)}
+.jg-submenu{position:absolute;top:calc(100% + 16px);left:50%;transform:translateX(-50%) translateY(6px);min-width:230px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-md);box-shadow:var(--shadow-md);padding:8px;list-style:none;margin:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity var(--dur-base) var(--ease-out),transform var(--dur-base) var(--ease-spring);z-index:60}
+.jg-submenu::before{content:"";position:absolute;top:-16px;left:0;right:0;height:16px}
+.jg-has-sub:hover .jg-submenu,.jg-submenu.is-open{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.jg-sublink{display:flex;align-items:center;gap:11px;padding:11px 13px;border-radius:var(--r-sm);font:500 0.9375rem/1.35 var(--font-body);color:var(--ink);text-decoration:none;transition:background var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.jg-sublink:hover{background:color-mix(in oklch,var(--blue) 8%,var(--bg));color:var(--blue)}
+.jg-sublink[aria-current="page"]{color:var(--blue);background:color-mix(in oklch,var(--blue) 7%,var(--bg))}
+.jg-sublink svg{flex:none;color:var(--blue)}
+.jg-sublink:focus-visible{outline:2px solid var(--blue);outline-offset:-1px}
+.jg-nav-desktop>ul{line-height:1}
+.jg-nav-desktop>ul>li{display:flex;align-items:center}
+.jg-foot-link{color:color-mix(in oklch,var(--bg) 82%,transparent);font:400 0.9375rem/1.4 var(--font-body);text-decoration:none;transition:color var(--dur-base) var(--ease-out)}
+.jg-foot-link:hover{color:var(--bg)}
+.jg-soc{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:var(--r-pill);border:1px solid color-mix(in oklch,var(--bg) 22%,transparent);color:color-mix(in oklch,var(--bg) 80%,transparent);transition:color var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out),transform var(--dur-base) var(--ease-spring)}
+.jg-soc:hover{color:var(--sky);border-color:var(--sky);transform:translateY(-2px)}
+.jg-overlay{position:fixed;inset:0;z-index:120;background:var(--bg);display:flex;flex-direction:column;transform:translateX(100%);opacity:0;pointer-events:none;transition:transform var(--dur-slow) var(--ease-spring),opacity var(--dur-base) var(--ease-out)}
+.jg-overlay.is-open{transform:translateX(0);opacity:1;pointer-events:auto}
+.jg-drawer-head{display:flex;align-items:center;justify-content:space-between;padding:var(--gutter);border-bottom:1px solid var(--line)}
+.jg-iconbtn{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:transparent;border:none;cursor:pointer;color:var(--ink)}
+.jg-mob-eyebrow{font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:var(--ink-3);padding:var(--space-4) 0 var(--space-2)}
+/* ---- Secteurs ---- */
+.sec-eyebrow{display:inline-flex;align-items:center;gap:12px;font:600 var(--fs-eyebrow)/1 var(--font-body);text-transform:uppercase;letter-spacing:var(--ls-eyebrow);color:var(--red)}
+.sec-eyebrow::before{content:"";width:24px;height:1px;background:currentColor;opacity:.7}
+.sec-eyebrow--blue{color:var(--blue)}
+.sec-link{display:inline-flex;align-items:center;gap:6px;color:var(--blue);font:600 0.9375rem/1 var(--font-body);border-bottom:1px solid color-mix(in oklch,var(--blue) 38%,transparent);padding-bottom:2px;transition:gap var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out)}
+.sec-link:hover{gap:10px;border-bottom-color:var(--red);color:var(--red)}
+.sec-cream-link{color:var(--bg);text-decoration:none;border-bottom:1px solid color-mix(in oklch,var(--bg) 50%,transparent);padding-bottom:2px;font:600 1.0625rem/1 var(--font-body)}
+.sec-cream-link:hover{border-bottom-color:var(--bg)}
+.sec-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-5)}
+.sec-grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--space-5)}
+.sec-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:var(--shadow-sm);padding:var(--space-6);transition:transform var(--dur-base) var(--ease-spring),box-shadow var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out)}
+.sec-card h3{font-size:1.1875rem}
+.sec-card p{margin-top:var(--space-3);color:var(--ink-2);font-size:0.9375rem;line-height:1.6}
+.sec-fact{display:flex;flex-direction:column;gap:var(--space-3);padding:var(--space-6) 0;border-top:1px solid var(--line)}
+.sec-fact__ic{display:inline-flex;width:38px;height:38px;align-items:center;justify-content:center;border-radius:var(--r-pill);background:color-mix(in oklch,var(--blue) 9%,var(--bg));color:var(--blue);flex:none}
+.sec-fact h3{font-size:1.0625rem}
+.sec-fact p{color:var(--ink-2);font-size:0.9375rem;line-height:1.6}
+.sec-hub{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--space-6)}
+.sec-hubcard{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:340px;padding:var(--space-7);border-radius:var(--r-md);overflow:hidden;text-decoration:none;color:var(--bg);border:1px solid color-mix(in oklch,var(--ink) 8%,transparent);box-shadow:var(--shadow-md);transition:transform var(--dur-base) var(--ease-spring),box-shadow var(--dur-base) var(--ease-out)}
+.sec-hubcard::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,14,53,0.15) 0%,rgba(0,14,53,0.45) 55%,rgba(0,14,53,0.88) 100%);z-index:1}
+.sec-hubcard__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;transition:transform var(--dur-slow) var(--ease-out)}
+/* Cadrage sur le visage : photos en portrait, cartes en paysage. Le 5:4 laisse la tête au-dessus du texte. */
+.sec-hubcard:not(.sec-hubcard--wide){aspect-ratio:5/4;min-width:0}
+@media (max-width:760px){.sec-hubcard:not(.sec-hubcard--wide){aspect-ratio:1/1}}
+@media (max-width:560px){.sec-hubcard:not(.sec-hubcard--wide){aspect-ratio:4/5}}
+.sec-hubcard__img[src*="julie-services"],.sec-hubcard__img[src*="julie-contact"]{object-position:50% 23%}
+.sec-hubcard__img[src*="julie-porte"]{object-position:50% 39%}
+.sec-hubcard__img[src*="julie-hero"]{object-position:50% 20%}
+.sec-hubcard:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}
+.sec-hubcard:hover .sec-hubcard__img{transform:scale(1.05)}
+.sec-hubcard:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.sec-hubcard__body{position:relative;z-index:2}
+.sec-hubcard__kick{font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:var(--sky)}
+.sec-hubcard h3{color:var(--bg);font-size:clamp(1.6rem,3vw,2.1rem);margin-top:var(--space-3)}
+.sec-hubcard p{color:color-mix(in oklch,var(--bg) 80%,transparent);font-size:0.9375rem;line-height:1.6;margin-top:var(--space-3);max-width:38ch}
+.sec-hubcard__go{display:inline-flex;align-items:center;gap:8px;margin-top:var(--space-5);color:var(--bg);font:600 0.9375rem/1 var(--font-body)}
+.sec-hubcard__go svg{transition:transform var(--dur-base) var(--ease-out)}
+.sec-hubcard:hover .sec-hubcard__go svg{transform:translateX(4px)}
+.sec-cta{position:relative;background:var(--navy);overflow:hidden;padding:var(--section-y) 0}
+.sec-cta__glow{position:absolute;top:-25%;left:50%;transform:translateX(-50%);width:75%;height:80%;background:radial-gradient(circle at 50% 0%, #0043FF 0%, #000E35 75%);opacity:0.28;filter:blur(55px);border-radius:50%;pointer-events:none}
+.sec-chip{display:inline-flex;align-items:center;gap:7px;padding:7px 13px;border-radius:var(--r-pill);border:1px solid var(--line);background:var(--paper);font:500 0.8125rem/1 var(--font-body);color:var(--ink-2)}
+.sec-chip svg{color:var(--blue)}
+@media (max-width:1200px){
+  .jg-nav-desktop{display:none!important}
+  .jg-burger{display:inline-flex!important}
+}
+@media (max-width:980px){
+  .jg-foot-grid{grid-template-columns:1fr 1fr!important}
+}
+@media (max-width:760px){
+  .sec-grid3{grid-template-columns:1fr!important}
+  .sec-grid2{grid-template-columns:1fr!important}
+  .sec-hub{grid-template-columns:1fr!important}
+  .jg-foot-grid{grid-template-columns:1fr!important}
+}
+@media (max-width:560px){
+  #jg-sec .jg-btn--lg,#jg-sec .jg-btn--md{white-space:normal;text-align:center}
+}
+
+/* ---- Signature V pour Design ---- */
+.vp-credit{display:flex;align-items:center;justify-content:center;gap:10px;max-width:var(--container);margin:var(--space-6) auto 0;padding:20px var(--gutter) 0;border-top:1px solid color-mix(in oklch,var(--bg) 8%,transparent);font:400 10px/1 var(--font-body);letter-spacing:0.14em;text-transform:uppercase;color:color-mix(in oklch,var(--bg) 32%,transparent)}
+.vp-credit a{display:block;line-height:0;border-radius:4px}
+.vp-credit a:focus-visible{outline:2px solid var(--sky);outline-offset:4px}
+.vp-logo{height:52px;width:auto;display:block;cursor:pointer;animation:vpFloat 3s ease-in-out infinite,vpGlow 3s ease-in-out infinite}
+.vp-logo:hover{animation:none;filter:invert(1) brightness(1.4) drop-shadow(0 0 18px rgba(163,212,242,0.9));transform:scale(1.07) translateY(-2px);transition:filter .3s cubic-bezier(0.22,0.61,0.36,1),transform .3s cubic-bezier(0.22,0.61,0.36,1)}
+@keyframes vpFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes vpGlow{0%,100%{filter:invert(1) brightness(0.7) drop-shadow(0 0 0 rgba(163,212,242,0))}50%{filter:invert(1) brightness(1.25) drop-shadow(0 0 14px rgba(163,212,242,0.6))}}
+@media (prefers-reduced-motion:reduce){.vp-logo{animation:none;filter:invert(1) brightness(1)}.vp-logo:hover{transform:none}}
+</style>
+<script defer src="/assets/confidentialite.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<div id="jg-sec" style="background:var(--bg)">
+<a href="#contenu" class="jg-skip">Aller au contenu</a>
+
+<header id="jg-nav" style="position:sticky;top:0;z-index:50;--nav-fg:var(--ink);background:var(--bg);border-bottom:1px solid var(--line);transition:box-shadow var(--dur-base) var(--ease-out)">
+  <nav style="max-width:var(--container-wide);margin:0 auto;padding:0 var(--gutter);height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;gap:var(--space-6)">
+    <a href="index.html" aria-label="Julie Gauthier, RE/MAX Crystal, accueil" style="display:block;flex:none">
+      <span style="display:inline-flex;align-items:center;gap:13px;line-height:1">
+        <img src="brand_assets/ballon.png" alt="" aria-hidden="true" style="height:42px;width:auto;display:block;flex:none">
+        <span style="font-family:var(--font-display);font-weight:700;font-size:22px;letter-spacing:-.01em;color:var(--ink);white-space:nowrap">Julie Gauthier</span>
+      </span>
+    </a>
+    <div class="jg-nav-desktop" style="display:flex;align-items:center;gap:var(--space-6)">
+      <ul style="display:flex;align-items:center;gap:var(--space-5);list-style:none;margin:0;padding:0">
+        <li><a class="jg-navlink" href="index.html">Accueil</a></li>
+        <li><a class="jg-navlink" href="apropos.html">À propos</a></li>
+        <li class="jg-has-sub">
+          <button class="jg-subtoggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="jg-sub-services">Services <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+          <ul class="jg-submenu" id="jg-sub-services" role="menu">
+            <li role="none"><a role="menuitem" class="jg-sublink" href="acheter.html">Acheter</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="vendre.html">Vendre</a></li>
+          </ul>
+        </li>
+        <li><a class="jg-navlink" href="proprietes.html">Propriétés</a></li>
+        <li class="jg-has-sub">
+          <button class="jg-subtoggle" data-active="true" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="jg-sub-secteurs">Secteurs <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+          <ul class="jg-submenu" id="jg-sub-secteurs" role="menu">
+            <li role="none"><a role="menuitem" class="jg-sublink" href="secteurs.html">Tous les secteurs</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="mirabel.html" aria-current="page"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Mirabel</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="saint-augustin.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Saint-Augustin</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="boisbriand.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Boisbriand</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="deux-montagnes.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Deux-Montagnes</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="rive-nord.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Rive-Nord</a></li>
+          </ul>
+        </li>
+        <li class="jg-has-sub">
+          <button class="jg-subtoggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="jg-sub-outils">Outils <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+          <ul class="jg-submenu" id="jg-sub-outils" role="menu" style="min-width:266px">
+            <li role="none"><a role="menuitem" class="jg-sublink" href="calculatrice-hypothecaire.html"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line><line x1="8" y1="14" x2="8" y2="14"></line><line x1="12" y1="14" x2="12" y2="14"></line><line x1="16" y1="14" x2="16" y2="18"></line></svg>Calculatrice hypothécaire</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="taxe-de-bienvenue.html"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path><path d="M14 2v6h6"></path><path d="M9 13h6"></path><path d="M9 17h4"></path></svg>Taxe de bienvenue</a></li>
+            <li role="none"><a role="menuitem" class="jg-sublink" href="capacite-emprunt.html"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"></path><path d="M16 12h2"></path><path d="M3 9h13a2 2 0 0 1 0 4H3"></path></svg>Capacité d'emprunt</a></li>
+          </ul>
+        </li>
+        <li><a class="jg-navlink" href="index.html#temoignages">Témoignages</a></li>
+        <li><a class="jg-navlink" href="index.html#contact">Contact</a></li>
+      </ul>
+      <a class="jg-btn jg-btn--primary jg-btn--sm" href="tel:+15148954921" aria-label="Appeler le 514 895 4921">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        514.895.4921
+      </a>
+    </div>
+    <button id="jg-burger" class="jg-burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="jg-menu" style="display:none;align-items:center;justify-content:center;width:44px;height:44px;background:transparent;border:none;cursor:pointer;padding:0;flex:none">
+      <span style="position:relative;display:block;width:24px;height:14px">
+        <span style="position:absolute;left:0;top:0;width:100%;height:2px;background:var(--ink);border-radius:2px"></span>
+        <span style="position:absolute;left:0;top:6px;width:100%;height:2px;background:var(--ink);border-radius:2px"></span>
+        <span style="position:absolute;left:0;top:12px;width:100%;height:2px;background:var(--ink);border-radius:2px"></span>
+      </span>
+    </button>
+  </nav>
+</header>
+
+<div id="jg-menu" class="jg-overlay" role="dialog" aria-modal="true" aria-label="Menu de navigation" aria-hidden="true" inert>
+  <div class="jg-drawer-head">
+    <img src="brand_assets/crystal-long-noir.png" alt="RE/MAX Crystal" style="height:26px;width:auto;display:block">
+    <button id="jg-menu-close" class="jg-iconbtn" type="button" aria-label="Fermer le menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg></button>
+  </div>
+  <nav style="display:flex;flex-direction:column;padding:var(--space-7) var(--gutter) 0;overflow-y:auto">
+    <a href="index.html" style="font:700 clamp(1.75rem,8vw,2.5rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">Accueil</a>
+    <a href="apropos.html" style="font:700 clamp(1.75rem,8vw,2.5rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">À propos</a>
+    <a href="proprietes.html" style="font:700 clamp(1.75rem,8vw,2.5rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">Propriétés</a>
+    <div class="jg-mob-eyebrow">Services</div>
+    <a href="acheter.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Acheter</a>
+    <a href="vendre.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Vendre</a>
+    <div class="jg-mob-eyebrow">Secteurs</div>
+    <a href="secteurs.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Tous les secteurs</a>
+    <a href="mirabel.html" aria-current="page" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--blue);text-decoration:none;padding:var(--space-2) 0">Mirabel</a>
+    <a href="saint-augustin.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Saint-Augustin</a>
+    <a href="boisbriand.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Boisbriand</a>
+    <a href="deux-montagnes.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Deux-Montagnes</a>
+    <a href="rive-nord.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Rive-Nord</a>
+    <div class="jg-mob-eyebrow">Outils</div>
+    <a href="calculatrice-hypothecaire.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Calculatrice hypothécaire</a>
+    <a href="taxe-de-bienvenue.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Taxe de bienvenue</a>
+    <a href="capacite-emprunt.html" style="font:700 clamp(1.5rem,6.5vw,2rem)/1.1 var(--font-display);letter-spacing:-0.02em;color:var(--ink);text-decoration:none;padding:var(--space-2) 0">Capacité d'emprunt</a>
+    <a href="index.html#temoignages" style="font:700 clamp(1.75rem,8vw,2.5rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0">Témoignages</a>
+    <a href="index.html#contact" style="font:700 clamp(1.75rem,8vw,2.5rem)/1.05 var(--font-display);letter-spacing:-0.03em;color:var(--ink);text-decoration:none;padding:var(--space-3) 0 var(--space-5)">Contact</a>
+  </nav>
+  <div style="margin-top:auto;padding:var(--space-6) var(--gutter)">
+    <a href="tel:+15148954921" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:var(--red);color:var(--bg);font:600 1.0625rem/1 var(--font-body);padding:18px 24px;border-radius:var(--r-sm);text-decoration:none;box-shadow:var(--shadow-sm)">514.895.4921</a>
+  </div>
+</div>
+<main id="contenu">
+
+<section aria-labelledby="marche-titre" style="padding:calc(var(--section-y) - 1rem) 0 var(--space-8);background:var(--bg)">
+  <div style="max-width:var(--container);margin:0 auto;padding:0 var(--gutter)">
+    <nav aria-label="Fil d'Ariane" style="margin-bottom:var(--space-5)"><span style="font:500 0.8125rem/1 var(--font-body);color:var(--ink-3)"><a href="index.html" style="color:var(--ink);text-decoration:none">Accueil</a> &rsaquo; Le marché immobilier</span></nav>
+    <span class="sec-eyebrow" data-reveal>Marché immobilier · 3e trimestre 2026</span>
+    <h1 id="marche-titre" data-reveal style="margin-top:var(--space-4);max-width:22ch">Marché immobilier : Mirabel, Boisbriand, Deux-Montagnes, Lachute</h1>
+    <p data-reveal style="margin-top:var(--space-5);max-width:62ch;color:var(--ink-2);font:400 var(--fs-lead)/1.6 var(--font-body)">Au 3e trimestre 2026, les ventes ont reculé légèrement dans les quatre villes, alors que les nouvelles inscriptions et les propriétés en vigueur ont augmenté. Les acheteurs ont donc plus de choix, et les délais de vente se sont allongés dans plusieurs secteurs. Les prix médians des unifamiliales restent en hausse à Mirabel, Boisbriand et Lachute.</p>
+  </div>
+</section>
+
+<section aria-label="Les chiffres par secteur" style="padding:0 0 var(--section-y);background:var(--bg)">
+  <div style="max-width:var(--container);margin:0 auto;padding:0 var(--gutter);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:var(--space-5)">
+    <article data-reveal style="background:var(--paper);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--space-6);display:grid;gap:var(--space-4);align-content:start">
+      <span class="sec-eyebrow sec-eyebrow--blue">Mirabel</span>
+      <h3>Plus de choix, prix en hausse, ventes en recul</h3>
+      <p style="color:var(--ink-2);line-height:1.7">Mirabel a enregistré 173 ventes, soit 15 % de moins que l'an dernier. Les nouvelles inscriptions ont grimpé de 23 % et les propriétés en vigueur de 18 %. Le prix médian d'une unifamiliale atteint 650 000 $ (hausse de 11 %), avec 37 jours sur le marché en moyenne, 12 de plus qu'à pareille date l'an dernier.</p>
+      <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--space-5)"><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Prix médian d’une maison</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">650 000 $</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">+11 % sur un an</span></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Ventes ce trimestre</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">173</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">-15 % sur un an</span></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Jours pour vendre une maison</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">37</p></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Propriétés à vendre</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">307</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">+18 % sur un an</span></div></div>
+      <p style="color:var(--ink-2);line-height:1.6"><strong style="color:var(--ink)">Vous vendez ?</strong> Votre propriété se vend à bon prix, mais avec plus de concurrence et un peu plus de temps, un prix bien ajusté fait la différence.</p><p style="color:var(--ink-2);line-height:1.6"><strong style="color:var(--ink)">Vous achetez ?</strong> Vous avez un plus grand choix et un peu plus de temps pour comparer et négocier.</p>
+      <a class="sec-link" href="https://www.centris.ca/fr/outils/statistiques-immobilieres/laurentides/mirabel" rel="noopener" target="_blank">Statistiques complètes sur Centris <span aria-hidden="true">&rarr;</span></a>
+    </article>
+    <article data-reveal style="background:var(--paper);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--space-6);display:grid;gap:var(--space-4);align-content:start">
+      <span class="sec-eyebrow sec-eyebrow--blue">Boisbriand</span>
+      <h3>Offre en forte hausse, prix stables</h3>
+      <p style="color:var(--ink-2);line-height:1.7">Boisbriand compte 71 ventes, en baisse de 7 %. Les propriétés en vigueur ont augmenté de 43 % et les nouvelles inscriptions de 31 %. Le prix médian des unifamiliales est de 622 500 $ (hausse de 3 %), et elles se vendent en 38 jours, soit 7 de plus.</p>
+      <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--space-5)"><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Prix médian d’une maison</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">622 500 $</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">+3 % sur un an</span></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Ventes ce trimestre</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">71</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">-7 % sur un an</span></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Jours pour vendre une maison</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">38</p></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Propriétés à vendre</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">93</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">+43 % sur un an</span></div></div>
+      <p style="color:var(--ink-2);line-height:1.6"><strong style="color:var(--ink)">Vous vendez ?</strong> Avec davantage de propriétés à vendre, une bonne préparation et un prix juste aident votre inscription à se démarquer.</p><p style="color:var(--ink-2);line-height:1.6"><strong style="color:var(--ink)">Vous achetez ?</strong> L'offre plus abondante vous donne une meilleure marge de manoeuvre pour choisir et négocier.</p>
+      <a class="sec-link" href="https://www.centris.ca/fr/outils/statistiques-immobilieres/laurentides/boisbriand" rel="noopener" target="_blank">Statistiques complètes sur Centris <span aria-hidden="true">&rarr;</span></a>
+    </article>
+    <article data-reveal style="background:var(--paper);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--space-6);display:grid;gap:var(--space-4);align-content:start">
+      <span class="sec-eyebrow sec-eyebrow--blue">Deux-Montagnes</span>
+      <h3>Beaucoup plus d'inscriptions, ventes stables</h3>
+      <p style="color:var(--ink-2);line-height:1.7">Deux-Montagnes a enregistré 40 ventes, presque autant que l'an dernier (baisse de 2 %). Les propriétés en vigueur ont bondi de 72 % et les nouvelles inscriptions de 39 %. Le volume vendu a progressé de 19 %. Sur 12 mois, le prix médian des unifamiliales est de 553 750 $ (hausse de 8 %) et le délai moyen est de 26 jours.</p>
+      <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--space-5)"><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Prix médian d’une maison (12 mois)</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">553 750 $</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">+8 % sur un an</span></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Ventes ce trimestre</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">40</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">-2 % sur un an</span></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Jours pour vendre une maison</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">26</p></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Propriétés à vendre</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">64</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">+72 % sur un an</span></div></div>
+      <p style="color:var(--ink-2);line-height:1.6"><strong style="color:var(--ink)">Vous vendez ?</strong> La concurrence entre les inscriptions augmente, alors une stratégie de prix réfléchie est utile pour vendre.</p><p style="color:var(--ink-2);line-height:1.6"><strong style="color:var(--ink)">Vous achetez ?</strong> Le nombre de propriétés à visiter a nettement augmenté, ce qui élargit vos options.</p>
+      <a class="sec-link" href="https://www.centris.ca/fr/outils/statistiques-immobilieres/laurentides/deux-montagnes" rel="noopener" target="_blank">Statistiques complètes sur Centris <span aria-hidden="true">&rarr;</span></a>
+    </article>
+    <article data-reveal style="background:var(--paper);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--space-6);display:grid;gap:var(--space-4);align-content:start">
+      <span class="sec-eyebrow sec-eyebrow--blue">Lachute</span>
+      <h3>Prix en hausse, délais plus longs</h3>
+      <p style="color:var(--ink-2);line-height:1.7">Lachute a compté 39 ventes, en baisse de 4 %. Les unifamiliales ont vu leurs ventes augmenter de 6 % et leur prix médian atteindre 475 000 $, en hausse de 15 %. Elles ont toutefois pris 74 jours à se vendre, soit 28 de plus que l'an dernier.</p>
+      <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--space-5)"><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Prix médian d’une maison</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">475 000 $</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">+15 % sur un an</span></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Ventes ce trimestre</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">39</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">-4 % sur un an</span></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Jours pour vendre une maison</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">74</p></div><div style="padding:var(--space-4) 0;border-top:1px solid var(--line)"><p style="font:500 .8125rem/1.3 var(--font-body);color:var(--ink-3)">Propriétés à vendre</p><p style="margin-top:6px;font:700 clamp(1.5rem,2.4vw,2rem)/1.1 var(--font-display);letter-spacing:-.02em">82</p><span style="font:500 .8125rem/1 var(--font-body);color:var(--ink-3)">+17 % sur un an</span></div></div>
+      <p style="color:var(--ink-2);line-height:1.6"><strong style="color:var(--ink)">Vous vendez ?</strong> Les prix sont en hausse, mais les acheteurs prennent plus de temps pour décider, d'où l'importance d'un prix bien positionné.</p><p style="color:var(--ink-2);line-height:1.6"><strong style="color:var(--ink)">Vous achetez ?</strong> Les délais plus longs vous laissent le temps de bien évaluer chaque propriété avant de faire une offre.</p>
+      <a class="sec-link" href="https://www.centris.ca/fr/outils/statistiques-immobilieres/laurentides/lachute" rel="noopener" target="_blank">Statistiques complètes sur Centris <span aria-hidden="true">&rarr;</span></a>
+    </article>
+  </div>
+  <div style="max-width:var(--container);margin:var(--space-7) auto 0;padding:0 var(--gutter);display:grid;gap:var(--space-5);justify-items:start">
+    <p style="max-width:62ch;color:var(--ink-2);font:400 var(--fs-lead)/1.6 var(--font-body)">Vous souhaitez connaître la valeur de votre propriété dans ce marché? Communiquez avec Julie Gauthier, de RE/MAX Crystal, pour obtenir une évaluation gratuite.</p>
+    <a class="jg-btn jg-btn--primary jg-btn--lg" href="vendre.html#evaluation">Évaluer ma propriété</a>
+    <p style="font:400 .8125rem/1.5 var(--font-body);color:var(--ink-3);max-width:70ch">Source : Centris, statistiques immobilières du 3e trimestre 2026, mises à jour par Julie Gauthier. Les variations comparent au même trimestre l’an dernier. Le prix médian sépare les ventes en deux moitiés égales.</p>
+  </div>
+</section>
+
+<script type="application/json" id="marche-donnees">{"periode":"3e trimestre 2026","villes":[{"ville":"Mirabel","chiffres":[{"cle":"prix","valeur":"650 000 $"},{"cle":"ventes","valeur":"173"},{"cle":"jours","valeur":"37"},{"cle":"vigueur","valeur":"307"}]},{"ville":"Boisbriand","chiffres":[{"cle":"prix","valeur":"622 500 $"},{"cle":"ventes","valeur":"71"},{"cle":"jours","valeur":"38"},{"cle":"vigueur","valeur":"93"}]},{"ville":"Deux-Montagnes","chiffres":[{"cle":"prix","valeur":"553 750 $"},{"cle":"ventes","valeur":"40"},{"cle":"jours","valeur":"26"},{"cle":"vigueur","valeur":"64"}]},{"ville":"Lachute","chiffres":[{"cle":"prix","valeur":"475 000 $"},{"cle":"ventes","valeur":"39"},{"cle":"jours","valeur":"74"},{"cle":"vigueur","valeur":"82"}]}],"textes":{"titre":"Marché immobilier : Mirabel, Boisbriand, Deux-Montagnes, Lachute","description":"Découvrez le portrait du 3e trimestre 2026 à Mirabel, Boisbriand, Deux-Montagnes et Lachute : ventes, prix médians et délais, avec Julie Gauthier.","intro":"Au 3e trimestre 2026, les ventes ont reculé légèrement dans les quatre villes, alors que les nouvelles inscriptions et les propriétés en vigueur ont augmenté. Les acheteurs ont donc plus de choix, et les délais de vente se sont allongés dans plusieurs secteurs. Les prix médians des unifamiliales restent en hausse à Mirabel, Boisbriand et Lachute.","secteurs":[{"ville":"Mirabel","titre":"Plus de choix, prix en hausse, ventes en recul","resume":"Mirabel a enregistré 173 ventes, soit 15 % de moins que l'an dernier. Les nouvelles inscriptions ont grimpé de 23 % et les propriétés en vigueur de 18 %. Le prix médian d'une unifamiliale atteint 650 000 $ (hausse de 11 %), avec 37 jours sur le marché en moyenne, 12 de plus qu'à pareille date l'an dernier.","vendeurs":"Votre propriété se vend à bon prix, mais avec plus de concurrence et un peu plus de temps, un prix bien ajusté fait la différence.","acheteurs":"Vous avez un plus grand choix et un peu plus de temps pour comparer et négocier."},{"ville":"Boisbriand","titre":"Offre en forte hausse, prix stables","resume":"Boisbriand compte 71 ventes, en baisse de 7 %. Les propriétés en vigueur ont augmenté de 43 % et les nouvelles inscriptions de 31 %. Le prix médian des unifamiliales est de 622 500 $ (hausse de 3 %), et elles se vendent en 38 jours, soit 7 de plus.","vendeurs":"Avec davantage de propriétés à vendre, une bonne préparation et un prix juste aident votre inscription à se démarquer.","acheteurs":"L'offre plus abondante vous donne une meilleure marge de manoeuvre pour choisir et négocier."},{"ville":"Deux-Montagnes","titre":"Beaucoup plus d'inscriptions, ventes stables","resume":"Deux-Montagnes a enregistré 40 ventes, presque autant que l'an dernier (baisse de 2 %). Les propriétés en vigueur ont bondi de 72 % et les nouvelles inscriptions de 39 %. Le volume vendu a progressé de 19 %. Sur 12 mois, le prix médian des unifamiliales est de 553 750 $ (hausse de 8 %) et le délai moyen est de 26 jours.","vendeurs":"La concurrence entre les inscriptions augmente, alors une stratégie de prix réfléchie est utile pour vendre.","acheteurs":"Le nombre de propriétés à visiter a nettement augmenté, ce qui élargit vos options."},{"ville":"Lachute","titre":"Prix en hausse, délais plus longs","resume":"Lachute a compté 39 ventes, en baisse de 4 %. Les unifamiliales ont vu leurs ventes augmenter de 6 % et leur prix médian atteindre 475 000 $, en hausse de 15 %. Elles ont toutefois pris 74 jours à se vendre, soit 28 de plus que l'an dernier.","vendeurs":"Les prix sont en hausse, mais les acheteurs prennent plus de temps pour décider, d'où l'importance d'un prix bien positionné.","acheteurs":"Les délais plus longs vous laissent le temps de bien évaluer chaque propriété avant de faire une offre."}],"conclusion":"Vous souhaitez connaître la valeur de votre propriété dans ce marché? Communiquez avec Julie Gauthier, de RE/MAX Crystal, pour obtenir une évaluation gratuite."}}</script>
+</main>
+
+<footer style="background:var(--navy);border-top:1px solid color-mix(in oklch,var(--bg) 12%,transparent);padding:var(--space-9) 0 var(--space-6)">
+  <div class="jg-foot-grid" style="max-width:var(--container);margin:0 auto;padding:0 var(--gutter);display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:var(--space-7)">
+    <div style="max-width:340px">
+      <img src="brand_assets/crystal-long-blanc.png" alt="RE/MAX Crystal" style="height:30px;width:auto;display:block">
+      <p style="margin-top:var(--space-5);color:color-mix(in oklch,var(--bg) 64%,transparent);font:400 0.9375rem/1.6 var(--font-body)">Julie Gauthier, courtière immobilière agréée. Au service des acheteurs et vendeurs de Mirabel, Saint-Augustin, Boisbriand, Deux-Montagnes et de toute la Rive-Nord de Montréal.</p>
+      <div style="display:flex;gap:12px;margin-top:var(--space-6)">
+        <a class="jg-soc" href="https://www.facebook.com/JulieGauthierRemax" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Julie Gauthier (nouvel onglet)"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H8v3h2v6h3v-6h2.5l.5-3H13v-2a1 1 0 0 1 1-1Z"></path></svg></a>
+        <a class="jg-soc" href="https://www.instagram.com/juliegauthier_remax" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Julie Gauthier (nouvel onglet)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"></circle></svg></a>
+      </div>
+    </div>
+    <div>
+      <div style="font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:color-mix(in oklch,var(--bg) 50%,transparent)">Navigation</div>
+      <ul style="list-style:none;margin:var(--space-5) 0 0;padding:0;display:flex;flex-direction:column;gap:var(--space-3)">
+        <li><a class="jg-foot-link" href="index.html">Accueil</a></li>
+        <li><a class="jg-foot-link" href="apropos.html">À propos</a></li>
+        <li><a class="jg-foot-link" href="proprietes.html">Propriétés</a></li>
+        <li><a class="jg-foot-link" href="acheter.html">Acheter</a></li>
+        <li><a class="jg-foot-link" href="vendre.html">Vendre</a></li>
+        <li><a class="jg-foot-link" href="calculatrice-hypothecaire.html">Calculatrice hypothécaire</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font:600 0.6875rem/1 var(--font-body);text-transform:uppercase;letter-spacing:0.16em;color:color-mix(in oklch,var(--bg) 50%,transparent)">Secteurs &amp; contact</div>
+      <ul style="list-style:none;margin:var(--space-5) 0 0;padding:0;display:flex;flex-direction:column;gap:var(--space-3)">
+        <li><a class="jg-foot-link" href="mirabel.html">Mirabel</a></li>
+        <li><a class="jg-foot-link" href="saint-augustin.html">Saint-Augustin</a></li>
+        <li><a class="jg-foot-link" href="boisbriand.html">Boisbriand</a></li>
+        <li><a class="jg-foot-link" href="deux-montagnes.html">Deux-Montagnes</a></li>
+        <li><a class="jg-foot-link" href="rive-nord.html">Rive-Nord</a></li>
+        <li><a class="jg-foot-link" href="tel:+15148954921">514.895.4921</a></li>
+        <li><a class="jg-foot-link" href="mailto:julie.gauthier@remax-quebec.com">julie.gauthier@remax-quebec.com</a></li>
+        <li><span style="color:color-mix(in oklch,var(--bg) 64%,transparent);font:400 0.9375rem/1.4 var(--font-body)">Courtière immobilière agréée</span></li>
+      </ul>
+    </div>
+  </div>
+  <div style="max-width:var(--container);margin:var(--space-8) auto 0;padding:var(--space-5) var(--gutter) 0;border-top:1px solid color-mix(in oklch,var(--bg) 12%,transparent);display:flex;justify-content:space-between;gap:var(--space-4) var(--space-6);flex-wrap:wrap;color:color-mix(in oklch,var(--bg) 58%,transparent);font:400 0.8125rem/1.5 var(--font-body)">
+    <span>© 2026 Julie Gauthier. Tous droits réservés.</span>
+    <span>Chaque bureau est indépendant et autonome.</span>
+    <a href="/politique-de-confidentialite.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Politique de confidentialité</a>
+  </div>
+  <div class="vp-credit">
+    <span>Stratégie web</span>
+    <a href="https://www.vpourdesign.com" target="_blank" rel="noopener noreferrer" aria-label="V pour Design, stratégie web (nouvel onglet)"><img class="vp-logo" src="brand_assets/logo-vpourdesign.png" alt="V pour Design" width="1500" height="1093" loading="lazy"></a>
+  </div>
+</footer>
+</div>
+<script>
+(function(){
+  function ready(fn){ if(document.readyState!=='loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
+  ready(function(){
+    var nav=document.getElementById('jg-nav');
+    var onScroll=function(){ if(nav) nav.style.boxShadow=window.scrollY>16?'var(--shadow-sm)':'none'; };
+    window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+    var reveals=[].slice.call(document.querySelectorAll('[data-reveal]'));
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){ reveals.forEach(function(el){el.classList.add('is-in');}); }
+    else { var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(!e.isIntersecting)return; var el=e.target; var sibs=[].slice.call(el.parentElement.querySelectorAll(':scope > [data-reveal]')); var i=Math.max(0,sibs.indexOf(el)); el.style.transitionDelay=(i*70)+'ms'; el.classList.add('is-in'); io.unobserve(el); }); },{threshold:0.1,rootMargin:'0px 0px -6% 0px'}); reveals.forEach(function(el){io.observe(el);}); /* Le contenu déjà à l'écran apparaît sans attendre un scroll. */ (function(){var vh=window.innerHeight;reveals.forEach(function(el,i){var r=el.getBoundingClientRect();if(r.top<vh&&r.bottom>0){el.style.transitionDelay=(Math.min(i,8)*70)+'ms';el.classList.add('is-in');io.unobserve(el);}});})(); setTimeout(function(){reveals.forEach(function(el){el.classList.add('is-in');});},1200); }
+    (function(){
+      /* Un seul méga-menu ouvert à la fois. Auparavant, le stopPropagation du
+         bouton empêchait le gestionnaire « clic ailleurs » de refermer les
+         autres : en passant d'un menu au suivant, les panneaux s'empilaient. */
+      var subs=[].slice.call(document.querySelectorAll('.jg-has-sub'));
+      function fermer(sauf){ subs.forEach(function(w){ if(w===sauf)return;
+        var m=w.querySelector('.jg-submenu'), b=w.querySelector('.jg-subtoggle');
+        if(m)m.classList.remove('is-open'); if(b)b.setAttribute('aria-expanded','false'); }); }
+      subs.forEach(function(wrap){
+        var btn=wrap.querySelector('.jg-subtoggle'),menu=wrap.querySelector('.jg-submenu'); if(!btn||!menu)return;
+        btn.addEventListener('click',function(e){ e.stopPropagation();
+          var ouvert=menu.classList.contains('is-open'); fermer(wrap);
+          menu.classList.toggle('is-open',!ouvert); btn.setAttribute('aria-expanded',ouvert?'false':'true'); });
+        /* Le CSS ouvre aussi au survol : arriver sur un autre menu doit refermer
+           celui qui était resté ouvert au clic. */
+        wrap.addEventListener('mouseenter',function(){ fermer(wrap); });
+        wrap.addEventListener('keydown',function(e){ if(e.key==='Escape'){
+          menu.classList.remove('is-open'); btn.setAttribute('aria-expanded','false'); btn.focus(); } });
+      });
+      document.addEventListener('click',function(e){
+        for(var i=0;i<subs.length;i++) if(subs[i].contains(e.target))return;
+        fermer(null); });
+    })();
+    (function(){ var b=document.getElementById('jg-burger'),m=document.getElementById('jg-menu'),c=document.getElementById('jg-menu-close'); if(!b||!m)return;
+      var fo=function(){return [].slice.call(m.querySelectorAll('a[href], button')).filter(function(el){return el.offsetParent!==null;});};
+      var op=function(){m.classList.add('is-open');m.removeAttribute('inert');m.setAttribute('aria-hidden','false');b.setAttribute('aria-expanded','true');document.body.style.overflow='hidden';var f=fo();if(f[0])f[0].focus();};
+      var cl=function(){m.classList.remove('is-open');m.setAttribute('inert','');m.setAttribute('aria-hidden','true');b.setAttribute('aria-expanded','false');document.body.style.overflow='';b.focus();};
+      b.addEventListener('click',op); if(c)c.addEventListener('click',cl); m.querySelectorAll('a[href]').forEach(function(a){a.addEventListener('click',cl);});
+      document.addEventListener('keydown',function(e){ if(m.getAttribute('aria-hidden')!=='false')return; if(e.key==='Escape'){cl();return;} if(e.key==='Tab'){var f=fo();if(!f.length)return;var first=f[0],last=f[f.length-1]; if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();} else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}} });
+    })();
+    var form=document.getElementById('svc-form');
+    if(form) form.addEventListener('submit',function(e){ e.preventDefault(); var btn=form.querySelector('button[type="submit"]'); if(btn){ btn.disabled=true; btn.textContent='Envoi en cours…'; } fetch(form.action||'https://formspree.io/f/xdeokzpb',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}}).then(function(r){ if(r.ok){ if(btn)btn.textContent='Merci, je vous reviens rapidement.'; form.reset(); } else if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }).catch(function(){ if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }); });
+  });
+})();
+</script>
+</body>
+</html>
