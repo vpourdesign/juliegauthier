@@ -5369,6 +5369,313 @@
     "slug": "27171026-rue-principale-lachute"
   },
   {
+    "mls": "25799678",
+    "price": 374900,
+    "civic": "423",
+    "street": "Rue Goyer",
+    "address": "423, Rue Goyer",
+    "city": "Bois-des-Filion",
+    "postalCode": "J6Z1A3",
+    "type": "maison",
+    "beds": 3,
+    "baths": 1,
+    "powder": 1,
+    "yearBuilt": "1942",
+    "areaTerrain": "464.60 MC",
+    "lat": 45.66342873,
+    "lon": -73.75354159,
+    "eval": {
+      "year": "2026",
+      "terrain": 216900,
+      "batiment": 137000,
+      "total": 353900
+    },
+    "taxes": {
+      "mun": 2660,
+      "year": "2026",
+      "sco": 226
+    },
+    "video": null,
+    "status": "new",
+    "listingDate": "2026-11-02",
+    "centris": "EV",
+    "descFr": "Située dans un secteur recherché de Bois-des-Filion, cette propriété conjugue tranquillité et proximité des services. À quelques pas de la rivière des Mille Îles et à proximité des principaux axes routiers, elle offre un cadre de vie agréable tout en facilitant les déplacements vers Laval, Montréal et la Rive-Nord.",
+    "remFr": "Située dans une rue en cul-de-sac d'un secteur recherché de Bois-des-Filion, cette propriété est établie sur un terrain de 5 000 pi². Aménagé pour répondre aux besoins d'une personne à mobilité réduite, le rez-de-chaussée regroupe la chambre principale, une salle de bains et les espaces de vie communs, permettant de profiter des principales pièces sur un même niveau. À l'étage, on y retrouve deux chambres supplémentaires. À l'extérieur, une agréable cour gazonnée et une terrasse invitent à profiter de la belle saison. Une remise et un stationnement pouvant accueillir plusieurs véhicules ajoutent à la fonctionnalité de la propriété.",
+    "features": [
+      {
+        "code": "ALLE",
+        "value": "ASPH"
+      },
+      {
+        "code": "EAU",
+        "value": "AMU"
+      },
+      {
+        "code": "ENER",
+        "value": "ELEC"
+      },
+      {
+        "code": "FENE",
+        "value": "PVC"
+      },
+      {
+        "code": "FOND",
+        "value": "BLBE"
+      },
+      {
+        "code": "PROX",
+        "value": "AUTO"
+      },
+      {
+        "code": "PARE",
+        "value": "VINY"
+      },
+      {
+        "code": "SS",
+        "value": "VSAN"
+      },
+      {
+        "code": "STAT",
+        "value": "EXT"
+      },
+      {
+        "code": "SYEG",
+        "value": "EGMU"
+      },
+      {
+        "code": "TFEN",
+        "value": "MAN"
+      },
+      {
+        "code": "TOIT",
+        "value": "BAA"
+      },
+      {
+        "code": "TOPO",
+        "value": "PLAT"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Hall d'entrée",
+        "level": "Rez-de-chaussée",
+        "dim": "12'1\" × 10'2\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salon",
+        "level": "Rez-de-chaussée",
+        "dim": "7'11\" × 17'5\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "Rez-de-chaussée",
+        "dim": "7'11\" × 10'5\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Cuisine",
+        "level": "Rez-de-chaussée",
+        "dim": "11'6\" × 12'5\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "Rez-de-chaussée",
+        "dim": "9' × 13'5\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre",
+        "level": "2e niveau",
+        "dim": "13'11\" × 10'8\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre",
+        "level": "2e niveau",
+        "dim": "11'1\" × 11'",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle d'eau",
+        "level": "2e niveau",
+        "dim": "5'6\" × 8'1\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Rangement",
+        "level": "2e niveau",
+        "dim": "8' × 10'",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "2e niveau",
+        "dim": "9'8\" × 9'2\"",
+        "rev": "Céramique"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B1D1BF8965D1F&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B4D1BF8965D41&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B2D1BF8965D22&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7BCD1BF8965DCE&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7BED1BF8965DE0&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7BAD1BF8965DAF&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B0D1BF8965D01&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7BBD1BF8965DB2&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "SDL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7BFD1BF8965DFE&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B8D1BF8965D81&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B7D1BF8965D9C&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B3D1BF8965D7A&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B5D1BF8965D3B&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7B6D1BF8965D5D&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7FDD1BF8965D6D&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F1D1BF89651DD&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F4D1BF8965114&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F2D1BF896514C&t=pi&f=I"
+      },
+      {
+        "seq": 19,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7FCD1BF896512A&t=pi&f=I"
+      },
+      {
+        "seq": 20,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7FED1BF89651CB&t=pi&f=I"
+      },
+      {
+        "seq": 21,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7FAD1BF89651ED&t=pi&f=I"
+      },
+      {
+        "seq": 22,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F0D1BF89651A4&t=pi&f=I"
+      },
+      {
+        "seq": 23,
+        "type": "RAN",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7FBD1BF896510C&t=pi&f=I"
+      },
+      {
+        "seq": 24,
+        "type": "CORRIDOR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7FFD1BF89651BA&t=pi&f=I"
+      },
+      {
+        "seq": 25,
+        "type": "S-E",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F8D1BF89651FE&t=pi&f=I"
+      },
+      {
+        "seq": 26,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F9D1BF896518C&t=pi&f=I"
+      },
+      {
+        "seq": 27,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F7D1BF896519A&t=pi&f=I"
+      },
+      {
+        "seq": 28,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F3D1BF896517B&t=pi&f=I"
+      },
+      {
+        "seq": 29,
+        "type": "EXTE",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F5D1BF896513D&t=pi&f=I"
+      },
+      {
+        "seq": 30,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAC6E7F6D1BF8965154&t=pi&f=I"
+      }
+    ],
+    "slug": "25799678-rue-goyer-bois-des-filion"
+  },
+  {
     "mls": "26774146",
     "price": 279900,
     "civic": "3510",
