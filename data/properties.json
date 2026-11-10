@@ -3220,6 +3220,344 @@
     "slug": "20994025-rue-calixa-lavallee-mirabel"
   },
   {
+    "mls": "15226469",
+    "price": 649900,
+    "civic": "268",
+    "street": "Rue Béatrice",
+    "address": "268, Rue Béatrice",
+    "city": "Saint-Colomban",
+    "postalCode": "J5K0R8",
+    "type": "maison",
+    "beds": 3,
+    "baths": 2,
+    "powder": 0,
+    "yearBuilt": "2025",
+    "areaTerrain": "4096.30 MC",
+    "lat": 45.732759,
+    "lon": -74.078774,
+    "eval": {
+      "year": "2026",
+      "terrain": 171600,
+      "batiment": 389400,
+      "total": 561000
+    },
+    "taxes": {
+      "mun": 1931,
+      "year": "2026",
+      "sco": 93
+    },
+    "video": null,
+    "status": "new",
+    "listingDate": "2026-11-09",
+    "centris": "EV",
+    "descFr": "Ajout: -Système Adoucisseur eau et Filox-R ( 7444$) -Thermopompe murale (6548$) -Crépis ( 2000$) -Système alarme (contrat à poursuivre pour éviter pénalité) -Agrandissement profondeur de la maison -Agrandissement comptoir de la cuisine Le rez-de-chaussée -Beaux espaces de vie ouvert -Cuisine: armoire jusqu'au plafond, espace comptoir agrandi du plan original pour plus d'espace de travail. La porte-patio mène à une terrasse en bois -2 chambres -salle de bain avec baignoire et douche vitrée séparée. Le sous-sol À aménager selon vos besoins. Salle de lavage, rough de plomberie pour future salle de bains. Salle familiale, bureau ou troisième chambre, à vous d'imaginer la suite. L'installation septique est certifiée pour trois chambres. Extérieur: -Maison à l'écart de la rue -terrain boisé Un garage dans vos plans? Selon les propriétaires, le constructeur leur a indiqué avoir compacté du gravier sur le côté de la maison en prévision d'un éventuel garage. La faisabilité du projet et les autorisations nécessaires sont à vérifier auprès de la Ville. Les écoles primaires, la pharmacie et la bibliothèque de Saint-Colomban, ainsi que l'épicerie les services et l'aréna à Saint-Canut facilitent la routine. 2026-2027: Taxes scolaire disponible sur montant du terrain seulement.",
+    "remFr": "Construite en 2025, cette maison de plain-pied a été agrandie en profondeur par rapport au plan initial. Ses propriétaires ont choisi les matériaux avec soin. Vous le remarquerez dès l'entrée. Au coeur de l'aire ouverte, la cuisine marie des armoires aux tons boisés à un grand comptoir-lunch (agrandi aussi) qui accueille quatre tabourets. Beaucoup de rangement et de la place pour cuisiner . RDC avec 2 chambres. Profitez du calme d'un secteur boisé tout en gardant les services du quotidien à portée de voiture. Occupation rapide possible au besoin.",
+    "features": [
+      {
+        "code": "ALLE",
+        "value": "NPAV"
+      },
+      {
+        "code": "LOC",
+        "value": "AU"
+      },
+      {
+        "code": "LOC",
+        "value": "SYAL"
+      },
+      {
+        "code": "CHAU",
+        "value": "PELC"
+      },
+      {
+        "code": "EAU",
+        "value": "PA"
+      },
+      {
+        "code": "ENER",
+        "value": "ELEC"
+      },
+      {
+        "code": "EQUI",
+        "value": "EAIR"
+      },
+      {
+        "code": "EQUI",
+        "value": "THEM"
+      },
+      {
+        "code": "FENE",
+        "value": "PVC"
+      },
+      {
+        "code": "FOND",
+        "value": "BETO"
+      },
+      {
+        "code": "PROX",
+        "value": "PRIM"
+      },
+      {
+        "code": "SDB",
+        "value": "DIND"
+      },
+      {
+        "code": "SS",
+        "value": "AMNP"
+      },
+      {
+        "code": "STAT",
+        "value": "EXT"
+      },
+      {
+        "code": "SYEG",
+        "value": "AU"
+      },
+      {
+        "code": "SYEG",
+        "value": "FSE"
+      },
+      {
+        "code": "TFEN",
+        "value": "MAN"
+      },
+      {
+        "code": "TOIT",
+        "value": "BAA"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Hall d'entrée",
+        "level": "Rez-de-chaussée",
+        "dim": "5'1\" × 12'2\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salon",
+        "level": "Rez-de-chaussée",
+        "dim": "10' × 15'4\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "Rez-de-chaussée",
+        "dim": "9'1\" × 15'11\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Cuisine",
+        "level": "Rez-de-chaussée",
+        "dim": "10'5\" × 13'7\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "Rez-de-chaussée",
+        "dim": "10'1\" × 15'1\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre",
+        "level": "Rez-de-chaussée",
+        "dim": "8'1\" × 11'11\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Rez-de-chaussée",
+        "dim": "6'1\" × 11'6\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle familiale",
+        "level": "Sous-sol",
+        "dim": "28'1\" × 14'7\"",
+        "rev": "Béton"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Sous-sol",
+        "dim": "17' × 13'",
+        "rev": "Béton"
+      },
+      {
+        "name": "Chambre",
+        "level": "Sous-sol",
+        "dim": "9'10\" × 11'2\"",
+        "rev": "Béton"
+      },
+      {
+        "name": "Autre",
+        "level": "Sous-sol",
+        "dim": "4'10\" × 7'6\"",
+        "rev": "Béton"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE100D3DD5BEAAED1E&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE100D6DD5BEAAED4B&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10011DD5BEAAED2F&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE1001EDD5BEAAEDCC&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10010DD5BEAAEDE0&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE1001FDD5BEAAEDAD&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10019DD5BEAAED0D&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10013DD5BEAAEDB2&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10015DD5BEAAEDFE&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10041DD5BEAAED8C&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE1004EDD5BEAAED9F&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10040DD5BEAAED74&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10048DD5BEAAED32&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10043DD5BEAAED50&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10046DD5BEAAED6D&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10024DD5BEAAE1DD&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE1002EDD5BEAAE11C&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10020DD5BEAAE140&t=pi&f=I"
+      },
+      {
+        "seq": 19,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE1002FDD5BEAAE12D&t=pi&f=I"
+      },
+      {
+        "seq": 20,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10027DD5BEAAE1C1&t=pi&f=I"
+      },
+      {
+        "seq": 21,
+        "type": "S-S",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE44638DD5BEAAE1EB&t=pi&f=I"
+      },
+      {
+        "seq": 22,
+        "type": "S-S",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4463BDD5BEAAE1AD&t=pi&f=I"
+      },
+      {
+        "seq": 23,
+        "type": "S-S",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE44630DD5BEAAE10D&t=pi&f=I"
+      },
+      {
+        "seq": 24,
+        "type": "S-S",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4463EDD5BEAAE1BF&t=pi&f=I"
+      },
+      {
+        "seq": 25,
+        "type": "S-S",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE100ACDD5BEAAE1FC&t=pi&f=I"
+      },
+      {
+        "seq": 26,
+        "type": "S-S",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE100A7DD5BEAAE180&t=pi&f=I"
+      },
+      {
+        "seq": 27,
+        "type": "FACARR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE10000DD5BEAAE190&t=pi&f=I"
+      },
+      {
+        "seq": 28,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE100BDDD5BEAAE174&t=pi&f=I"
+      },
+      {
+        "seq": 29,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE100B1DD5BEAAE13C&t=pi&f=I"
+      },
+      {
+        "seq": 30,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE100B2DD5BEAAE150&t=pi&f=I"
+      },
+      {
+        "seq": 31,
+        "type": "STAT",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE100BCDD5BEAAE16F&t=pi&f=I"
+      }
+    ],
+    "slug": "15226469-rue-beatrice-saint-colomban"
+  },
+  {
     "mls": "9628867",
     "price": 574900,
     "civic": "131",
