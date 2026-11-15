@@ -333,6 +333,7 @@ html{scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.jg-gal-img,.jg-card-img{transition:none!important}}
 </style>
 <script defer src="/assets/confidentialite.js"></script>
+<script defer src="/assets/mesure.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -786,7 +787,7 @@ html{scroll-behavior:smooth}
       document.addEventListener('keydown',function(e){ if(m.getAttribute('aria-hidden')!=='false')return; if(e.key==='Escape'){cl();return;} if(e.key==='Tab'){var f=fo();if(!f.length)return;var first=f[0],last=f[f.length-1]; if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();} else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}} });
     })();
     var form=document.getElementById('svc-form');
-    if(form) form.addEventListener('submit',function(e){ e.preventDefault(); var btn=form.querySelector('button[type="submit"]'); if(btn){ btn.disabled=true; btn.textContent='Envoi en cours…'; } fetch(form.action||'https://formspree.io/f/xdeokzpb',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}}).then(function(r){ if(r.ok){ if(btn)btn.textContent='Merci, je vous reviens rapidement.'; form.reset(); } else if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }).catch(function(){ if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }); });
+    if(form) form.addEventListener('submit',function(e){ e.preventDefault(); var btn=form.querySelector('button[type="submit"]'); if(btn){ btn.disabled=true; btn.textContent='Envoi en cours…'; } fetch(form.action||'https://formspree.io/f/xdeokzpb',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}}).then(function(r){ if(r.ok){window.jgLead&&jgLead(); if(btn)btn.textContent='Merci, je vous reviens rapidement.'; form.reset(); } else if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }).catch(function(){ if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }); });
   });
 })();
 </script>
@@ -819,7 +820,7 @@ html{scroll-behavior:smooth}
     var sh=root.querySelector('#jg-share'),st=root.querySelector('#jg-share-status');if(sh)sh.addEventListener('click',function(){var d={title:SHARE.title,text:SHARE.text,url:location.href};try{if(navigator.share)navigator.share(d);else if(navigator.clipboard){navigator.clipboard.writeText(location.href);if(st)st.textContent='Lien copié.';}}catch(e){}});
     var prix=root.querySelector('#jg-c-prix'),mise=root.querySelector('#jg-c-mise'),mo=root.querySelector('#jg-c-mise-out'),taux=root.querySelector('#jg-c-taux'),am=root.querySelector('#jg-c-amort'),out=root.querySelector('#jg-c-out');
     if(prix&&mise&&taux&&am&&out){am.value='25';function calc(){var P=parseNum(prix.value)||0,pc=parseFloat(mise.value)||0,dn=P*pc/100,loan=Math.max(0,P-dn),r=(parseNum(taux.value)||0)/100/12,n=(parseInt(am.value,10)||25)*12,m=0;if(loan>0)m=r===0?loan/n:loan*(r*Math.pow(1+r,n))/(Math.pow(1+r,n)-1);if(mo)mo.innerHTML=pct(pc)+' · '+money(dn);out.innerHTML=money(m)+' <span class="per">/mois</span>';}prix.addEventListener('input',calc);prix.addEventListener('blur',function(){var v=parseNum(prix.value);if(!isNaN(v))prix.value=money(v);});taux.addEventListener('input',calc);mise.addEventListener('input',calc);am.addEventListener('change',calc);calc();}
-    var cf=root.querySelector('#jg-contact-form');if(cf)cf.addEventListener('submit',function(e){e.preventDefault();var s=root.querySelector('#jg-form-status');var sb=cf.querySelector('button[type="submit"]');if(sb)sb.disabled=true;if(s)s.textContent='Envoi en cours…';fetch(cf.action,{method:'POST',body:new FormData(cf),headers:{'Accept':'application/json'}}).then(function(r){if(r.ok){if(s)s.textContent='Merci, votre demande a été transmise à Julie.';cf.reset();}else{if(sb)sb.disabled=false;if(s)s.textContent='Une erreur est survenue, veuillez réessayer.';}}).catch(function(){if(sb)sb.disabled=false;if(s)s.textContent='Une erreur est survenue, veuillez réessayer.';});});
+    var cf=root.querySelector('#jg-contact-form');if(cf)cf.addEventListener('submit',function(e){e.preventDefault();var s=root.querySelector('#jg-form-status');var sb=cf.querySelector('button[type="submit"]');if(sb)sb.disabled=true;if(s)s.textContent='Envoi en cours…';fetch(cf.action,{method:'POST',body:new FormData(cf),headers:{'Accept':'application/json'}}).then(function(r){if(r.ok){window.jgLead&&jgLead();if(s)s.textContent='Merci, votre demande a été transmise à Julie.';cf.reset();}else{if(sb)sb.disabled=false;if(s)s.textContent='Une erreur est survenue, veuillez réessayer.';}}).catch(function(){if(sb)sb.disabled=false;if(s)s.textContent='Une erreur est survenue, veuillez réessayer.';});});
   });
 })();
 </script>

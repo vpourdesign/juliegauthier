@@ -169,6 +169,7 @@ html.jg-anim [data-reveal].is-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.vp-logo{animation:none;filter:invert(1) brightness(1)}.vp-logo:hover{transform:none}}
 </style>
 <script defer src="/assets/confidentialite.js"></script>
+<script defer src="/assets/mesure.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -458,7 +459,7 @@ html.jg-anim [data-reveal].is-in{opacity:1;transform:none}
       document.addEventListener('keydown',function(e){ if(m.getAttribute('aria-hidden')!=='false')return; if(e.key==='Escape'){cl();return;} if(e.key==='Tab'){var f=fo();if(!f.length)return;var first=f[0],last=f[f.length-1]; if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();} else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}} });
     })();
     var form=document.getElementById('svc-form');
-    if(form) form.addEventListener('submit',function(e){ e.preventDefault(); var btn=form.querySelector('button[type="submit"]'); if(btn){ btn.disabled=true; btn.textContent='Envoi en cours…'; } fetch(form.action||'https://formspree.io/f/xdeokzpb',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}}).then(function(r){ if(r.ok){ if(btn)btn.textContent='Merci, je vous reviens rapidement.'; form.reset(); } else if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }).catch(function(){ if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }); });
+    if(form) form.addEventListener('submit',function(e){ e.preventDefault(); var btn=form.querySelector('button[type="submit"]'); if(btn){ btn.disabled=true; btn.textContent='Envoi en cours…'; } fetch(form.action||'https://formspree.io/f/xdeokzpb',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}}).then(function(r){ if(r.ok){window.jgLead&&jgLead(); if(btn)btn.textContent='Merci, je vous reviens rapidement.'; form.reset(); } else if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }).catch(function(){ if(btn){ btn.disabled=false; btn.textContent='Erreur, réessayer'; } }); });
   });
 })();
 </script>

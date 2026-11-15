@@ -5,8 +5,10 @@
  * - Accepter et Refuser ont le même poids. « Personnaliser » détaille les catégories.
  * - Mesure d'audience (Vercel Web Analytics, anonyme, sans témoin) : active tant que la
  *   personne ne la refuse pas ; un refus bloque l'envoi des pages vues (beforeSend).
- * - Publicité et réseaux sociaux : aucun outil actif. Tout futur pixel doit vérifier
- *   window.jgConfidentialite.permis("publicite") avant de se charger (désactivé par défaut).
+ * - Publicité : balise Google Ads (mesure des demandes venues des annonces), chargée par
+ *   /assets/mesure.js seulement si window.jgConfidentialite.permis("publicite") est vrai.
+ *   Désactivée tant que la personne n'a pas accepté. Un choix fait déclenche l'événement
+ *   « jg-consentement » sur document.
  * - Lien « Préférences de confidentialité » ajouté au pied de chaque page.
  *
  * Ce fichier doit être chargé AVANT /_vercel/insights/script.js (les deux en defer).
@@ -15,7 +17,7 @@
   "use strict";
 
   var CLE = "jg-confidentialite";
-  var VERSION = 1;
+  var VERSION = 2; // 2 : ajout de la balise Google Ads (2026-11-15), le bandeau réapparaît
 
   function lire() {
     try {
@@ -27,11 +29,14 @@
   }
 
   function ecrire(choix) {
-    var v = { version: VERSION, mesure: !!choix.mesure, publicite: false, date: new Date().toISOString() };
+    var v = { version: VERSION, mesure: !!choix.mesure, publicite: !!choix.publicite, date: new Date().toISOString() };
     try {
       localStorage.setItem(CLE, JSON.stringify(v));
     } catch (e) {}
     etat = v;
+    try {
+      document.dispatchEvent(new CustomEvent("jg-consentement", { detail: v }));
+    } catch (e) {}
     return v;
   }
 
@@ -126,14 +131,15 @@
     }, 400);
   }
 
-  function decider(mesure) {
-    ecrire({ mesure: mesure });
+  function decider(mesure, publicite) {
+    ecrire({ mesure: mesure, publicite: publicite });
     fermer();
   }
 
   function afficher(detail) {
     if (boite) fermer();
     var mesure = !(etat && etat.mesure === false);
+    var publicite = !!(etat && etat.publicite);
 
     var interrupteur = el("button", {
       class: "jgc-switch",
@@ -144,6 +150,18 @@
       onclick: function () {
         mesure = !mesure;
         interrupteur.setAttribute("aria-checked", String(mesure));
+      },
+    });
+
+    var interrupteurPub = el("button", {
+      class: "jgc-switch",
+      type: "button",
+      role: "switch",
+      "aria-checked": String(publicite),
+      "aria-label": "Mesure des demandes venues de Google Ads",
+      onclick: function () {
+        publicite = !publicite;
+        interrupteurPub.setAttribute("aria-checked", String(publicite));
       },
     });
 
@@ -165,26 +183,29 @@
               }),
             ]),
             el("li", { class: "jgc-cat" }, [
-              el("strong", { texte: "Publicité et réseaux sociaux" }),
-              el("em", { class: "jgc-etat", texte: "Aucun outil actif" }),
-              el("span", { texte: "Ce site n'utilise aucun pixel publicitaire. Si cela change, votre accord sera demandé avant." }),
+              el("strong", { texte: "Publicité Google Ads" }),
+              interrupteurPub,
+              el("span", {
+                texte:
+                  "La balise Google indique à Google Ads qu'une personne arrivée par une annonce a appelé ou rempli un formulaire. Elle dépose des témoins Google. Données traitées hors Québec.",
+              }),
             ]),
           ]),
           el("div", { class: "jgc-actions" }, [
-            el("button", { class: "jgc-btn jgc-btn--plein", type: "button", texte: "Enregistrer mes choix", onclick: function () { decider(mesure); } }),
+            el("button", { class: "jgc-btn jgc-btn--plein", type: "button", texte: "Enregistrer mes choix", onclick: function () { decider(mesure, publicite); } }),
           ]),
         ]
       : [
           el("h2", { id: "jgc-titre", texte: "Votre vie privée" }),
           el("p", {}, [
             document.createTextNode(
-              "Ce site ne dépose aucun témoin. Une mesure d'audience anonyme nous aide à l'améliorer ; vous pouvez la refuser. ",
+              "Avec votre accord, ce site mesure son audience de façon anonyme et utilise la balise Google Ads, qui dépose des témoins, pour savoir quelles annonces mènent à un appel ou une demande. ",
             ),
             el("a", { href: "/politique-de-confidentialite.html", texte: "Politique de confidentialité" }),
           ]),
           el("div", { class: "jgc-actions" }, [
-            el("button", { class: "jgc-btn jgc-btn--plein", type: "button", texte: "Accepter", onclick: function () { decider(true); } }),
-            el("button", { class: "jgc-btn", type: "button", texte: "Refuser", onclick: function () { decider(false); } }),
+            el("button", { class: "jgc-btn jgc-btn--plein", type: "button", texte: "Accepter", onclick: function () { decider(true, true); } }),
+            el("button", { class: "jgc-btn", type: "button", texte: "Refuser", onclick: function () { decider(false, false); } }),
             el("button", { class: "jgc-btn jgc-btn--lien", type: "button", texte: "Personnaliser", onclick: function () { afficher(true); } }),
           ]),
         ];
