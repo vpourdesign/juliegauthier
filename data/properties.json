@@ -3445,6 +3445,434 @@
     "slug": "13604161-ch-de-dunany-lachute"
   },
   {
+    "mls": "12888365",
+    "price": 724700,
+    "civic": "8675",
+    "street": "Rue Jean-Paul-Riopelle",
+    "address": "8675, Rue Jean-Paul-Riopelle",
+    "city": "Mirabel",
+    "postalCode": "J7N3J4",
+    "type": "maison",
+    "beds": 5,
+    "baths": 2,
+    "powder": 0,
+    "yearBuilt": "2010",
+    "areaTerrain": "592.40 MC",
+    "lat": 45.63198689,
+    "lon": -74.00027416,
+    "eval": {
+      "year": "2026",
+      "terrain": 222300,
+      "batiment": 407600,
+      "total": 629900
+    },
+    "taxes": {
+      "mun": 2612,
+      "year": "2026",
+      "sco": 406
+    },
+    "video": null,
+    "status": "new",
+    "listingDate": "2026-11-11",
+    "centris": "EV",
+    "descFr": "Entrée asphaltée en 2025 Située à distance de marche de l'école primaire des Étoiles-Filantes et du parc Pablo-Picasso, cette propriété offre un emplacement pratique pour la vie de famille.",
+    "remFr": "Mirabel St-Augustin, Installez-vous avant Noël dans ce chaleureux plain-pied avec garçonnière! Le rez-de-chaussée, qui sera libre pour l'acheteur avant les Fêtes, offre trois chambres à coucher et une aire de vie conviviale. La cuisine se distingue par ses nombreuses armoires, son dosseret de céramique et son comptoir qui offre une belle surface de travail. Elle s'ouvre sur la salle à manger et le salon aux planchers de bois et où la lumière naturelle est appréciée. La porte-patio donne accès à la terrasse arrière. À l'avant, le balcon couvert donne le ton et la grande cour arrière ajoutent au charme de la propriété.",
+    "features": [
+      {
+        "code": "ALLE",
+        "value": "ASPH"
+      },
+      {
+        "code": "CHAU",
+        "value": "PELC"
+      },
+      {
+        "code": "EAU",
+        "value": "AMU"
+      },
+      {
+        "code": "ENER",
+        "value": "ELEC"
+      },
+      {
+        "code": "EQUI",
+        "value": "THEM"
+      },
+      {
+        "code": "FENE",
+        "value": "PVC"
+      },
+      {
+        "code": "FOND",
+        "value": "BETO"
+      },
+      {
+        "code": "PART",
+        "value": "INTG"
+      },
+      {
+        "code": "PROX",
+        "value": "GCPE"
+      },
+      {
+        "code": "PROX",
+        "value": "GOLF"
+      },
+      {
+        "code": "PROX",
+        "value": "PARC"
+      },
+      {
+        "code": "PROX",
+        "value": "PCYC"
+      },
+      {
+        "code": "PROX",
+        "value": "PRIM"
+      },
+      {
+        "code": "PROX",
+        "value": "SEC"
+      },
+      {
+        "code": "PARE",
+        "value": "ALUM"
+      },
+      {
+        "code": "PARE",
+        "value": "BRIQ"
+      },
+      {
+        "code": "SDB",
+        "value": "DIND"
+      },
+      {
+        "code": "SS",
+        "value": "6"
+      },
+      {
+        "code": "SS",
+        "value": "AMNT"
+      },
+      {
+        "code": "STAT",
+        "value": "EXT"
+      },
+      {
+        "code": "SYEG",
+        "value": "EGMU"
+      },
+      {
+        "code": "TOIT",
+        "value": "BAA"
+      },
+      {
+        "code": "TOPO",
+        "value": "PLAT"
+      },
+      {
+        "code": "ZONG",
+        "value": "RES"
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Hall d'entrée",
+        "level": "Sous-sol",
+        "dim": "4'1\" × 4'2\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Hall d'entrée",
+        "level": "Rez-de-chaussée",
+        "dim": "5'11\" × 5'7\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salon",
+        "level": "Sous-sol",
+        "dim": "13'2\" × 11'11\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salon",
+        "level": "Rez-de-chaussée",
+        "dim": "16'1\" × 16'5\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "Sous-sol",
+        "dim": "13'2\" × 7'10\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Salle à manger",
+        "level": "Rez-de-chaussée",
+        "dim": "14'7\" × 9'7\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Cuisine",
+        "level": "Sous-sol",
+        "dim": "12'11\" × 7'1\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Cuisine",
+        "level": "Rez-de-chaussée",
+        "dim": "11'7\" × 10'10\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "Sous-sol",
+        "dim": "10'10\" × 10'4\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre principale",
+        "level": "Rez-de-chaussée",
+        "dim": "13'10\" × 11'1\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Chambre",
+        "level": "Sous-sol",
+        "dim": "11'11\" × 8'4\"",
+        "rev": "Plancher flottant"
+      },
+      {
+        "name": "Chambre",
+        "level": "Rez-de-chaussée",
+        "dim": "10'4\" × 9'2\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Sous-sol",
+        "dim": "11'11\" × 7'5\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Chambre",
+        "level": "Rez-de-chaussée",
+        "dim": "10'1\" × 9'1\"",
+        "rev": "Bois"
+      },
+      {
+        "name": "Salle de bains",
+        "level": "Rez-de-chaussée",
+        "dim": "10'4\" × 8'11\"",
+        "rev": "Céramique"
+      },
+      {
+        "name": "Salle familiale",
+        "level": "Sous-sol",
+        "dim": "16'4\" × 11'5\"",
+        "rev": "Plancher flottant"
+      }
+    ],
+    "photos": [
+      {
+        "seq": 1,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE475CCDD7C8F43D1D&t=pi&f=I"
+      },
+      {
+        "seq": 2,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE2D849DD7C8F43D41&t=pi&f=I"
+      },
+      {
+        "seq": 3,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47514DD7C8F43D20&t=pi&f=I"
+      },
+      {
+        "seq": 4,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4751CDD7C8F43DCD&t=pi&f=I"
+      },
+      {
+        "seq": 5,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4751EDD7C8F43DE4&t=pi&f=I"
+      },
+      {
+        "seq": 6,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47510DD7C8F43DAE&t=pi&f=I"
+      },
+      {
+        "seq": 7,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4751BDD7C8F43D00&t=pi&f=I"
+      },
+      {
+        "seq": 8,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47519DD7C8F43DBB&t=pi&f=I"
+      },
+      {
+        "seq": 9,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47517DD7C8F43DFD&t=pi&f=I"
+      },
+      {
+        "seq": 10,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE2D926DD7C8F43D84&t=pi&f=I"
+      },
+      {
+        "seq": 11,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47515DD7C8F43D91&t=pi&f=I"
+      },
+      {
+        "seq": 12,
+        "type": "CORRIDOR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47516DD7C8F43D72&t=pi&f=I"
+      },
+      {
+        "seq": 13,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4754DDD7C8F43D32&t=pi&f=I"
+      },
+      {
+        "seq": 14,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47541DD7C8F43D5E&t=pi&f=I"
+      },
+      {
+        "seq": 15,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47544DD7C8F43D60&t=pi&f=I"
+      },
+      {
+        "seq": 16,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47542DD7C8F431D0&t=pi&f=I"
+      },
+      {
+        "seq": 17,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4754CDD7C8F4311F&t=pi&f=I"
+      },
+      {
+        "seq": 18,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4754EDD7C8F43141&t=pi&f=I"
+      },
+      {
+        "seq": 19,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47540DD7C8F4312C&t=pi&f=I"
+      },
+      {
+        "seq": 20,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4754FDD7C8F431C0&t=pi&f=I"
+      },
+      {
+        "seq": 21,
+        "type": "SFM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47549DD7C8F431E0&t=pi&f=I"
+      },
+      {
+        "seq": 22,
+        "type": "GARC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47547DD7C8F431AF&t=pi&f=I"
+      },
+      {
+        "seq": 23,
+        "type": "HAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47543DD7C8F43101&t=pi&f=I"
+      },
+      {
+        "seq": 24,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47545DD7C8F431B2&t=pi&f=I"
+      },
+      {
+        "seq": 25,
+        "type": "SAL",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47546DD7C8F431FE&t=pi&f=I"
+      },
+      {
+        "seq": 26,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4752DDD7C8F43184&t=pi&f=I"
+      },
+      {
+        "seq": 27,
+        "type": "SAM",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47521DD7C8F4319C&t=pi&f=I"
+      },
+      {
+        "seq": 28,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47524DD7C8F4317A&t=pi&f=I"
+      },
+      {
+        "seq": 29,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4752CDD7C8F4313F&t=pi&f=I"
+      },
+      {
+        "seq": 30,
+        "type": "CUI",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4752EDD7C8F43151&t=pi&f=I"
+      },
+      {
+        "seq": 31,
+        "type": "CORRIDOR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4752ADD7C8F43162&t=pi&f=I"
+      },
+      {
+        "seq": 32,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47520DD7C8F434D2&t=pi&f=I"
+      },
+      {
+        "seq": 33,
+        "type": "CCP",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4752BDD7C8F4341E&t=pi&f=I"
+      },
+      {
+        "seq": 34,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE4752FDD7C8F43440&t=pi&f=I"
+      },
+      {
+        "seq": 35,
+        "type": "SDB",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47528DD7C8F4342A&t=pi&f=I"
+      },
+      {
+        "seq": 36,
+        "type": "CAC",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE47529DD7C8F434CB&t=pi&f=I"
+      },
+      {
+        "seq": 37,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE475CDDD7C8F434E4&t=pi&f=I"
+      },
+      {
+        "seq": 38,
+        "type": "COUR",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE475C1DD7C8F434AC&t=pi&f=I"
+      },
+      {
+        "seq": 39,
+        "type": "FACA",
+        "url": "https://mediaserver.centris.ca/media.ashx?id=ADDE24EDAE475C4DD7C8F4340A&t=pi&f=I"
+      }
+    ],
+    "slug": "12888365-rue-jean-paul-riopelle-mirabel"
+  },
+  {
     "mls": "20994025",
     "price": 699900,
     "civic": "17005",
